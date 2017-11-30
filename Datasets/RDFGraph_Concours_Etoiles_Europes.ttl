@@ -1,0 +1,3080 @@
+@prefix schema:  <http://schema.org/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema/> .
+@prefix nous:  <http://concours-etoiles-europe.org/ns#> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix w3geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax/> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix igeo:  <http://rdf.insee.fr/def/geo#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+nous:Laurent-MASSOPTIER
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Laurent" ;
+        foaf:familyName  "MASSOPTIER" ;
+        foaf:gender      "Homme" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Innovation> .
+
+nous:Vania-CONAN  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Vania" ;
+        foaf:familyName  "CONAN" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "203628160" ;
+        owl:sameAs       "http://www.idref.fr/203628160" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Innovation> .
+
+nous:Luc-FEDERZONI  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Luc" ;
+        foaf:familyName  "FEDERZONI" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "196439213" ;
+        owl:sameAs       "http://www.idref.fr/196439213" ;
+        dbo:award        nous:2013 .
+
+nous:David-JASMIN  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "David" ;
+        foaf:familyName  "JASMIN" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "055745032" ;
+        owl:sameAs       "http://www.idref.fr/055745032" ;
+        dbo:award        nous:2013 .
+
+nous:Massimo-MENENTI  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Massimo" ;
+        foaf:familyName  "MENENTI" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "076104958" ;
+        owl:sameAs       "http://www.idref.fr/076104958" ;
+        dbo:award        nous:2013 .
+
+nous:Françoise-GENOVA
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Françoise" ;
+        foaf:familyName  "GENOVA" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "032526237" ;
+        owl:sameAs       "http://www.idref.fr/032526237" ;
+        dbo:award        nous:2015 .
+
+nous:Sylvain-FASS  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Sylvain" ;
+        foaf:familyName  "FASS" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "142793574" ;
+        owl:sameAs       "http://www.idref.fr/142793574" ;
+        dbo:award        nous:2013 .
+
+nous:Guy-FRÉMONT  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Guy" ;
+        foaf:familyName  "FRÉMONT" ;
+        foaf:gender      "Homme" ;
+        dbo:award        nous:2013 .
+
+nous:Philippe-CLÉZARDIN
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Philippe" ;
+        foaf:familyName  "CLÉZARDIN" ;
+        foaf:gender      "Homme" ;
+        dbo:award        nous:2015 .
+
+<http://concours-etoiles-europe.org/ns#Odile-HEMBISE%20FANTON%20d%E2%80%99ANDON>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Odile" ;
+        foaf:familyName  "HEMBISE FANTON d’ANDON" ;
+        foaf:gender      "Femme" ;
+        dbo:award        nous:2015 .
+
+nous:Geneviève-ALMOUZNI
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Geneviève" ;
+        foaf:familyName  "ALMOUZNI" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "033442088" ;
+        owl:sameAs       "http://www.idref.fr/033442088" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Prix%20sp%C3%A9cial%20du%20jury> .
+
+nous:Manuel-CIRA  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Manuel" ;
+        foaf:familyName  "CIRA" ;
+        foaf:gender      "Homme" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Science%20ouverte> .
+
+nous:Françoise-LESCOURRET
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Françoise" ;
+        foaf:familyName  "LESCOURRET" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "034994580" ;
+        owl:sameAs       "http://www.idref.fr/034994580" ;
+        dbo:award        nous:2015 .
+
+nous:Jean-Claude-GASCARD
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Jean-Claude" ;
+        foaf:familyName  "GASCARD" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "032083327" ;
+        owl:sameAs       "http://www.idref.fr/032083327" ;
+        dbo:award        nous:2015 .
+
+nous:Jérôme-PEYRARD  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Jérôme" ;
+        foaf:familyName  "PEYRARD" ;
+        foaf:gender      "Homme" ;
+        dbo:award        nous:2015 .
+
+<http://concours-etoiles-europe.org/ns#Pierre-Yves-LE%20TRAON>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Pierre-Yves" ;
+        foaf:familyName  "LE TRAON" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "091308143" ;
+        owl:sameAs       "http://www.idref.fr/091308143" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Science%20ouverte> .
+
+<http://concours-etoiles-europe.org/ns#Marc-LAMY%20DE%20LA%20CHAPELLE>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Marc" ;
+        foaf:familyName  "LAMY DE LA CHAPELLE" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "120806118" ;
+        owl:sameAs       "http://www.idref.fr/120806118" ;
+        dbo:award        nous:2013 .
+
+nous:Pierre-LAYROLLE  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Pierre" ;
+        foaf:familyName  "LAYROLLE" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "081565887" ;
+        owl:sameAs       "http://www.idref.fr/081565887" ;
+        dbo:award        nous:2015 .
+
+nous:Régine-BASSEGUY  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Régine" ;
+        foaf:familyName  "BASSEGUY" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "068973748" ;
+        owl:sameAs       "http://www.idref.fr/068973748" ;
+        dbo:award        nous:2014 .
+
+<http://concours-etoiles-europe.org/ns#Ivo-GLYNNE%20GUT>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Ivo" ;
+        foaf:familyName  "GLYNNE GUT" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "12362276X" ;
+        owl:sameAs       "http://www.idref.fr/12362276X" ;
+        dbo:award        nous:2013 .
+
+nous:Tommaso-VENTURINI
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Tommaso" ;
+        foaf:familyName  "VENTURINI" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "184040167" ;
+        owl:sameAs       "http://www.idref.fr/184040167" ;
+        dbo:award        nous:2015 .
+
+nous:Jennifer-ZEITLIN
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Jennifer" ;
+        foaf:familyName  "ZEITLIN" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "174867816" ;
+        owl:sameAs       "http://www.idref.fr/174867816" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Renouvellement> .
+
+nous:Philippe-BERGONZO
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Philippe" ;
+        foaf:familyName  "BERGONZO" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "122049462" ;
+        owl:sameAs       "http://www.idref.fr/122049462" ;
+        dbo:award        nous:2015 .
+
+<http://concours-etoiles-europe.org/ns#Odile-BOESPFLUG%20TANGUY>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Odile" ;
+        foaf:familyName  "BOESPFLUG TANGUY" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "077602730" ;
+        owl:sameAs       "http://www.idref.fr/077602730" ;
+        dbo:award        nous:2014 .
+
+nous:Christian-SALLES
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Christian" ;
+        foaf:familyName  "SALLES" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "076173526" ;
+        owl:sameAs       "http://www.idref.fr/076173526" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Science%20ouverte> .
+
+nous:Philippe-AMOUYEL
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Philippe" ;
+        foaf:familyName  "AMOUYEL" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "058556818" ;
+        owl:sameAs       "http://www.idref.fr/058556818" ;
+        dbo:award        nous:2015 .
+
+nous:Franck-DUMEIGNIL
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Franck" ;
+        foaf:familyName  "DUMEIGNIL" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "096308494" ;
+        owl:sameAs       "http://www.idref.fr/096308494" ;
+        dbo:award        nous:2014 .
+
+nous:Christian-JOACHIM
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Christian" ;
+        foaf:familyName  "JOACHIM" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "070141436" ;
+        owl:sameAs       "http://www.idref.fr/070141436" ;
+        dbo:award        nous:2015 .
+
+nous:Véronique-PERDEREAU
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Véronique" ;
+        foaf:familyName  "PERDEREAU" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "115288716" ;
+        owl:sameAs       "http://www.idref.fr/115288716" ;
+        dbo:award        nous:2013 .
+
+nous:Sophie-SIEG-ZIEBA
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Sophie" ;
+        foaf:familyName  "SIEG-ZIEBA" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "203628802" ;
+        owl:sameAs       "http://www.idref.fr/203628802" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Innovation> .
+
+nous:Levent-GURGEN  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Levent" ;
+        foaf:familyName  "GURGEN" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "126526575" ;
+        owl:sameAs       "http://www.idref.fr/126526575" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Renouvellement> .
+
+nous:Yves-AURÉGAN  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Yves" ;
+        foaf:familyName  "AURÉGAN" ;
+        foaf:gender      "Homme" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Renouvellement> .
+
+nous:Christine-MORIN  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Christine" ;
+        foaf:familyName  "MORIN" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "059647485" ;
+        owl:sameAs       "http://www.idref.fr/059647485" ;
+        dbo:award        nous:2014 .
+
+nous:Dafiné-RAVELOSONA
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Dafiné" ;
+        foaf:familyName  "RAVELOSONA" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "075708701" ;
+        owl:sameAs       "http://www.idref.fr/075708701" ;
+        dbo:award        nous:2014 .
+
+nous:Serge-FDIDA  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Serge" ;
+        foaf:familyName  "FDIDA" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "029605202" ;
+        owl:sameAs       "http://www.idref.fr/029605202" ;
+        dbo:award        nous:2014 .
+
+nous:Olivier-BALET  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Olivier" ;
+        foaf:familyName  "BALET" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "076080676" ;
+        owl:sameAs       "http://www.idref.fr/076080676" ;
+        dbo:award        nous:2014 .
+
+<http://concours-etoiles-europe.org/ns#Abderrahim-AL%20MAZOUZI>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Abderrahim" ;
+        foaf:familyName  "AL MAZOUZI" ;
+        foaf:gender      "Homme" ;
+        dbo:award        nous:2014 .
+
+nous:Gilles-FLAMANT  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Gilles" ;
+        foaf:familyName  "FLAMANT" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "033725489" ;
+        owl:sameAs       "http://www.idref.fr/033725489" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Renouvellement> .
+
+nous:Jean-Louis-PEYRAUD
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Jean-Louis" ;
+        foaf:familyName  "PEYRAUD" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "090431545" ;
+        owl:sameAs       "http://www.idref.fr/090431545" ;
+        dbo:award        nous:2014 .
+
+nous:Nathalie-GONTARD
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Nathalie" ;
+        foaf:familyName  "GONTARD" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "053458117" ;
+        owl:sameAs       "http://www.idref.fr/053458117" ;
+        dbo:award        nous:2015 .
+
+nous:Philippe-CIAIS  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Philippe" ;
+        foaf:familyName  "CIAIS" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "092241700" ;
+        owl:sameAs       "http://www.idref.fr/092241700" ;
+        dbo:award        nous:2013 .
+
+nous:Valerie-ISSARNY  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Valerie" ;
+        foaf:familyName  "ISSARNY" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "059578378" ;
+        owl:sameAs       "http://www.idref.fr/059578378" ;
+        dbo:award        nous:2013 .
+
+nous:Pietro-MICHIARDI
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Pietro" ;
+        foaf:familyName  "MICHIARDI" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "087927586" ;
+        owl:sameAs       "http://www.idref.fr/087927586" ;
+        dbo:award        <http://concours-etoiles-europe.org/ns#2016-Mention%20Science%20ouverte> .
+
+nous:Monique-AXELOS  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Monique" ;
+        foaf:familyName  "AXELOS" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "084712414" ;
+        owl:sameAs       "http://www.idref.fr/084712414" ;
+        dbo:award        nous:2014 .
+
+nous:Myriam-COTTIAS  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Myriam" ;
+        foaf:familyName  "COTTIAS" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "029261090" ;
+        owl:sameAs       "http://www.idref.fr/029261090" ;
+        dbo:award        nous:2013 .
+
+nous:Florence-DELPRAT-JANNAUD
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Florence" ;
+        foaf:familyName  "DELPRAT-JANNAUD" ;
+        foaf:gender      "Femme" ;
+        nous:id_ref      "032305265" ;
+        owl:sameAs       "http://www.idref.fr/032305265" ;
+        dbo:award        nous:2014 .
+
+nous:Andreas-ZEINERT  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Andreas" ;
+        foaf:familyName  "ZEINERT" ;
+        foaf:gender      "Homme" ;
+        nous:id_ref      "075421356" ;
+        owl:sameAs       "http://www.idref.fr/075421356" ;
+        dbo:award        nous:2014 .
+
+nous:Leila-MEHRANE  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Person ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  schema:Person ;
+        foaf:firstName   "Leila" ;
+        foaf:familyName  "MEHRANE" ;
+        foaf:gender      "Femme" ;
+        dbo:award        nous:2013 .
+
+<http://concours-etoiles-europe.org/ns#Software%20for%20the%20Use%20of%20Multi-Modality%20images%20in%20External%20Radiotherapy>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Software for the Use of Multi-Modality images in External Radiotherapy" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/100561_en.html" ;
+        doap:description       "La radiothérapie (RT) est le traitement principal contre le Cancer, utilisé dans la majorité des prises en charge thérapeutiques. Son but est d'atteindre la plus haute probabilité de contrôle tumoral avec le moins d'effets secondaires et de morbidité. Malgré des progrès significatifs dans les techniques de traitement et dans les technologies d'imagerie au cours des dernières décennies, des difficultés persistent pour définir précisément l’hétérogénéité fonctionnelle des tumeurs afin de mieux contrôler et évaluer la croissance tumorale locale. Ainsi, il est aujourd’hui nécessaire de mieux caractériser les tumeurs en fonction de leur morphologie, leur mouvement et leur profil moléculaire avant, pendant et après les traitements. Dans ce contexte, la radiothérapie est de plus en plus dépendante de l'imagerie médicale multimodale (CT, IRM, TEP, MRS, IRMd ou IRMf) pour mieux cibler et mieux évaluer les traitements. Les objectifs scientifiques de SUMMER sont de répondre aux besoins d’une plateforme logicielle d’imagerie transversale à partir de laquelle les oncologues, médecins, physiciens et radiologues peuvent partager, analyser et délinéer les images nécessaires en RT. Les principaux résultats escomptés ont été les suivants :\n• Proposition une plate-forme d’imagerie unique et adaptable, partagée entre les différents professionnels concernés, pour préparer les traitements et suivre les patients de manière coordonnée ;\n• Création d'outils rapides et intuitifs pour optimiser la planification de la RT et améliorer l'évaluation post traitement (recalage et fusion multimodales, segmentation du volume cible biologique, interface ergonomique et adaptative) ;\n• Contribution aux études cliniques prospectives permettant de mieux cibler le tissu tumoral et/ou d’améliorer la sécurité des organes à risques ;\n• Proposition de normes possibles pour les types d'images utilisées au cours de la chaine de traitement par RT externe.\nAu niveau sociétal, il y a volonté croissante d’acquérir une meilleure connaissance des facteurs prédictifs de survie ou de contrôle tumoral, pour des patients ayant bénéficié du même traitement. Le projet SUMMER apporte une contribution importante dans le domaine de la maitrise et de l’analyse des images médicales, sources d’informations aujourd’hui insuffisamment exploitées. La maitrise de ces images tout au long du parcours de soin du patient, permettra, grâce à l’extraction d’informations pertinentes (Radiomics), d’enrichir les données existantes (génétiques, protéomiques, démographiques…) pour développer une médecine 4P (Prédictive, Personnalisée, Préventive, Participative) utile aux patients.\nSUMMER va ainsi fournir des technologies qui pourront être utilisées par de nombreux chercheurs qui mettent en place les études cliniques ou les cohortes prospectives pour lutter encore plus efficacement contre le Cancer." ;
+        doap:category          "Biologie et santé" ;
+        nous:type_financement  "MC-ITN" ;
+        nous:code_programme    "PEOPLE" ;
+        nous:code_appel        "FP7-PEOPLE-2011-ITN" ;
+        nous:acronyme_projet   "SUMMER" ;
+        dbo:creator            nous:AQUILAB ;
+        dbo:creator            nous:Laurent-MASSOPTIER .
+
+<http://concours-etoiles-europe.org/ns#Mobile%20Opportunistic%20Traffic%20Offloading>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Mobile Opportunistic Traffic Offloading" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/105191_fr.html" ;
+        doap:description       "Le projet MOTO a été pionnier sur les questions les plus difficiles liées au délestage de trafic cellulaire en utilisant l’échange direct de données entre terminaux mobiles voisins. La Commission Européenne a mis en avant le projet comme l’un des précurseurs scientifiques des travaux sur les futurs réseaux 5G. Le projet MOTO illustre parfaitement comment une approche disruptive et un travail scientifique rigoureux peuvent répondre à un problème réel qu’est la manipulation de données massives devant transiter au travers des réseaux cellulaires." ;
+        doap:category          "Mathématiques, physique, nano-sciences, sciences et technologies de l’information et de la communication" ;
+        nous:type_financement  "CP-FP-INFSO" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2011-8" ;
+        nous:acronyme_projet   "MOTO" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#THALES%20COMMUNICATIONS%20&%20SECURITY%20S.A.S> ;
+        dbo:creator            nous:Vania-CONAN .
+
+<http://concours-etoiles-europe.org/ns#Rolled%20multi%20material%20layered%203D%20shaping%20technology>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Rolled multi material layered 3D shaping technology" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/89314_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "NMP" ;
+        nous:code_appel        "FP7-NMP-2007-LARGE-1" ;
+        nous:acronyme_projet   "MULTILAYER" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20d'Innovation%20pour%20les%20Technologies%20des%20%C3%89nergies%20Nouvelles%20et%20les%20Nanomat%C3%A9riaux> ;
+        dbo:creator            nous:Luc-FEDERZONI .
+
+<http://concours-etoiles-europe.org/ns#The%20FIBONACCI%20Project%20-%20Large%20scale%20dissemination%20of%20inquiry%20based%20science%20and%20mathematics%20education>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "The FIBONACCI Project - Large scale dissemination of inquiry based science and mathematics education" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/93702_en.html" ;
+        nous:type_financement  "CSA-SA" ;
+        nous:code_programme    "SIS" ;
+        nous:code_appel        "FP7-SCIENCE-IN-SOCIETY-2009-1" ;
+        nous:acronyme_projet   "FIBONACCI" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Fondation%20pour%20l'%C3%89ducation%20%C3%A0%20la%20Science%20dans%20le%20Sillage%20de%20la%20Main%20%C3%A0%20la%20Pate> ;
+        dbo:creator            nous:David-JASMIN .
+
+<http://concours-etoiles-europe.org/ns#Coordinated%20Asia-European%20long-term%20Observing%20system%20of%20Qinghai%20%E2%80%93%20Tibet%20Plateau%20hydro-meteorological%20processes%20and%20the%20Asian-monsoon%20systEm%20with%20Ground%20satellite%20Image%20data%20and%20numerical%20Simulations>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Coordinated Asia-European long-term Observing system of Qinghai – Tibet Plateau hydro-meteorological processes and the Asian-monsoon systEm with Ground satellite Image data and numerical Simulations" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/89348_en.html" ;
+        nous:type_financement  "CP-SICA" ;
+        nous:code_programme    "ENVIRONMENT" ;
+        nous:code_appel        "FP7-ENV-2007-1" ;
+        nous:acronyme_projet   "CEOP-AEGIS" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20des%20Sciences%20de%20l'Ing%C3%A9nieur,%20de%20l'Informatique%20et%20de%20l'Imagerie> ;
+        dbo:creator            nous:Massimo-MENENTI .
+
+<http://concours-etoiles-europe.org/ns#Collaborative%20and%20Sustainable%20Astronomical%20Data%20Infrastructure%20for%20Europe>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Collaborative and Sustainable Astronomical Data Infrastructure for Europe" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/104381_en.html" ;
+        nous:type_financement  "CSA" ;
+        nous:code_programme    "INFRASTRUCTURES" ;
+        nous:code_appel        "FP7-INFRASTRUCTURES-2012-1" ;
+        nous:acronyme_projet   "CoSADIE" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Observatoire%20Astronomique%20de%20Strasbourg> ;
+        dbo:creator            nous:Françoise-GENOVA .
+
+<http://concours-etoiles-europe.org/ns#Security%20and%20decontamination%20of%20drinking%20water%20distribution%20systems%20following%20a%20deliberate%20contamination>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Security and decontamination of drinking water distribution systems following a deliberate contamination" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/92297_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "SECURITY" ;
+        nous:code_appel        "FP7-SEC-2007-1" ;
+        nous:acronyme_projet   "SECUREAU" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Universit%C3%A9%20de%20Lorraine> ;
+        dbo:creator            nous:Sylvain-FASS .
+
+<http://concours-etoiles-europe.org/ns#Satellite%20Application%20For%20Emergency%20handling,%20Traffic%20alerts,%20Road%20safety%20and%20Incident%20Prevention>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Satellite Application For Emergency handling, Traffic alerts, Road safety and Incident Prevention" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/92596_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "TRANSPORT" ;
+        nous:code_appel        "FP7-SST-2008-RTD-1" ;
+        nous:acronyme_projet   "SAFETRIP" ;
+        dbo:creator            nous:SANEF ;
+        dbo:creator            nous:Guy-FRÉMONT .
+
+<http://concours-etoiles-europe.org/ns#European%20Training%20Network%20on%20Cancer-Induced%20Bone%20Diseases>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "European Training Network on Cancer-Induced Bone Diseases" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/96885_en.html" ;
+        nous:type_financement  "MC-ITN" ;
+        nous:code_programme    "PEOPLE" ;
+        nous:code_appel        "FP7-PEOPLE-2010-ITN" ;
+        nous:acronyme_projet   "BONE-NET" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Physiopathologie,%20Diagnostic%20et%20Traitements%20des%20Maladies%20Osseuses> ;
+        dbo:creator            nous:Philippe-CLÉZARDIN .
+
+<http://concours-etoiles-europe.org/ns#Ocean%20Strategic%20Services%20beyond%202015>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Ocean Strategic Services beyond 2015" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/100691_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "SPACE" ;
+        nous:code_appel        "FP7-SPACE-2011-1" ;
+        nous:acronyme_projet   "OSS2015" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#ACRI%20ST> ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Odile-HEMBISE%20FANTON%20d%E2%80%99ANDON> .
+
+<http://concours-etoiles-europe.org/ns#Moving%20Epigenetics%20Towards%20Systems%20Biology>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Moving Epigenetics Towards Systems Biology" ;
+        doap:homepage          "http://cordis.europa.eu/result/rcn/55728_en.html" ;
+        doap:description       "Le Réseau d'excellence \"EpiGeneSys\" s’est efforcé à construire un pont entre deux\ndomaines d'excellence européens, l'épigénétique et la biologie des systèmes. Les quatre\nmodules de recherche du programme avaient pour objectif d’adresser quantitativement les\nmécanismes épigénétiques fondamentaux, à la fois spatialement et temporellement dans le\nbut d'exprimer les événements dynamiques sous-jacents en termes mathématiques pour\nmodéliser et prédire comment l'équilibre entre le maintien et l'effacement des informations\népigénétiques varie dans des contextes spécifiques de développement, que ce soit dans des\nconditions normales ou pathologiques.\n• EpiGeneSys a contribué à acquérir une compréhension quantitative des forces\nmotrices moléculaires qui régissent la robustesse et la sensibilité de la liaison des\nrégulateurs épigénétiques à la chromatine, qui sont ainsi les points clés de la régulation de la\nfonction cellulaire normale et de la dérégulation liée à la maladie.\n• EpiGeneSys a contribué à élucider les interactions entre le génome et l'épigénome en\nappliquant les approches rigoureuses de la biologie des systèmes à plusieurs variables\népigénétiques dans différents organismes modèles et dans des populations dont la diversité\nde séquence est connue.\n• EpiGeneSys a contribué à déterminer comment l'environnement, le stress, l'état\nmétabolique et les facteurs de croissance signalent à l'épigénome d’induire de nouveaux\nprogrammes d'expression génique qui peuvent être transitoires ou conduire à des\nphénotypes héritables à long terme.\n• EpiGeneSys a contribué à faciliter une meilleure intégration entre les outils et\ntechniques de la biologie des systèmes et de la recherche épigénétique, grâce à un module\nde travail (work package) dédié.\nCette approche transversale a permis de mieux comprendre l'hérédité épigénétique grâce à\nl'étude de la stabilité et de la plasticité des différentes épistasies à tous les niveaux. Plus de\n350 publications (dont 47% publiés dans des revues avec un facteur d'impact supérieur à 10)\net les nombreux meetings et ateliers organisés par le réseau, ont permis à la recherche des\nmembres d’EpiGeneSys d’atteindre une large audience scientifique et d’avoir un impact\nmajeur." ;
+        doap:category          "Biologie et santé" ;
+        nous:type_financement  "NOE" ;
+        nous:code_programme    "HEALTH" ;
+        nous:code_appel        "FP7-HEALTH-2010-two-stage" ;
+        nous:acronyme_projet   "EPIGENESYS" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Centre%20de%20Recherche%20Epid%C3%A9miologiques%20et%20Bio%20Statistiques%20de%20Sorbonne%20Paris%20Cit%C3%A9> ;
+        dbo:creator            nous:Geneviève-ALMOUZNI .
+
+<http://concours-etoiles-europe.org/ns#Sea%20for%20Society>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Sea for Society" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/103606_en.html" ;
+        doap:description       "L’objectif du projet était de réunir les acteurs de la société civile dans un dialogue participatif pour qu’ils définissent ensemble les axes d’amélioration pour une meilleure utilisation des services que nous offre la mer en vue de définir la Blue Society. Il s’est agi ensuite d’organiser une grande phase de mobilisation et de soumettre des propositions concrètes à la DG Recherche et Innovation sur la recherche marine et la gouvernance." ;
+        doap:category          "Sciences et société" ;
+        nous:type_financement  "CSA-SA" ;
+        nous:code_programme    "SiS" ;
+        nous:code_appel        "FP7-SCIENCE-IN-SOCIETY-2011-1" ;
+        nous:acronyme_projet   "SFS" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#SOCIETE%20D'EXPLOITATION%20DU%20CENTRE%20NATIONAL%20DE%20LA%20MER> ;
+        dbo:creator            nous:Manuel-CIRA .
+
+<http://concours-etoiles-europe.org/ns#Pesticide%20Use-and-risk%20Reduction%20in%20European%20farming%20systems%20with%20Integrated%20Pest%20Management>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Pesticide Use-and-risk Reduction in European farming systems with Integrated Pest Management" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/98869_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "KBBE" ;
+        nous:code_appel        "FP7-KBBE-2010-4" ;
+        nous:acronyme_projet   "PURE" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Unit%C3%A9%20de%20Recherche%20Plantes%20et%20Syst%C3%A8mes%20de%20Culture%20Horticoles> ;
+        dbo:creator            nous:Françoise-LESCOURRET .
+
+<http://concours-etoiles-europe.org/ns#Arctic%20Climate%20Change,%20Economy%20and%20Society>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Arctic Climate Change, Economy and Society" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/98430_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "TRANSPORT" ;
+        nous:code_appel        "FP7-OCEAN-2010" ;
+        nous:acronyme_projet   "ACCESS" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20d'Oc%C3%A9anographie%20et%20du%20Climat%20:%20Exp%C3%A9rimentations%20et%20Approches%20Num%C3%A9riques> ;
+        dbo:creator            nous:Jean-Claude-GASCARD .
+
+<http://concours-etoiles-europe.org/ns#European%20Li-Ion%20Battery%20Advanced%20Manufacturing%20for%20Electric%20Vehicles>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "European Li-Ion Battery Advanced Manufacturing for Electric Vehicles" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/101578_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "TRANSPORT" ;
+        nous:code_appel        "FP7-2011-GC-ELECTROCHEMICAL-STORAGE" ;
+        nous:acronyme_projet   "ELIBAMA" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#RENAULT%20SAS> ;
+        dbo:creator            nous:Jérôme-PEYRARD .
+
+<http://concours-etoiles-europe.org/ns#Euro-Argo%20Improvements%20for%20the%20GMES/Copernicus%20Marine%20Service>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Euro-Argo Improvements for the GMES/Copernicus Marine Service" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/106553_en.html" ;
+        doap:description       "L’objectif du projet était de préparer les extensions d’Argo en Europe pour les besoins du programme Européen Copernicus (GMES) et de son service marin. \nRésultats : Une démonstration de l’impact des nouveaux flotteurs profilants Argo (flotteurs profonds, flotteurs avec capteurs oxygène et biogéochimiques, flotteurs Arctique, flotteurs avec communication bidirectionnelle) pour le Copernicus Marine Service a été menée avec succès: spécification des nouveaux flotteurs, déploiements et tests à la mer, adaptation des centres de traitement, traitement temps réel et utilisation par le Copernicus Marine Service (validation des observations satellites, validation des modèles océaniques, assimilation de données). Ces résultats démontrent l’importance de ces nouveaux flotteurs pour le Copernicus Marine Service ainsi que la maturité et la faisabilité de la mise en place de ces extensions du programme Argo.   Les recommandations du projet sont maintenant utilisées par l’infrastructure de recherche européenne Euro-Argo (Euro-Argo ERIC) qui doit préparer la mise en place de la nouvelle phase du programme Argo en Europe." ;
+        doap:category          "Politique spatiale et défense" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "SPA" ;
+        nous:code_appel        "FP7-SPACE-2012-1" ;
+        nous:acronyme_projet   "E-AIMS" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#MERCATOR%20OCEAN> ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Pierre-Yves-LE%20TRAON> .
+
+<http://concours-etoiles-europe.org/ns#Development%20of%20a%20high%20sensitive%20and%20specific%20nanobiosensor%20based%20on%20surface%20enhanced%20vibrational%20spectroscopy%20dedicated%20to%20the%20in%20vitro%20proteins%20detection%20and%20disease%20diagnosis>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Development of a high sensitive and specific nanobiosensor based on surface enhanced vibrational spectroscopy dedicated to the in vitro proteins detection and disease diagnosis" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/92196_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "HEALTH" ;
+        nous:code_appel        "FP7-HEALTH-2009-single-stage" ;
+        nous:acronyme_projet   "NANOANTENNA" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20de%20Chimie,%20Structures,%20Propri%C3%A9t%C3%A9s%20de%20Biomat%C3%A9riaux%20et%20d'Agents%20Th%C3%A9rapeutiques> ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Marc-LAMY%20DE%20LA%20CHAPELLE> .
+
+<http://concours-etoiles-europe.org/ns#Regenerating%20Bone%20defects%20using%20New%20biomedical%20Engineering%20approaches>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Regenerating Bone defects using New biomedical Engineering approaches" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/92715_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "HEALTH" ;
+        nous:code_appel        "FP7-HEALTH-2009-single-stage" ;
+        nous:acronyme_projet   "REBORNE" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20de%20Physiopathologie%20de%20la%20R%C3%A9sorption%20Osseuse%20et%20Th%C3%A9rapie%20des%20Tumeurs%20Osseuses%20Primitives> ;
+        dbo:creator            nous:Pierre-LAYROLLE .
+
+<http://concours-etoiles-europe.org/ns#Initial%20training%20network%20on%20biocorrosion>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Initial training network on biocorrosion" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/92377_en.html" ;
+        nous:type_financement  "MC-ITN" ;
+        nous:code_programme    "PEOPLE" ;
+        nous:code_appel        "FP7-PEOPLE-ITN-2008" ;
+        nous:acronyme_projet   "BIOCOR ITN" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20de%20G%C3%A9nie%20Chimique> ;
+        dbo:creator            nous:Régine-BASSEGUY .
+
+<http://concours-etoiles-europe.org/ns#REvolutionary%20Approaches%20and%20Devices%20for%20Nucleic%20Acid%20Analysis>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "REvolutionary Approaches and Devices for Nucleic Acid Analysis" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/88224_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "HEALTH" ;
+        nous:code_appel        "FP7-HEALTH-2007-A" ;
+        nous:acronyme_projet   "READNA" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Institut%20de%20G%C3%A9nomique> ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Ivo-GLYNNE%20GUT> .
+
+<http://concours-etoiles-europe.org/ns#Electronic%20Maps%20to%20Assist%20Public%20Science>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Electronic Maps to Assist Public Science" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/101858_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "SIS" ;
+        nous:code_appel        "FP7-SCIENCE-IN-SOCIETY-2011-1" ;
+        nous:acronyme_projet   "EMAPS" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20M%C3%A9dialab> ;
+        dbo:creator            nous:Tommaso-VENTURINI .
+
+<http://concours-etoiles-europe.org/ns#Effective%20Perinatal%20Intensive%20Care%20in%20Europe:%20translating%20knowledge%20into%20evidence%20based%20practice>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Effective Perinatal Intensive Care in Europe: translating knowledge into evidence based practice" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/97698_en.html" ;
+        doap:description       "Le projet EPICE a pour objectif d’améliorer la survie et la santé à long terme des grands prématurés, en vérifiant que les soins dont on a prouvé l’efficacité de manière rigoureuse sont appliqués dans la pratique courante. Les enfants grands prématurés nés avant 32 semaines d'âge gestationnel représentent 1 à 2% de la totalité des naissances (>50.000 par an en Europe). Ces enfants ont un risque plus élevé de mortalité et de troubles moteurs, neurocognitifs et comportementaux que les enfants nés à terme. Ce projet de recherche au niveau européen est née du constat qu’il existe de très fortes variations régionales des taux de mortalité et de morbidité chez les grands prématurés en Europe.\nPromouvoir l'application des recommandations cliniques fondées sur les preuves scientifiques est une approche prometteuse et efficace pour améliorer la qualité des soins et la santé. Le projet a étudié un large éventail de pratiques médicales afin de mesurer leur utilisation, étudier les facteurs favorisant leur diffusion dans la pratique clinique courante et mesurer l’impact de leur utilisation sur la santé des enfants grands prématurés." ;
+        doap:category          "Biologie et santé" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "HEALTH" ;
+        nous:code_appel        "FP7-HEALTH-2010-two-stage" ;
+        nous:acronyme_projet   "EPICE" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Centre%20de%20Recherche%20Epid%C3%A9miologiques%20et%20Bio%20Statistiques%20de%20Sorbonne%20Paris%20Cit%C3%A9> ;
+        dbo:creator            nous:Jennifer-ZEITLIN .
+
+<http://concours-etoiles-europe.org/ns#Neuronal%20NanoCarbon%20Interfacing%20Structures>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Neuronal NanoCarbon Interfacing Structures" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/102485_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "NMP" ;
+        nous:code_appel        "FP7-NMP-2011-SMALL-5" ;
+        nous:acronyme_projet   "NEUROCARE" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20d'Int%C3%A9gration%20des%20Syst%C3%A8mes%20et%20des%20Technologies> ;
+        dbo:creator            nous:Philippe-BERGONZO .
+
+<http://concours-etoiles-europe.org/ns#Therapeutic%20challenge%20in%20Leukodystrophies:%20Translational%20and%20ethical%20research%20towards%20clinical%20trials>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Therapeutic challenge in Leukodystrophies: Translational and ethical research towards clinical trials" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/98077_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "HEALTH" ;
+        nous:code_appel        "FP7-HEALTH-2009-single-stage" ;
+        nous:acronyme_projet   "LEUKOTREAT" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#H%C3%B4pital%20Robert%20Debre> ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Odile-BOESPFLUG%20TANGUY> .
+
+<http://concours-etoiles-europe.org/ns#Combining%20Technologies%20to%20achieve%20significant%20binary%20Reductions%20in%20sodium,%20Fat%20and%20Sugar%20content%20in%20everyday%20foods%20whilst%20optimising%20their%20nutritional%20Quality>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Combining Technologies to achieve significant binary Reductions in sodium, Fat and Sugar content in everyday foods whilst optimising their nutritional Quality" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/101709_en.html" ;
+        doap:description       "L’excès de consommation de sel, sucre et matière grasse est responsable de troubles grave de la santé des populations : hypertension, obésité, cancer, diabète, problèmes cardiovasculaires. Les enjeux de santé publique du projet sont clairement affichés pour TeRiFiQ: reformuler des aliments de consommation courante avec moins de sodium, de matière grasse (saturé) et de sucre avec une bonne acceptabilité par le consommateur." ;
+        doap:category          "Environnement, agronomie, écologie, sciences du système terre et de l’univers" ;
+        nous:type_financement  "CP-TP" ;
+        nous:code_programme    "KBBE" ;
+        nous:code_appel        "FP7-KBBE-2011-5" ;
+        nous:acronyme_projet   "TERIFIQ" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Centre%20des%20Sciences%20du%20Go%C3%BBt%20et%20de%20l'Alimentation> ;
+        dbo:creator            nous:Christian-SALLES .
+
+<http://concours-etoiles-europe.org/ns#Coordination%20Action%20in%20support%20of%20the%20implementation%20of%20a%20Joint%20Programming%20Initiative%20for%20Combating%20Neurodegenerative%20Diseases,%20in%20particular%20Alzheimer%E2%80%99s%20disease>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Coordination Action in support of the implementation of a Joint Programming Initiative for Combating Neurodegenerative Diseases, in particular Alzheimer’s disease" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/96715_en.html" ;
+        nous:type_financement  "CSA-CA" ;
+        nous:code_programme    "HEALTH" ;
+        nous:code_appel        "FP7-HEALTH-2010-single-stage" ;
+        nous:acronyme_projet   "JUMPAHEAD" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Centre%20Hospitalier%20Universitaire%20de%20Lille> ;
+        dbo:creator            nous:Philippe-AMOUYEL .
+
+<http://concours-etoiles-europe.org/ns#EUROpean%20multilevel%20integrated%20BIOREFinery%20design%20for%20sustainable%20biomass%20processing>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "EUROpean multilevel integrated BIOREFinery design for sustainable biomass processing" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/93922_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ENERGY" ;
+        nous:code_appel        "FP7-2009-BIOREFINERY_CP" ;
+        nous:acronyme_projet   "EUROBIOREF" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Unit%C3%A9%20de%20Catalyse%20et%20de%20Chimie%20du%20Solide> ;
+        dbo:creator            nous:Franck-DUMEIGNIL .
+
+<http://concours-etoiles-europe.org/ns#Atomic%20Scale%20and%20single%20Molecule%20Logic%20gate%20Technologies>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Atomic Scale and single Molecule Logic gate Technologies" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/97085_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2009-6" ;
+        nous:acronyme_projet   "ATMOL" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Centre%20d'%C3%89laboration%20de%20Mat%C3%A9riaux%20et%20d'%C3%89tudes%20Structurales> ;
+        dbo:creator            nous:Christian-JOACHIM .
+
+<http://concours-etoiles-europe.org/ns#Developmental%20pathway%20towards%20autonomy%20and%20dexterity%20in%20robot%20in-hand%20manipulation>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Developmental pathway towards autonomy and dexterity in robot in-hand manipulation" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/89250_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2007-3" ;
+        nous:acronyme_projet   "HANDLE" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Institut%20des%20Syst%C3%A8mes%20Intelligents%20et%20Robotiques> ;
+        dbo:creator            nous:Véronique-PERDEREAU .
+
+<http://concours-etoiles-europe.org/ns#SUstainable%20PREdictive%20Maintenance%20for%20manufacturing%20Equipment>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "SUstainable PREdictive Maintenance for manufacturing Equipment" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/104688_fr.html" ;
+        doap:description       "Améliorer la productivité a d’immenses retombées sur l’économie et la compétitivité de\nl’industrie manufacturière européenne. La maintenance industrielle contribue en grande\npartie à cette compétitivité, grâce à la fiabilité et la disponibilité des équipements de\nproduction, et ce particulièrement dans les industries de production continue (secteurs de\nl’énergie, de la chimie, de l’alimentaire, du ciment et du papier). Cependant, des composants\ndéfectueux ou des dysfonctionnements dans les processus peuvent entraver l’ensemble de\nla production ; voilà pourquoi la maintenance prévisionnelle constitue une question cruciale.\nDans ce contexte, le projet SUPREME est porteur de nouveaux outils dynamiques destinés\nà adapter les stratégies de maintenance et d’intervention à l’état actuel des composants\ncritiques des équipements de production. Il propose également de développer une approche\nintégrée afin d’optimiser le processus de production et sa consommation énergétique.\nInitié en Septembre 2012, le consortium SUPREME intègre des acteurs techniques clés de\nla maintenance à forte valeur ajoutée. Ce consortium a rassemblé dix partenaires ; trois\nd’entre eux sont des PME (EC Systems, Loy & Hutz and Optimive), dont les capacités en\nR&D ont rendu possible le développement de trois modules qui ont été intégrés pour mettre\nen oeuvre l’approche proposée (Un système de surveillance d’état intégré à l’équipement, un\nmodule logiciel pour les outils de Fiabilité et de Durabilité, un module de Contrôle Intelligent).\nLes travaux de recherche ont été menés par des équipes de l’Institut National Polytechnique\nde Grenoble (Grenoble INP), du Centre Technique des Industries M��caniques (CETIM), de\nl’institut Fraunhofer IPA et de l’Université technique de Prague (CVUT). Le cas d’application\ndans l’industrie du papier est supervisé par Orloga et Condat (groupe Lecta). Quant à Cofely\nEndel, de par son expérience dans la maintenance, elle s’implique pour que les nouveaux\ndéveloppements puissent être appliqués dans divers secteurs industriels.\nLes principaux résultats principaux du projet sont les suivants:\n• Le développement du modèle de référence SUPREME, intégrant les spécifications\nindustrielles, le contenu des différents modules et les interactions entre eux.\n• la spécification de plate-forme de test chez Condat, avec une forte implication de\nl'industrie du papier pour choisir l'équipement le plus critique et le plus pertinent pour\ndémontrer le concept de maintenance prédictive.\n• l'instrumentation de la plate-forme de test, pour collecter des données de la machine,\npour permettre le développement des outils SUPREME.\n• L’amélioration et d��veloppement des méthodologies et des outils pour la Fiabilité et la\nMaintenabilité des équipements de production (évaluation des risques intégrant un\nmodèle de coût de défaillance, modèle de détérioration des équipements et évaluation de\nla durée de vie résiduelle, planification dynamique de la maintenance prenant en compte\nles conditions, le plan de production et la disponibilité des travailleurs, intégration de tous\nces outils dans le logiciel de Gestion de Maintenance assistée par Ordinateur\n• Développement d’un système de surveillance embarqué dans la machine (système\nd'acquisition, outils de Traitement de Signal Avancés pour une analyse automatique des\nsignaux et de l'extraction des caractéristiques les plus pertinentes, approche multicapteur\npour un diagnostic plus robuste, fiable et au plus tôt)\n• Développement du module de contrôle Intelligent et de data mining pour l’optimisation du\nprocess.\nTous les modules développés ont été installés et validés chez Condat, permettant de\nproposer systématiquement la meilleure stratégie de maintenance, de maximiser la\ndisponibilité d'une machine et minimiser les coûts de maintenance. Avec la méthode de\nMaintenance prédictive SUPREME le risque des défaillances machine peut être réduit\nsignificativement, pour que l'économie globale puisse atteindre 20 % par an, comparé à la\nstratégie de maintenance préventive.\nConcernant l’optimisation du process, la solution SUPREME permet d’économiser de\nl’énergie tout en gardant la même qualité et les exigences de production. Cette stratégie est\nbasée sur un réseau d’intelligence artificiel qui recommande toujours la meilleure solution\npour la même qualité de production. Les simulations nous donnent une économie potentielle\nd'environ de 5 % de consommation d'énergie\nEn parallèle, cinq modules d'e-learning ont été développés permettant de présenter tous les\néléments technologiques développés et exploités dans le projet." ;
+        doap:category          "Mathématiques, physique, nano-sciences, sciences et technologies de l’information et de la communication" ;
+        nous:type_financement  "CP-TP" ;
+        nous:code_programme    "NMP" ;
+        nous:code_appel        "FP7-2012-NMP-ICT-FoF" ;
+        nous:acronyme_projet   "SUPREME" ;
+        dbo:creator            nous:CETIM ;
+        dbo:creator            nous:Sophie-SIEG-ZIEBA .
+
+<http://concours-etoiles-europe.org/ns#Cloud%20of%20Things%20for%20empowering%20the%20citizen%20clout%20in%20smart%20cities>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Cloud of Things for empowering the citizen clout in smart cities" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/109108_fr.html" ;
+        doap:description       "Le projet ClouT, ou « Cloud of Things », a développé une plateforme logicielle qui permet d'accéder de façon sécurisée et uniformisée aux données issues de diverses sources disponibles dans une ville (nœuds capteurs, réseaux sociaux, systèmes legacy, applications mobiles, réseaux sociaux, pages web, etc.) fournissant un ensemble riche d’informations à un instant donné (qualité de l’air, niveau de pollen, données météorologiques, risque d’inondation, risque liés à la sécurité, présence de piétons, utilisation de transports publics, emplacement de parking de voitures ou de vélos électriques disponibles, itinéraires intéressants à suivre par des touristes, etc.). La plateforme est accompagnée par des outils et des interfaces de programmation destinés aux municipalités, aux développeurs d’applications, aux intégrateurs, ou simplement aux citoyens, pour faciliter l'exploitation de cette masse de données; des applications destinées à mieux gérer des ressources dans divers domaines, comme le tourisme, la gestion de catastrophes naturelles, l'efficacité des infrastructures, la sécurité citoyenne, etc. et ainsi améliorer la vie quotidienne des citoyens.\n\nCes applications dans le domaine « Villes Intelligentes » sont aujourd'hui déployées dans les 4 villes pilotes du projet - Santander, Genova, Fujisawa et Mitaka -: du monitoring environnemental, des coupons dynamiques utilisés dans le domaine du tourisme, des tableaux de bord personnalisables, des réseaux sociaux destinés aux personnes âg��es, etc. ont été testées et validées sur le terrain  en impliquant des vrais utilisateurs finaux.\nLes résultats du projet ont été présentés sous forme de livrables; en proposant logiciels réutilisables en mode \"open source\"; des descriptions des essais sur terrain; des vidéos; des newsletters, etc. Toute cette information est disponible dans le site web du projet sur le lien : http://clout-project.eu." ;
+        doap:category          "Énergie, développement durable, chimie et procédés" ;
+        nous:type_financement  "CP-FP-INFSO" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2013-EU-Japan" ;
+        nous:acronyme_projet   "CLOUT" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20d'%C3%89lectronique%20et%20de%20Technologie%20de%20l'Information> ;
+        dbo:creator            nous:Levent-GURGEN .
+
+<http://concours-etoiles-europe.org/ns#Silent%20Air%20Flows%20in%20transport,%20buildings%20and%20power%20generation>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Silent Air Flows in transport, buildings and power generation" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/101333_fr.html" ;
+        doap:description       "Le projet FlowAirS a pour but principal de former une nouvelle génération de chercheurs sur\nles écoulements silencieux, avec un socle de connaissances solide et une expérience\nacadémique et industrielle. Pour cela, le projet FlowAirS a réunit un réseau de spécialistes\neuropéens et égyptien en aéro- et vibro-acoustique afin de former des jeunes chercheurs sur\ndes méthodes innovantes de diminution du bruit pour améliorer notre qualité de vie." ;
+        doap:category          "Énergie, développement durable, chimie et procédés" ;
+        nous:type_financement  "MC-ITN" ;
+        nous:code_programme    "PEOPLE" ;
+        nous:code_appel        "FP7-PEOPLE-2011-ITN" ;
+        nous:acronyme_projet   "FLOWAIRS" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20d'Acoustique%20de%20l'Universit%C3%A9%20du%20Maine> ;
+        dbo:creator            nous:Yves-AURÉGAN .
+
+<http://concours-etoiles-europe.org/ns#Open%20Computing%20Infrastructures%20for%20Elastic%20Services>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Open Computing Infrastructures for Elastic Services" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/95934_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2009-5" ;
+        nous:acronyme_projet   "CONTRAIL" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Conception%20et%20Mise%20en%20Oeuvre%20de%20Syst%C3%A8mes%20Distribu%C3%A9s%20Autonomes> ;
+        dbo:creator            nous:Christine-MORIN .
+
+<http://concours-etoiles-europe.org/ns#Magnetic%20Nanowires%20for%20High%20Density%20Non%20Volatile%20Memories>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Magnetic Nanowires for High Density Non Volatile Memories" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/95547_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2009-5" ;
+        nous:acronyme_projet   "MAGWIRE" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Institut%20d'%C3%89lectronique%20Fondamentale> ;
+        dbo:creator            nous:Dafiné-RAVELOSONA .
+
+<http://concours-etoiles-europe.org/ns#OpenLab:%20extending%20FIRE%20testbeds%20and%20tools>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "OpenLab: extending FIRE testbeds and tools" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/100740_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2011-7" ;
+        nous:acronyme_projet   "OPENLAB" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20d'Informatique%20de%20Paris%206> ;
+        dbo:creator            nous:Serge-FDIDA .
+
+<http://concours-etoiles-europe.org/ns#Cultural%20Heritage%20Experiences%20through%20Socio-personal%20interactions%20and%20Storytelling>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Cultural Heritage Experiences through Socio-personal interactions and Storytelling" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/97182_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2009-6" ;
+        nous:acronyme_projet   "CHESS" ;
+        dbo:creator            nous:DIGINEXT ;
+        dbo:creator            nous:Olivier-BALET .
+
+<http://concours-etoiles-europe.org/ns#Prediction%20of%20the%20Effects%20of%20Radiation%20FOr%20reactor%20pressure%20vessel%20and%20in-core%20Materials%20using%20multi-scale%20modelling%20-%2060%20years%20foreseen%20plant%20lifetime>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Prediction of the Effects of Radiation FOr reactor pressure vessel and in-core Materials using multi-scale modelling - 60 years foreseen plant lifetime" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/89385_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "EURATOM-FISSION" ;
+        nous:code_appel        "FP7-Fission-2008" ;
+        nous:acronyme_projet   "PERFORM 60" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#ELECTRICITE%20DE%20FRANCE> ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Abderrahim-AL%20MAZOUZI> .
+
+<http://concours-etoiles-europe.org/ns#Concentrated%20Solar%20Power%20in%20Particles>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Concentrated Solar Power in Particles" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/100979_en.html" ;
+        doap:description       "Le projet CSP2 concerne la technologie de l’énergie solaire concentrée, et en particulier les centrales solaires thermiques. Dans une centrale solaire thermique, le rayonnement solaire concentré est utilisé pour chauffer un fluide, en général un liquide, dans un récepteur. La chaleur est ensuite transférée à de la vapeur puis convertie en électricité grâce une turbine à vapeur. Pour assurer la production d’électricité en absence de soleil, un stockage thermique est intercalé entre le récepteur et la turbine. Cette architecture permet également d’hybrider les sources d’énergie primaires (par exemple énergie solaire et bio fuels) pour sécuriser la production d’énergie. La limite de température de fonctionnement des centrales solaires commerciales est actuellement de 550°C et la durée de stockage à pleine puissance peut atteindre 15h. Le projet CSP2 a eu pour but de dépasser cette limite de 550°C par l’utilisation de suspensions denses de particules -DPS- en tant que fluide caloporteur alternatif circulant dans des tubes constituant un récepteur solaire. L’objectif était d’atteindre une température de travail du cycle thermodynamique de 700°C environ et de diminuer l'impact environnemental des caloporteurs standards utilisés actuellement dans les procédés à énergie solaire concentrée (CSP). Enfin, les particules peuvent également stocker la chaleur, point crucial pour le développement de cette filière.\nLe projet a compris des études fondamentales sur l'hydrodynamique des particules et le transfert de chaleur dans des tubes de petit diamètre, la construction d’un pilote à l’échelle laboratoire de 150 kW, une série d’essais au soleil au foyer du Four Solaire de 1 MW du CNRS à Odeillo, et les études d’extrapolation du procédé à différentes échelles.  \nLe consortium a mis en œuvre avec succès une boucle solaire pilote au foyer du four solaire de 1MW du CNRS. Le potentiel d'accroissement de l'efficacité de la conversion thermodynamique de 40% à 50% grâce à la possibilité de travailler avec un cycle de Brayton au CO2 supercritique ou un cycle combiné a été démontré théoriquement. En raison d’une part de l'amélioration du rendement thermique et  de la réduction des dépenses énergétiques annexes d’autre part, le concept de CSP2 peut être considéré comme respectueux de l'environnement.\nEn ce qui concerne de nouveaux services, produits et technologies, le projet a permis de développer un concept totalement innovant et rentable qui pourra être exploité par les développeurs de centrale solaire thermodynamique. En termes d’impact, le projet a permis :\n- De réduire les risques technologiques pour les prochaines étapes de développement (démonstration à plus grande échelle);\n- D’augmenter de manière significative la performance de la technologie;\n- De réduire l’impact du cycle de vie sur l'environnement;\n- De favoriser le développement de la capacité industrielle pour produire des composants et des systèmes ainsi que d’ouvrir de nouvelles opportunités ;\n- De contribuer au renforcement de la base technologique de l'industrie européenne, ce qui peut créer de la croissance et l'emploi en Europe;\n- De réduire le temps/le coût d’installation et les coûts d’exploitation des technologies d'énergie renouvelable permettant ainsi de faciliter le déploiement de sources d'énergie renouvelables dans le mix énergétique;\n- D’augmenter la fiabilité et la durée de vie de cette technologie tout en diminuant les coûts d'exploitation et de maintenance, créant ainsi de nouvelles opportunités commerciales;\n- De contribuer à la résolution des défis mondiaux du climat et de l'énergie;\n- De soutenir l'amélioration de la sécurité énergétique de l'UE." ;
+        doap:category          "Énergie, développement durable, chimie et procédés" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ENERGY" ;
+        nous:code_appel        "FP7-ENERGY-2011-1" ;
+        nous:acronyme_projet   "CSP2" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20Proc%C3%A9d%C3%A9s,%20Mat%C3%A9riaux%20%C3%89nergie%20Solaire> ;
+        dbo:creator            nous:Gilles-FLAMANT .
+
+<http://concours-etoiles-europe.org/ns#Multi%20species%20swards%20and%20multi%20scale%20strategies%20for%20multifunctional%20grassland%20based%20ruminant%20production%20systems>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Multi species swards and multi scale strategies for multifunctional grassland based ruminant production systems" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/94390_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "KBBE" ;
+        nous:code_appel        "FP7-KBBE-2009-3" ;
+        nous:acronyme_projet   "MULTISWARD" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Physiologie,%20Environnement%20et%20G%C3%A9n%C3%A9tique%20pour%20l'Animal%20et%20les%20Syst%C3%A8mes%20d'%C3%89levage> ;
+        dbo:creator            nous:Jean-Louis-PEYRAUD .
+
+<http://concours-etoiles-europe.org/ns#Ecoefficient%20Biodegradable%20Composite%20Advanced%20Packaging>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Ecoefficient Biodegradable Composite Advanced Packaging" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/97870_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "KBBE" ;
+        nous:code_appel        "FP7-KBBE-2010-4" ;
+        nous:acronyme_projet   "EcoBioCAP" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Ing%C3%A9nierie%20des%20Agropolym%C3%A8res%20et%20Technologies%20%C3%89mergentes> ;
+        dbo:creator            nous:Nathalie-GONTARD .
+
+<http://concours-etoiles-europe.org/ns#Integrated%20Carbon%20Observation%20System>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Integrated Carbon Observation System" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/88256_en.html" ;
+        nous:type_financement  "CP-CSA-Infra" ;
+        nous:code_programme    "INFRASTRUCTURES" ;
+        nous:code_appel        "FP7-INFRASTRUCTURES-2007-1" ;
+        nous:acronyme_projet   "ICOS" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20des%20Sciences%20du%20Climat%20et%20de%20l'Environnement> ;
+        dbo:creator            nous:Philippe-CIAIS .
+
+<http://concours-etoiles-europe.org/ns#Emergent%20Connectors%20for%20Eternal%20Software%20Intensive%20Networked%20Systems>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Emergent Connectors for Eternal Software Intensive Networked Systems" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/88971_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2007-3" ;
+        nous:acronyme_projet   "CONNECT" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Middleware%20on%20Th%C3%A9%20Move> ;
+        dbo:creator            nous:Valerie-ISSARNY .
+
+<http://concours-etoiles-europe.org/ns#Big%20Data%20Analytics%20of%20Digital%20Footprints>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Big Data Analytics of Digital Footprints" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/105197_en.html" ;
+        doap:description       "BigFoot est un projet pionnier dans la définition et la construction de la technologie nécessaire pour offrir des services d’analyse de donné à la demande (« Analytics-as-a-Service », AAAS) aux utilisateurs finaux, pour instancier les outils nécessaires pour ingérer, stocker et analyser des énormes masses de données. Le projet BigFoot est entièrement intégré dans Apache OpenStack, le standard de facto de l'industrie pour le « cloud computing », ce qui le rends un projet ouvert, accessible et évolutif." ;
+        doap:category          "Mathématiques, physique, nano-sciences, sciences et technologies de l’information et de la communication" ;
+        nous:type_financement  "CP-FP-INFSO" ;
+        nous:code_programme    "ICT" ;
+        nous:code_appel        "FP7-ICT-2011-8" ;
+        nous:acronyme_projet   "BIGFOOT" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#%C3%89cole%20d'ing%C3%A9nieur%20EURECOM%20Sophia%20Antipolis%20T%C3%A9l%C3%A9com> ;
+        dbo:creator            nous:Pietro-MICHIARDI .
+
+<http://concours-etoiles-europe.org/ns#Design%20and%20development%20of%20REAlistic%20food%20Models%20with%20well-characterised%20micro-%20and%20macro-structure%20and%20composition>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Design and development of REAlistic food Models with well-characterised micro- and macro-structure and composition" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/90437_en.html" ;
+        nous:type_financement  "CP-IP" ;
+        nous:code_programme    "KBBE" ;
+        nous:code_appel        "FP7-KBBE-2007-2A" ;
+        nous:acronyme_projet   "DREAM" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Biopolym%C3%A8res,%20Interactions%20Assemblages> ;
+        dbo:creator            nous:Monique-AXELOS .
+
+<http://concours-etoiles-europe.org/ns#Slave%20Trade%20Slavery%20Abolitions%20and%20their%20Legacies%20in%20European%20Histories%20and%20Identities>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Slave Trade Slavery Abolitions and their Legacies in European Histories and Identities" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/89509_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "SSH" ;
+        nous:code_appel        "FP7-SSH-2007-1" ;
+        nous:acronyme_projet   "EURESCL" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Centre%20de%20Recherche%20sur%20les%20Pouvoirs%20Locaux%20dans%20la%20Cara%C3%AFbe> ;
+        dbo:creator            nous:Myriam-COTTIAS .
+
+<http://concours-etoiles-europe.org/ns#Characterisation%20of%20European%20CO2%20storage>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Characterisation of European CO2 storage" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/96066_en.html" ;
+        nous:type_financement  "CP" ;
+        nous:code_programme    "ENERGY" ;
+        nous:code_appel        "FP7-ENERGY-2010-1" ;
+        nous:acronyme_projet   "SITECHAR" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Institut%20fran%C3%A7ais%20du%20p%C3%A9trole%20Energies%20nouvelles> ;
+        dbo:creator            nous:Florence-DELPRAT-JANNAUD .
+
+<http://concours-etoiles-europe.org/ns#Functionalities%20of%20Bismuth%20based%20nanostructures>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "Functionalities of Bismuth based nanostructures" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/97950_en.html" ;
+        nous:type_financement  "CP-FP" ;
+        nous:code_programme    "NMP" ;
+        nous:code_appel        "FP7-NMP-2010-EU-Mexico" ;
+        nous:acronyme_projet   "BISNANO" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Laboratoire%20de%20Physique%20de%20la%20Mati%C3%A8re%20Condens%C3%A9e> ;
+        dbo:creator            nous:Andreas-ZEINERT .
+
+<http://concours-etoiles-europe.org/ns#TEXTILE%20AT%20THE%20CROSS%20ROADS%20OF%20NEW%20APPLICATIONS>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  doap:Project ;
+        doap:name              "TEXTILE AT THE CROSS ROADS OF NEW APPLICATIONS" ;
+        doap:homepage          "http://cordis.europa.eu/project/rcn/94944_en.html" ;
+        nous:type_financement  "CSA-CA" ;
+        nous:code_programme    "NMP" ;
+        nous:code_appel        "FP7-ERANET-2009-RTD" ;
+        nous:acronyme_projet   "CROSSTEXNET" ;
+        dbo:creator            <http://concours-etoiles-europe.org/ns#Centre%20Europ%C3%A9en%20des%20Textiles%20Innovants> ;
+        dbo:creator            nous:Leila-MEHRANE .
+
+nous:AQUILAB  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "433993540" ;
+        nous:libelle_structure      "AQUILAB" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/433993540" ;
+        dbo:location                nous:Loos .
+
+<http://concours-etoiles-europe.org/ns#THALES%20COMMUNICATIONS%20&%20SECURITY%20S.A.S>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "383470937" ;
+        nous:libelle_structure      "THALES COMMUNICATIONS & SECURITY S.A.S" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/383470937" ;
+        dbo:location                nous:Gennevilliers .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20d'Innovation%20pour%20les%20Technologies%20des%20%C3%89nergies%20Nouvelles%20et%20les%20Nanomat%C3%A9riaux>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200418592W" ;
+        nous:libelle_structure      "Laboratoire d'Innovation pour les Technologies des Énergies Nouvelles et les Nanomatériaux" ;
+        nous:sigle_structure        "LITEN" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200418592W" ;
+        dbo:location                nous:Grenoble .
+
+<http://concours-etoiles-europe.org/ns#Fondation%20pour%20l'%C3%89ducation%20%C3%A0%20la%20Science%20dans%20le%20Sillage%20de%20la%20Main%20%C3%A0%20la%20Pate>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "539538645" ;
+        nous:libelle_structure      "Fondation pour l'Éducation à la Science dans le Sillage de la Main à la Pate" ;
+        nous:nature_structure       "Public" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/539538645" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%20%206e> .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20des%20Sciences%20de%20l'Ing%C3%A9nieur,%20de%20l'Informatique%20et%20de%20l'Imagerie>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201320497C" ;
+        nous:libelle_structure      "Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie" ;
+        nous:sigle_structure        "ICUBE" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201320497C" ;
+        dbo:location                nous:Strasbourg .
+
+<http://concours-etoiles-europe.org/ns#Observatoire%20Astronomique%20de%20Strasbourg>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "199712602R" ;
+        nous:libelle_structure      "Observatoire Astronomique de Strasbourg" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/199712602R" ;
+        dbo:location                nous:Strasbourg .
+
+<http://concours-etoiles-europe.org/ns#Universit%C3%A9%20de%20Lorraine>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "130015506" ;
+        nous:libelle_structure      "Université de Lorraine" ;
+        nous:nature_structure       "Public" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/130015506" ;
+        dbo:location                nous:Nancy .
+
+nous:SANEF  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "632050019" ;
+        nous:libelle_structure      "SANEF" ;
+        nous:sigle_structure        "SANEF" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/632050019" ;
+        dbo:location                nous:Issy-les-Moulineaux .
+
+<http://concours-etoiles-europe.org/ns#Physiopathologie,%20Diagnostic%20et%20Traitements%20des%20Maladies%20Osseuses>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201119460J" ;
+        nous:libelle_structure      "Physiopathologie, Diagnostic et Traitements des Maladies Osseuses" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201119460J" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Lyon%208e> .
+
+<http://concours-etoiles-europe.org/ns#ACRI%20ST>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "428834113" ;
+        nous:libelle_structure      "ACRI ST" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/428834113" ;
+        dbo:location                nous:Biot .
+
+<http://concours-etoiles-europe.org/ns#Centre%20de%20Recherche%20Epid%C3%A9miologiques%20et%20Bio%20Statistiques%20de%20Sorbonne%20Paris%20Cit%C3%A9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201420738K" ;
+        nous:libelle_structure      "Centre de Recherche Epidémiologiques et Bio Statistiques de Sorbonne Paris Cité" ;
+        nous:sigle_structure        "CRESS" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201420738K" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%20%204e> .
+
+<http://concours-etoiles-europe.org/ns#SOCIETE%20D'EXPLOITATION%20DU%20CENTRE%20NATIONAL%20DE%20LA%20MER>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "378074744" ;
+        nous:libelle_structure      "SOCIETE D'EXPLOITATION DU CENTRE NATIONAL DE LA MER" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/378074744" ;
+        dbo:location                nous:Boulogne-sur-Mer .
+
+<http://concours-etoiles-europe.org/ns#Unit%C3%A9%20de%20Recherche%20Plantes%20et%20Syst%C3%A8mes%20de%20Culture%20Horticoles>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "196617874F" ;
+        nous:libelle_structure      "Unité de Recherche Plantes et Systèmes de Culture Horticoles" ;
+        nous:sigle_structure        "PSH" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/196617874F" ;
+        dbo:location                nous:Avignon .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20d'Oc%C3%A9anographie%20et%20du%20Climat%20:%20Exp%C3%A9rimentations%20et%20Approches%20Num%C3%A9riques>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200918490N" ;
+        nous:libelle_structure      "Laboratoire d'Océanographie et du Climat : Expérimentations et Approches Numériques" ;
+        nous:sigle_structure        "LOCEAN" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200918490N" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%20%205e> .
+
+<http://concours-etoiles-europe.org/ns#RENAULT%20SAS>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "780129987" ;
+        nous:libelle_structure      "RENAULT SAS" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/780129987" ;
+        dbo:location                nous:Boulogne-Billancourt .
+
+<http://concours-etoiles-europe.org/ns#MERCATOR%20OCEAN>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "522911577" ;
+        nous:libelle_structure      "MERCATOR OCEAN" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/522911577" ;
+        dbo:location                nous:Ramonville-Saint-Agne .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20de%20Chimie,%20Structures,%20Propri%C3%A9t%C3%A9s%20de%20Biomat%C3%A9riaux%20et%20d'Agents%20Th%C3%A9rapeutiques>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201120463Z" ;
+        nous:libelle_structure      "Laboratoire de Chimie, Structures, Propriétés de Biomatériaux et d'Agents Thérapeutiques" ;
+        nous:sigle_structure        "CSPBAT" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201120463Z" ;
+        dbo:location                nous:Villetaneuse .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20de%20Physiopathologie%20de%20la%20R%C3%A9sorption%20Osseuse%20et%20Th%C3%A9rapie%20des%20Tumeurs%20Osseuses%20Primitives>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200919263D" ;
+        nous:libelle_structure      "Laboratoire de Physiopathologie de la Résorption Osseuse et Thérapie des Tumeurs Osseuses Primitives" ;
+        nous:sigle_structure        "LPRO" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200919263D" ;
+        dbo:location                nous:Nantes .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20de%20G%C3%A9nie%20Chimique>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "199511947M" ;
+        nous:libelle_structure      "Laboratoire de Génie Chimique" ;
+        nous:sigle_structure        "LGC" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/199511947M" ;
+        dbo:location                nous:Toulouse .
+
+<http://concours-etoiles-europe.org/ns#Institut%20de%20G%C3%A9nomique>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200718609B" ;
+        nous:libelle_structure      "Institut de Génomique" ;
+        nous:sigle_structure        "IG" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200718609B" ;
+        dbo:location                nous:Évry .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20M%C3%A9dialab>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201420819Y" ;
+        nous:libelle_structure      "Laboratoire Médialab" ;
+        nous:sigle_structure        "MÉDIALAB" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201420819Y" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%20%207e> .
+
+<http://concours-etoiles-europe.org/ns#Centre%20de%20Recherche%20Epid%C3%A9miologiques%20et%20Bio%20Statistiques%20de%20Sorbonne%20Paris%20Cit%C3%A9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201420738K" ;
+        nous:libelle_structure      "Centre de Recherche Epidémiologiques et Bio Statistiques de Sorbonne Paris Cité" ;
+        nous:sigle_structure        "CRESS" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201420738K" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%20%204e> .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20d'Int%C3%A9gration%20des%20Syst%C3%A8mes%20et%20des%20Technologies>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200118591H" ;
+        nous:libelle_structure      "Laboratoire d'Intégration des Systèmes et des Technologies" ;
+        nous:sigle_structure        "LIST" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200118591H" ;
+        dbo:location                nous:Gif-sur-Yvette .
+
+<http://concours-etoiles-europe.org/ns#H%C3%B4pital%20Robert%20Debre>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "26750045200995" ;
+        nous:libelle_structure      "Hôpital Robert Debre" ;
+        nous:nature_structure       "Public" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/267500452" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%2019e> .
+
+<http://concours-etoiles-europe.org/ns#Centre%20des%20Sciences%20du%20Go%C3%BBt%20et%20de%20l'Alimentation>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201019359D" ;
+        nous:libelle_structure      "Centre des Sciences du Goût et de l'Alimentation" ;
+        nous:sigle_structure        "CSGA" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201019359D" ;
+        dbo:location                nous:Dijon .
+
+<http://concours-etoiles-europe.org/ns#Centre%20Hospitalier%20Universitaire%20de%20Lille>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "265906719" ;
+        nous:libelle_structure      "Centre Hospitalier Universitaire de Lille" ;
+        nous:sigle_structure        "CHU Lille" ;
+        nous:nature_structure       "Public" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/265906719" ;
+        dbo:location                nous:Lille .
+
+<http://concours-etoiles-europe.org/ns#Unit%C3%A9%20de%20Catalyse%20et%20de%20Chimie%20du%20Solide>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200612828X" ;
+        nous:libelle_structure      "Unité de Catalyse et de Chimie du Solide" ;
+        nous:sigle_structure        "UCCS" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200612828X" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Villeneuve-d'Ascq> .
+
+<http://concours-etoiles-europe.org/ns#Centre%20d'%C3%89laboration%20de%20Mat%C3%A9riaux%20et%20d'%C3%89tudes%20Structurales>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "199117683P" ;
+        nous:libelle_structure      "Centre d'Élaboration de Matériaux et d'Études Structurales" ;
+        nous:sigle_structure        "CEMES" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/199117683P" ;
+        dbo:location                nous:Toulouse .
+
+<http://concours-etoiles-europe.org/ns#Institut%20des%20Syst%C3%A8mes%20Intelligents%20et%20Robotiques>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200918463J" ;
+        nous:libelle_structure      "Institut des Systèmes Intelligents et Robotiques" ;
+        nous:sigle_structure        "ISIR" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200918463J" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%20%205e> .
+
+nous:CETIM  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "775629074" ;
+        nous:libelle_structure      "CETIM" ;
+        nous:sigle_structure        "CETIM" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/775629074" ;
+        dbo:location                nous:Senlis .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20d'%C3%89lectronique%20et%20de%20Technologie%20de%20l'Information>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "196718590E" ;
+        nous:libelle_structure      "Laboratoire d'Électronique et de Technologie de l'Information" ;
+        nous:sigle_structure        "LETI" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/196718590E" ;
+        dbo:location                nous:Grenoble .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20d'Acoustique%20de%20l'Universit%C3%A9%20du%20Maine>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "199612385J" ;
+        nous:libelle_structure      "Laboratoire d'Acoustique de l'Université du Maine" ;
+        nous:sigle_structure        "LAUM" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/199612385J" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Le%20Mans> .
+
+<http://concours-etoiles-europe.org/ns#Conception%20et%20Mise%20en%20Oeuvre%20de%20Syst%C3%A8mes%20Distribu%C3%A9s%20Autonomes>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201020965Z" ;
+        nous:libelle_structure      "Conception et Mise en Oeuvre de Systèmes Distribués Autonomes" ;
+        nous:sigle_structure        "MYRIADS" ;
+        nous:nature_structure       "Equipe projet" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201020965Z" ;
+        dbo:location                nous:Rennes .
+
+<http://concours-etoiles-europe.org/ns#Institut%20d'%C3%89lectronique%20Fondamentale>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "199812947L" ;
+        nous:libelle_structure      "Institut d'Électronique Fondamentale" ;
+        nous:sigle_structure        "IEF" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/199812947L" ;
+        dbo:location                nous:Orsay .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20d'Informatique%20de%20Paris%206>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "199712651U" ;
+        nous:libelle_structure      "Laboratoire d'Informatique de Paris 6" ;
+        nous:sigle_structure        "LIP6" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/199712651U" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%20%205e> .
+
+nous:DIGINEXT  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "408225845" ;
+        nous:libelle_structure      "DIGINEXT" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/408225845" ;
+        dbo:location                nous:Aix-en-Provence .
+
+<http://concours-etoiles-europe.org/ns#ELECTRICITE%20DE%20FRANCE>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "552081317" ;
+        nous:libelle_structure      "ELECTRICITE DE FRANCE" ;
+        nous:sigle_structure        "EDF" ;
+        nous:nature_structure       "Public" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/552081317" ;
+        dbo:location                <http://concours-etoiles-europe.org/ns#Paris%20%208e> .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20Proc%C3%A9d%C3%A9s,%20Mat%C3%A9riaux%20%C3%89nergie%20Solaire>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "198917681W" ;
+        nous:libelle_structure      "Laboratoire Procédés, Matériaux Énergie Solaire" ;
+        nous:sigle_structure        "PROMES" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/198917681W" ;
+        dbo:location                nous:Perpignan .
+
+<http://concours-etoiles-europe.org/ns#Physiologie,%20Environnement%20et%20G%C3%A9n%C3%A9tique%20pour%20l'Animal%20et%20les%20Syst%C3%A8mes%20d'%C3%89levage>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201220380E" ;
+        nous:libelle_structure      "Physiologie, Environnement et Génétique pour l'Animal et les Systèmes d'Élevage" ;
+        nous:sigle_structure        "PEGASE" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201220380E" ;
+        dbo:location                nous:Saint-Gilles .
+
+<http://concours-etoiles-europe.org/ns#Ing%C3%A9nierie%20des%20Agropolym%C3%A8res%20et%20Technologies%20%C3%89mergentes>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200317667V" ;
+        nous:libelle_structure      "Ingénierie des Agropolymères et Technologies Émergentes" ;
+        nous:sigle_structure        "IATE" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200317667V" ;
+        dbo:location                nous:Montpellier .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20des%20Sciences%20du%20Climat%20et%20de%20l'Environnement>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200611689J" ;
+        nous:libelle_structure      "Laboratoire des Sciences du Climat et de l'Environnement" ;
+        nous:sigle_structure        "LSCE" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200611689J" ;
+        dbo:location                nous:Gif-sur-Yvette .
+
+<http://concours-etoiles-europe.org/ns#Middleware%20on%20Th%C3%A9%20Move>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "201421139W" ;
+        nous:libelle_structure      "Middleware on Thé Move" ;
+        nous:sigle_structure        "MIMOVE" ;
+        nous:nature_structure       "Equipe projet" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/201421139W" ;
+        dbo:location                nous:Rocquencourt .
+
+<http://concours-etoiles-europe.org/ns#%C3%89cole%20d'ing%C3%A9nieur%20EURECOM%20Sophia%20Antipolis%20T%C3%A9l%C3%A9com>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "383181575" ;
+        nous:libelle_structure      "École d'ingénieur EURECOM Sophia Antipolis Télécom" ;
+        nous:sigle_structure        "EURECOM" ;
+        nous:nature_structure       "Privé" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/383181575" ;
+        dbo:location                nous:Biot .
+
+<http://concours-etoiles-europe.org/ns#Biopolym%C3%A8res,%20Interactions%20Assemblages>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "199617832E" ;
+        nous:libelle_structure      "Biopolymères, Interactions Assemblages" ;
+        nous:sigle_structure        "BIA" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/199617832E" ;
+        dbo:location                nous:Nantes .
+
+<http://concours-etoiles-europe.org/ns#Centre%20de%20Recherche%20sur%20les%20Pouvoirs%20Locaux%20dans%20la%20Cara%C3%AFbe>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "200212720X" ;
+        nous:libelle_structure      "Centre de Recherche sur les Pouvoirs Locaux dans la Caraïbe" ;
+        nous:sigle_structure        "CRPLC" ;
+        nous:nature_structure       "Structure mixte" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/200212720X" ;
+        dbo:location                nous:Schoelcher .
+
+<http://concours-etoiles-europe.org/ns#Institut%20fran%C3%A7ais%20du%20p%C3%A9trole%20Energies%20nouvelles>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "775729155" ;
+        nous:libelle_structure      "Institut français du pétrole Energies nouvelles" ;
+        nous:sigle_structure        "IFP Énergies nouvelles" ;
+        nous:nature_structure       "Public" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/775729155" ;
+        dbo:location                nous:Rueil-Malmaison .
+
+<http://concours-etoiles-europe.org/ns#Laboratoire%20de%20Physique%20de%20la%20Mati%C3%A8re%20Condens%C3%A9e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "199613705U" ;
+        nous:libelle_structure      "Laboratoire de Physique de la Matière Condensée" ;
+        nous:sigle_structure        "LPMC" ;
+        nous:nature_structure       "Structure propre" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/199613705U" ;
+        dbo:location                nous:Amiens .
+
+<http://concours-etoiles-europe.org/ns#Centre%20Europ%C3%A9en%20des%20Textiles%20Innovants>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  foaf:Organization ;
+        nous:identifiant_structure  "507487130" ;
+        nous:libelle_structure      "Centre Européen des Textiles Innovants" ;
+        nous:sigle_structure        "CETI" ;
+        nous:nature_structure       "Public" ;
+        owl:sameAs                  "https://scanr.enseignementsup-recherche.gouv.fr/structure/507487130" ;
+        dbo:location                nous:Tourcoing .
+
+nous:Loos  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      59360 ;
+        foaf:name           "Loos" ;
+        igeo:subdivisionDe  nous:Lille ;
+        dbp:department      nous:Nord ;
+        w3geo:long          "50.601689"^^xsd:float ;
+        w3geo:lat           "3.044053"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Loos> .
+
+nous:Lille  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Lille" ;
+        igeo:codeINSEE      "59702" ;
+        igeo:subdivisionDe  nous:Nord .
+
+nous:Nord  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  59 ;
+        foaf:name       "Nord" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie> ;
+        owl:sameAs      <http://websm.org/projet/Nord> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord> .
+
+<http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  32 ;
+        foaf:name       "Nord-Pas-de-Calais - Picardie" ;
+        owl:sameAs      <http://websm.org/projet/Nord-Pas-de-Calais_-_Picardie> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord-Pas-de-Calais%20-%20Picardie> .
+
+nous:Gennevilliers  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      92036 ;
+        foaf:name           "Gennevilliers" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Hauts-de-Seine ;
+        w3geo:long          "48.941015"^^xsd:float ;
+        w3geo:lat           "2.307031"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Gennevilliers> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Hauts-de-Seine .
+
+nous:Hauts-de-Seine  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  92 ;
+        foaf:name       "Hauts-de-Seine" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Hauts-de-Seine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Hauts-de-Seine> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Grenoble  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      38185 ;
+        foaf:name           "Grenoble" ;
+        igeo:subdivisionDe  nous:Grenoble ;
+        dbp:department      nous:Isère ;
+        w3geo:long          "45.202502"^^xsd:float ;
+        w3geo:lat           "5.703794"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Grenoble> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Grenoble" ;
+        igeo:codeINSEE      "38701" ;
+        igeo:subdivisionDe  nous:Isère .
+
+nous:Isère  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  38 ;
+        foaf:name       "Isère" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Auvergne%20-%20Rh%C3%B4ne-Alpes> ;
+        owl:sameAs      <http://websm.org/projet/Is%C3%A8re> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Is%C3%A8re> .
+
+<http://concours-etoiles-europe.org/ns#Auvergne%20-%20Rh%C3%B4ne-Alpes>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  84 ;
+        foaf:name       "Auvergne - Rhône-Alpes" ;
+        owl:sameAs      <http://websm.org/projet/Auvergne_-_Rh%C3%B4ne-Alpes> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Auvergne%20-%20Rh%C3%B4ne-Alpes> .
+
+<http://concours-etoiles-europe.org/ns#Paris%20%206e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75106 ;
+        foaf:name           "Paris  6e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.85729"^^xsd:float ;
+        w3geo:lat           "2.337354"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%20%206e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Strasbourg  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      67482 ;
+        foaf:name           "Strasbourg" ;
+        igeo:subdivisionDe  nous:Strasbourg ;
+        dbp:department      nous:Bas-Rhin ;
+        w3geo:long          "48.523526"^^xsd:float ;
+        w3geo:lat           "7.73879"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Strasbourg> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Strasbourg" ;
+        igeo:codeINSEE      "67701" ;
+        igeo:subdivisionDe  nous:Bas-Rhin .
+
+nous:Bas-Rhin  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  67 ;
+        foaf:name       "Bas-Rhin" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Alsace%20-%20Champagne-Ardenne%20-%20Lorraine> ;
+        owl:sameAs      <http://websm.org/projet/Bas-Rhin> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Bas-Rhin> .
+
+<http://concours-etoiles-europe.org/ns#Alsace%20-%20Champagne-Ardenne%20-%20Lorraine>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  44 ;
+        foaf:name       "Alsace - Champagne-Ardenne - Lorraine" ;
+        owl:sameAs      <http://websm.org/projet/Alsace_-_Champagne-Ardenne_-_Lorraine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Alsace%20-%20Champagne-Ardenne%20-%20Lorraine> .
+
+nous:Strasbourg  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      67482 ;
+        foaf:name           "Strasbourg" ;
+        igeo:subdivisionDe  nous:Strasbourg ;
+        dbp:department      nous:Bas-Rhin ;
+        w3geo:long          "48.582949"^^xsd:float ;
+        w3geo:lat           "7.766506"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Strasbourg> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Strasbourg" ;
+        igeo:codeINSEE      "67701" ;
+        igeo:subdivisionDe  nous:Bas-Rhin .
+
+nous:Bas-Rhin  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  67 ;
+        foaf:name       "Bas-Rhin" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Alsace%20-%20Champagne-Ardenne%20-%20Lorraine> ;
+        owl:sameAs      <http://websm.org/projet/Bas-Rhin> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Bas-Rhin> .
+
+<http://concours-etoiles-europe.org/ns#Alsace%20-%20Champagne-Ardenne%20-%20Lorraine>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  44 ;
+        foaf:name       "Alsace - Champagne-Ardenne - Lorraine" ;
+        owl:sameAs      <http://websm.org/projet/Alsace_-_Champagne-Ardenne_-_Lorraine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Alsace%20-%20Champagne-Ardenne%20-%20Lorraine> .
+
+nous:Nancy  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      54395 ;
+        foaf:name           "Nancy" ;
+        igeo:subdivisionDe  nous:Nancy ;
+        dbp:department      nous:Meurthe-et-Moselle ;
+        w3geo:long          "48.6962"^^xsd:float ;
+        w3geo:lat           "6.17634"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Nancy> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Nancy" ;
+        igeo:codeINSEE      "54701" ;
+        igeo:subdivisionDe  nous:Meurthe-et-Moselle .
+
+nous:Meurthe-et-Moselle
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  54 ;
+        foaf:name       "Meurthe-et-Moselle" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Alsace%20-%20Champagne-Ardenne%20-%20Lorraine> ;
+        owl:sameAs      <http://websm.org/projet/Meurthe-et-Moselle> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Meurthe-et-Moselle> .
+
+<http://concours-etoiles-europe.org/ns#Alsace%20-%20Champagne-Ardenne%20-%20Lorraine>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  44 ;
+        foaf:name       "Alsace - Champagne-Ardenne - Lorraine" ;
+        owl:sameAs      <http://websm.org/projet/Alsace_-_Champagne-Ardenne_-_Lorraine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Alsace%20-%20Champagne-Ardenne%20-%20Lorraine> .
+
+nous:Issy-les-Moulineaux
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      92040 ;
+        foaf:name           "Issy-les-Moulineaux" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Hauts-de-Seine ;
+        w3geo:long          "48.832"^^xsd:float ;
+        w3geo:lat           "2.267066"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Issy-les-Moulineaux> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Hauts-de-Seine .
+
+nous:Hauts-de-Seine  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  92 ;
+        foaf:name       "Hauts-de-Seine" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Hauts-de-Seine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Hauts-de-Seine> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+<http://concours-etoiles-europe.org/ns#Lyon%208e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      69388 ;
+        foaf:name           "Lyon 8e" ;
+        igeo:subdivisionDe  nous:Lyon ;
+        dbp:department      nous:Rhône ;
+        w3geo:long          "45.738"^^xsd:float ;
+        w3geo:lat           "4.887106"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Lyon%208e> .
+
+nous:Lyon  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Lyon" ;
+        igeo:codeINSEE      "00758" ;
+        igeo:subdivisionDe  nous:Rhône .
+
+nous:Rhône  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  69 ;
+        foaf:name       "Rhône" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Auvergne%20-%20Rh%C3%B4ne-Alpes> ;
+        owl:sameAs      <http://websm.org/projet/Rh%C3%B4ne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Rh%C3%B4ne> .
+
+<http://concours-etoiles-europe.org/ns#Auvergne%20-%20Rh%C3%B4ne-Alpes>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  84 ;
+        foaf:name       "Auvergne - Rhône-Alpes" ;
+        owl:sameAs      <http://websm.org/projet/Auvergne_-_Rh%C3%B4ne-Alpes> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Auvergne%20-%20Rh%C3%B4ne-Alpes> .
+
+nous:Biot  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      6018 ;
+        foaf:name           "Biot" ;
+        igeo:subdivisionDe  nous:Nice ;
+        dbp:department      nous:Alpes-Maritimes ;
+        w3geo:long          "43.6238717"^^xsd:float ;
+        w3geo:lat           "7.0596599"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Biot> .
+
+nous:Nice  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Nice" ;
+        igeo:codeINSEE      "06701" ;
+        igeo:subdivisionDe  nous:Alpes-Maritimes .
+
+nous:Alpes-Maritimes  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  6 ;
+        foaf:name       "Alpes-Maritimes" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Provence-Alpes-C%C3%B4te%20d'Azur> ;
+        owl:sameAs      <http://websm.org/projet/Alpes-Maritimes> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Alpes-Maritimes> .
+
+<http://concours-etoiles-europe.org/ns#Provence-Alpes-C%C3%B4te%20d'Azur>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  93 ;
+        foaf:name       "Provence-Alpes-Côte d'Azur" ;
+        owl:sameAs      <http://websm.org/projet/Provence-Alpes-C%C3%B4te_d'Azur> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Provence-Alpes-C%C3%B4te%20d'Azur> .
+
+<http://concours-etoiles-europe.org/ns#Paris%20%204e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75104 ;
+        foaf:name           "Paris  4e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.8539541"^^xsd:float ;
+        w3geo:lat           "2.3483307"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%20%204e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Boulogne-sur-Mer
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      62160 ;
+        foaf:name           "Boulogne-sur-Mer" ;
+        igeo:subdivisionDe  nous:Boulogne-sur-Mer ;
+        dbp:department      nous:Pas-de-Calais ;
+        w3geo:long          "50.734253"^^xsd:float ;
+        w3geo:lat           "1.595284"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Boulogne-sur-Mer> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Boulogne-sur-Mer" ;
+        igeo:codeINSEE      "62503" ;
+        igeo:subdivisionDe  nous:Pas-de-Calais .
+
+nous:Pas-de-Calais  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  62 ;
+        foaf:name       "Pas-de-Calais" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie> ;
+        owl:sameAs      <http://websm.org/projet/Pas-de-Calais> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Pas-de-Calais> .
+
+<http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  32 ;
+        foaf:name       "Nord-Pas-de-Calais - Picardie" ;
+        owl:sameAs      <http://websm.org/projet/Nord-Pas-de-Calais_-_Picardie> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord-Pas-de-Calais%20-%20Picardie> .
+
+nous:Avignon  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      84007 ;
+        foaf:name           "Avignon" ;
+        igeo:subdivisionDe  nous:Avignon ;
+        dbp:department      nous:Vaucluse ;
+        w3geo:long          "43.916985"^^xsd:float ;
+        w3geo:lat           "4.883684"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Avignon> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Avignon" ;
+        igeo:codeINSEE      "00754" ;
+        igeo:subdivisionDe  nous:Vaucluse .
+
+nous:Vaucluse  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  84 ;
+        foaf:name       "Vaucluse" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Provence-Alpes-C%C3%B4te%20d'Azur> ;
+        owl:sameAs      <http://websm.org/projet/Vaucluse> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Vaucluse> .
+
+<http://concours-etoiles-europe.org/ns#Provence-Alpes-C%C3%B4te%20d'Azur>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  93 ;
+        foaf:name       "Provence-Alpes-Côte d'Azur" ;
+        owl:sameAs      <http://websm.org/projet/Provence-Alpes-C%C3%B4te_d'Azur> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Provence-Alpes-C%C3%B4te%20d'Azur> .
+
+<http://concours-etoiles-europe.org/ns#Paris%20%205e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75105 ;
+        foaf:name           "Paris  5e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.846615"^^xsd:float ;
+        w3geo:lat           "2.35455"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%20%205e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Boulogne-Billancourt
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      92012 ;
+        foaf:name           "Boulogne-Billancourt" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Hauts-de-Seine ;
+        w3geo:long          "48.831399"^^xsd:float ;
+        w3geo:lat           "2.227875"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Boulogne-Billancourt> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Hauts-de-Seine .
+
+nous:Hauts-de-Seine  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  92 ;
+        foaf:name       "Hauts-de-Seine" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Hauts-de-Seine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Hauts-de-Seine> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Ramonville-Saint-Agne
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      31446 ;
+        foaf:name           "Ramonville-Saint-Agne" ;
+        igeo:subdivisionDe  nous:Toulouse ;
+        dbp:department      nous:Haute-Garonne ;
+        w3geo:long          "43.550226"^^xsd:float ;
+        w3geo:lat           "1.484935"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Ramonville-Saint-Agne> .
+
+nous:Toulouse  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Toulouse" ;
+        igeo:codeINSEE      "31701" ;
+        igeo:subdivisionDe  nous:Haute-Garonne .
+
+nous:Haute-Garonne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  31 ;
+        foaf:name       "Haute-Garonne" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://websm.org/projet/Haute-Garonne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Haute-Garonne> .
+
+<http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  76 ;
+        foaf:name       "Languedoc-Roussillon - Midi-Pyrénées" ;
+        owl:sameAs      <http://websm.org/projet/Languedoc-Roussillon_-_Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> .
+
+nous:Villetaneuse  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      93079 ;
+        foaf:name           "Villetaneuse" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Seine-Saint-Denis ;
+        w3geo:long          "48.956595"^^xsd:float ;
+        w3geo:lat           "2.338335"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Villetaneuse> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Seine-Saint-Denis .
+
+nous:Seine-Saint-Denis
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  93 ;
+        foaf:name       "Seine-Saint-Denis" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Seine-Saint-Denis> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Seine-Saint-Denis> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Nantes  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      44109 ;
+        foaf:name           "Nantes" ;
+        igeo:subdivisionDe  nous:Nantes ;
+        dbp:department      nous:Loire-Atlantique ;
+        w3geo:long          "47.211645"^^xsd:float ;
+        w3geo:lat           "-1.555477"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Nantes> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Nantes" ;
+        igeo:codeINSEE      "44701" ;
+        igeo:subdivisionDe  nous:Loire-Atlantique .
+
+nous:Loire-Atlantique
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  44 ;
+        foaf:name       "Loire-Atlantique" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Pays%20de%20la%20Loire> ;
+        owl:sameAs      <http://websm.org/projet/Loire-Atlantique> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Loire-Atlantique> .
+
+<http://concours-etoiles-europe.org/ns#Pays%20de%20la%20Loire>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  52 ;
+        foaf:name       "Pays de la Loire" ;
+        owl:sameAs      <http://websm.org/projet/Pays_de_la_Loire> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Pays%20de%20la%20Loire> .
+
+nous:Toulouse  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      31555 ;
+        foaf:name           "Toulouse" ;
+        igeo:subdivisionDe  nous:Toulouse ;
+        dbp:department      nous:Haute-Garonne ;
+        w3geo:long          "43.556606"^^xsd:float ;
+        w3geo:lat           "1.503147"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Toulouse> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Toulouse" ;
+        igeo:codeINSEE      "31701" ;
+        igeo:subdivisionDe  nous:Haute-Garonne .
+
+nous:Haute-Garonne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  31 ;
+        foaf:name       "Haute-Garonne" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://websm.org/projet/Haute-Garonne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Haute-Garonne> .
+
+<http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  76 ;
+        foaf:name       "Languedoc-Roussillon - Midi-Pyrénées" ;
+        owl:sameAs      <http://websm.org/projet/Languedoc-Roussillon_-_Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> .
+
+nous:Évry  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      91228 ;
+        foaf:name           "Évry" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Essonne ;
+        w3geo:long          "48.623965"^^xsd:float ;
+        w3geo:lat           "2.439716"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/%C3%89vry> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Essonne .
+
+nous:Essonne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  91 ;
+        foaf:name       "Essonne" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Essonne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Essonne> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+<http://concours-etoiles-europe.org/ns#Paris%20%207e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75107 ;
+        foaf:name           "Paris  7e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.854134"^^xsd:float ;
+        w3geo:lat           "2.328395"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%20%207e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+<http://concours-etoiles-europe.org/ns#Paris%20%204e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75104 ;
+        foaf:name           "Paris  4e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.8539541"^^xsd:float ;
+        w3geo:lat           "2.3483307"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%20%204e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Gif-sur-Yvette  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      91272 ;
+        foaf:name           "Gif-sur-Yvette" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Essonne ;
+        w3geo:long          "48.701844"^^xsd:float ;
+        w3geo:lat           "2.134078"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Gif-sur-Yvette> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Essonne .
+
+nous:Essonne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  91 ;
+        foaf:name       "Essonne" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Essonne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Essonne> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+<http://concours-etoiles-europe.org/ns#Paris%2019e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75119 ;
+        foaf:name           "Paris 19e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.878554"^^xsd:float ;
+        w3geo:lat           "2.40299"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%2019e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Dijon  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      21231 ;
+        foaf:name           "Dijon" ;
+        igeo:subdivisionDe  nous:Dijon ;
+        dbp:department      <http://concours-etoiles-europe.org/ns#C%C3%B4te-d'Or> ;
+        w3geo:long          "47.319516"^^xsd:float ;
+        w3geo:lat           "5.065454"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Dijon> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Dijon" ;
+        igeo:codeINSEE      "21701" ;
+        igeo:subdivisionDe  <http://concours-etoiles-europe.org/ns#C%C3%B4te-d'Or> .
+
+<http://concours-etoiles-europe.org/ns#C%C3%B4te-d'Or>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  21 ;
+        foaf:name       "Côte-d'Or" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Bourgogne%20-%20Franche-Comt%C3%A9> ;
+        owl:sameAs      <http://websm.org/projet/C%C3%B4te-d'Or> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/C%C3%B4te-d'Or> .
+
+<http://concours-etoiles-europe.org/ns#Bourgogne%20-%20Franche-Comt%C3%A9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  27 ;
+        foaf:name       "Bourgogne - Franche-Comté" ;
+        owl:sameAs      <http://websm.org/projet/Bourgogne_-_Franche-Comt%C3%A9> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Bourgogne%20-%20Franche-Comt%C3%A9> .
+
+nous:Lille  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      59350 ;
+        foaf:name           "Lille" ;
+        igeo:subdivisionDe  nous:Lille ;
+        dbp:department      nous:Nord ;
+        w3geo:long          "50.611169"^^xsd:float ;
+        w3geo:lat           "3.031671"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Lille> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Lille" ;
+        igeo:codeINSEE      "59702" ;
+        igeo:subdivisionDe  nous:Nord .
+
+nous:Nord  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  59 ;
+        foaf:name       "Nord" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie> ;
+        owl:sameAs      <http://websm.org/projet/Nord> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord> .
+
+<http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  32 ;
+        foaf:name       "Nord-Pas-de-Calais - Picardie" ;
+        owl:sameAs      <http://websm.org/projet/Nord-Pas-de-Calais_-_Picardie> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord-Pas-de-Calais%20-%20Picardie> .
+
+<http://concours-etoiles-europe.org/ns#Villeneuve-d'Ascq>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      59009 ;
+        foaf:name           "Villeneuve-d'Ascq" ;
+        igeo:subdivisionDe  nous:Lille ;
+        dbp:department      nous:Nord ;
+        w3geo:long          "50.60916"^^xsd:float ;
+        w3geo:lat           "3.145993"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Villeneuve-d'Ascq> .
+
+nous:Lille  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Lille" ;
+        igeo:codeINSEE      "59702" ;
+        igeo:subdivisionDe  nous:Nord .
+
+nous:Nord  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  59 ;
+        foaf:name       "Nord" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie> ;
+        owl:sameAs      <http://websm.org/projet/Nord> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord> .
+
+<http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  32 ;
+        foaf:name       "Nord-Pas-de-Calais - Picardie" ;
+        owl:sameAs      <http://websm.org/projet/Nord-Pas-de-Calais_-_Picardie> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord-Pas-de-Calais%20-%20Picardie> .
+
+nous:Toulouse  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      31555 ;
+        foaf:name           "Toulouse" ;
+        igeo:subdivisionDe  nous:Toulouse ;
+        dbp:department      nous:Haute-Garonne ;
+        w3geo:long          "43.5792765"^^xsd:float ;
+        w3geo:lat           "1.4631031"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Toulouse> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Toulouse" ;
+        igeo:codeINSEE      "31701" ;
+        igeo:subdivisionDe  nous:Haute-Garonne .
+
+nous:Haute-Garonne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  31 ;
+        foaf:name       "Haute-Garonne" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://websm.org/projet/Haute-Garonne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Haute-Garonne> .
+
+<http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  76 ;
+        foaf:name       "Languedoc-Roussillon - Midi-Pyrénées" ;
+        owl:sameAs      <http://websm.org/projet/Languedoc-Roussillon_-_Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> .
+
+<http://concours-etoiles-europe.org/ns#Paris%20%205e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75105 ;
+        foaf:name           "Paris  5e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.846615"^^xsd:float ;
+        w3geo:lat           "2.35455"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%20%205e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Senlis  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      60612 ;
+        foaf:name           "Senlis" ;
+        igeo:subdivisionDe  nous:Senlis ;
+        dbp:department      nous:Oise ;
+        w3geo:long          "49.203661"^^xsd:float ;
+        w3geo:lat           "2.606838"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Senlis> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Senlis" ;
+        igeo:codeINSEE      "60306" ;
+        igeo:subdivisionDe  nous:Oise .
+
+nous:Oise  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  60 ;
+        foaf:name       "Oise" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie> ;
+        owl:sameAs      <http://websm.org/projet/Oise> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Oise> .
+
+<http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  32 ;
+        foaf:name       "Nord-Pas-de-Calais - Picardie" ;
+        owl:sameAs      <http://websm.org/projet/Nord-Pas-de-Calais_-_Picardie> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord-Pas-de-Calais%20-%20Picardie> .
+
+nous:Grenoble  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      38185 ;
+        foaf:name           "Grenoble" ;
+        igeo:subdivisionDe  nous:Grenoble ;
+        dbp:department      nous:Isère ;
+        w3geo:long          "45.202502"^^xsd:float ;
+        w3geo:lat           "5.703794"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Grenoble> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Grenoble" ;
+        igeo:codeINSEE      "38701" ;
+        igeo:subdivisionDe  nous:Isère .
+
+nous:Isère  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  38 ;
+        foaf:name       "Isère" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Auvergne%20-%20Rh%C3%B4ne-Alpes> ;
+        owl:sameAs      <http://websm.org/projet/Is%C3%A8re> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Is%C3%A8re> .
+
+<http://concours-etoiles-europe.org/ns#Auvergne%20-%20Rh%C3%B4ne-Alpes>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  84 ;
+        foaf:name       "Auvergne - Rhône-Alpes" ;
+        owl:sameAs      <http://websm.org/projet/Auvergne_-_Rh%C3%B4ne-Alpes> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Auvergne%20-%20Rh%C3%B4ne-Alpes> .
+
+<http://concours-etoiles-europe.org/ns#Le%20Mans>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      72181 ;
+        foaf:name           "Le Mans" ;
+        igeo:subdivisionDe  <http://concours-etoiles-europe.org/ns#Le%20Mans> ;
+        dbp:department      nous:Sarthe ;
+        w3geo:long          "48.014852"^^xsd:float ;
+        w3geo:lat           "0.159131"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Le%20Mans> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Le Mans" ;
+        igeo:codeINSEE      "72701" ;
+        igeo:subdivisionDe  nous:Sarthe .
+
+nous:Sarthe  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  72 ;
+        foaf:name       "Sarthe" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Pays%20de%20la%20Loire> ;
+        owl:sameAs      <http://websm.org/projet/Sarthe> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Sarthe> .
+
+<http://concours-etoiles-europe.org/ns#Pays%20de%20la%20Loire>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  52 ;
+        foaf:name       "Pays de la Loire" ;
+        owl:sameAs      <http://websm.org/projet/Pays_de_la_Loire> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Pays%20de%20la%20Loire> .
+
+nous:Rennes  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      35238 ;
+        foaf:name           "Rennes" ;
+        igeo:subdivisionDe  nous:Rennes ;
+        dbp:department      nous:Ille-et-Vilaine ;
+        w3geo:long          "48.1177"^^xsd:float ;
+        w3geo:lat           "-1.634722"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Rennes> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Rennes" ;
+        igeo:codeINSEE      "35701" ;
+        igeo:subdivisionDe  nous:Ille-et-Vilaine .
+
+nous:Ille-et-Vilaine  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  35 ;
+        foaf:name       "Ille-et-Vilaine" ;
+        dbo:region      nous:Bretagne ;
+        owl:sameAs      <http://websm.org/projet/Ille-et-Vilaine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Ille-et-Vilaine> .
+
+nous:Bretagne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  53 ;
+        foaf:name       "Bretagne" ;
+        owl:sameAs      <http://websm.org/projet/Bretagne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Bretagne> .
+
+nous:Orsay  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      91471 ;
+        foaf:name           "Orsay" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Essonne ;
+        w3geo:long          "48.7565537"^^xsd:float ;
+        w3geo:lat           "2.173664"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Orsay> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Essonne .
+
+nous:Essonne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  91 ;
+        foaf:name       "Essonne" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Essonne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Essonne> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+<http://concours-etoiles-europe.org/ns#Paris%20%205e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75105 ;
+        foaf:name           "Paris  5e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.846615"^^xsd:float ;
+        w3geo:lat           "2.35455"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%20%205e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Aix-en-Provence  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      13001 ;
+        foaf:name           "Aix-en-Provence" ;
+        igeo:subdivisionDe  <http://concours-etoiles-europe.org/ns#Marseille%20-%20Aix-en-Provence> ;
+        dbp:department      nous:Bouches-du-Rhône ;
+        w3geo:long          "43.496426"^^xsd:float ;
+        w3geo:lat           "5.351989"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Aix-en-Provence> .
+
+<http://concours-etoiles-europe.org/ns#Marseille%20-%20Aix-en-Provence>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Marseille - Aix-en-Provence" ;
+        igeo:codeINSEE      "00759" ;
+        igeo:subdivisionDe  nous:Bouches-du-Rhône .
+
+nous:Bouches-du-Rhône
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  13 ;
+        foaf:name       "Bouches-du-Rhône" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Provence-Alpes-C%C3%B4te%20d'Azur> ;
+        owl:sameAs      <http://websm.org/projet/Bouches-du-Rh%C3%B4ne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Bouches-du-Rh%C3%B4ne> .
+
+<http://concours-etoiles-europe.org/ns#Provence-Alpes-C%C3%B4te%20d'Azur>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  93 ;
+        foaf:name       "Provence-Alpes-Côte d'Azur" ;
+        owl:sameAs      <http://websm.org/projet/Provence-Alpes-C%C3%B4te_d'Azur> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Provence-Alpes-C%C3%B4te%20d'Azur> .
+
+<http://concours-etoiles-europe.org/ns#Paris%20%208e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      75108 ;
+        foaf:name           "Paris  8e" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Paris ;
+        w3geo:long          "48.876178"^^xsd:float ;
+        w3geo:lat           "2.297068"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris%20%208e> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Paris ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE      75 ;
+        foaf:name           "Paris" ;
+        dbo:region          nous:Île-de-France ;
+        owl:sameAs          <http://websm.org/projet/Paris> ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Paris> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Perpignan  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      66136 ;
+        foaf:name           "Perpignan" ;
+        igeo:subdivisionDe  nous:Perpignan ;
+        dbp:department      nous:Pyrénées-Orientales ;
+        w3geo:long          "42.6654943"^^xsd:float ;
+        w3geo:lat           "2.9098303"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Perpignan> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Perpignan" ;
+        igeo:codeINSEE      "66601" ;
+        igeo:subdivisionDe  nous:Pyrénées-Orientales .
+
+nous:Pyrénées-Orientales
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  66 ;
+        foaf:name       "Pyrénées-Orientales" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://websm.org/projet/Pyr%C3%A9n%C3%A9es-Orientales> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Pyr%C3%A9n%C3%A9es-Orientales> .
+
+<http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  76 ;
+        foaf:name       "Languedoc-Roussillon - Midi-Pyrénées" ;
+        owl:sameAs      <http://websm.org/projet/Languedoc-Roussillon_-_Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> .
+
+nous:Saint-Gilles  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      35275 ;
+        foaf:name           "Saint-Gilles" ;
+        igeo:subdivisionDe  nous:Saint-Gilles ;
+        dbp:department      nous:Ille-et-Vilaine ;
+        w3geo:long          "48.1413244"^^xsd:float ;
+        w3geo:lat           "-1.8337863"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Saint-Gilles> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Saint-Gilles" ;
+        igeo:codeINSEE      "35117" ;
+        igeo:subdivisionDe  nous:Ille-et-Vilaine .
+
+nous:Ille-et-Vilaine  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  35 ;
+        foaf:name       "Ille-et-Vilaine" ;
+        dbo:region      nous:Bretagne ;
+        owl:sameAs      <http://websm.org/projet/Ille-et-Vilaine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Ille-et-Vilaine> .
+
+nous:Bretagne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  53 ;
+        foaf:name       "Bretagne" ;
+        owl:sameAs      <http://websm.org/projet/Bretagne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Bretagne> .
+
+nous:Montpellier  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      34172 ;
+        foaf:name           "Montpellier" ;
+        igeo:subdivisionDe  nous:Montpellier ;
+        dbp:department      nous:Hérault ;
+        w3geo:long          "43.617041"^^xsd:float ;
+        w3geo:lat           "3.854878"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Montpellier> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Montpellier" ;
+        igeo:codeINSEE      "34701" ;
+        igeo:subdivisionDe  nous:Hérault .
+
+nous:Hérault  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  34 ;
+        foaf:name       "Hérault" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://websm.org/projet/H%C3%A9rault> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/H%C3%A9rault> .
+
+<http://concours-etoiles-europe.org/ns#Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  76 ;
+        foaf:name       "Languedoc-Roussillon - Midi-Pyrénées" ;
+        owl:sameAs      <http://websm.org/projet/Languedoc-Roussillon_-_Midi-Pyr%C3%A9n%C3%A9es> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Languedoc-Roussillon%20-%20Midi-Pyr%C3%A9n%C3%A9es> .
+
+nous:Gif-sur-Yvette  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      91272 ;
+        foaf:name           "Gif-sur-Yvette" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Essonne ;
+        w3geo:long          "48.705109"^^xsd:float ;
+        w3geo:lat           "2.132328"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Gif-sur-Yvette> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Essonne .
+
+nous:Essonne  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  91 ;
+        foaf:name       "Essonne" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Essonne> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Essonne> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Rocquencourt  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      78524 ;
+        foaf:name           "Rocquencourt" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Yvelines ;
+        w3geo:long          "48.837144"^^xsd:float ;
+        w3geo:lat           "2.1107619"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Rocquencourt> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Yvelines .
+
+nous:Yvelines  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  78 ;
+        foaf:name       "Yvelines" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Yvelines> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Yvelines> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Biot  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      6018 ;
+        foaf:name           "Biot" ;
+        igeo:subdivisionDe  nous:Nice ;
+        dbp:department      nous:Alpes-Maritimes ;
+        w3geo:long          "43.613517"^^xsd:float ;
+        w3geo:lat           "7.079587"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Biot> .
+
+nous:Nice  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Nice" ;
+        igeo:codeINSEE      "06701" ;
+        igeo:subdivisionDe  nous:Alpes-Maritimes .
+
+nous:Alpes-Maritimes  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  6 ;
+        foaf:name       "Alpes-Maritimes" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Provence-Alpes-C%C3%B4te%20d'Azur> ;
+        owl:sameAs      <http://websm.org/projet/Alpes-Maritimes> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Alpes-Maritimes> .
+
+<http://concours-etoiles-europe.org/ns#Provence-Alpes-C%C3%B4te%20d'Azur>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  93 ;
+        foaf:name       "Provence-Alpes-Côte d'Azur" ;
+        owl:sameAs      <http://websm.org/projet/Provence-Alpes-C%C3%B4te_d'Azur> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Provence-Alpes-C%C3%B4te%20d'Azur> .
+
+nous:Nantes  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      44109 ;
+        foaf:name           "Nantes" ;
+        igeo:subdivisionDe  nous:Nantes ;
+        dbp:department      nous:Loire-Atlantique ;
+        w3geo:long          "47.22672"^^xsd:float ;
+        w3geo:lat           "-1.547546"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Nantes> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Nantes" ;
+        igeo:codeINSEE      "44701" ;
+        igeo:subdivisionDe  nous:Loire-Atlantique .
+
+nous:Loire-Atlantique
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  44 ;
+        foaf:name       "Loire-Atlantique" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Pays%20de%20la%20Loire> ;
+        owl:sameAs      <http://websm.org/projet/Loire-Atlantique> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Loire-Atlantique> .
+
+<http://concours-etoiles-europe.org/ns#Pays%20de%20la%20Loire>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  52 ;
+        foaf:name       "Pays de la Loire" ;
+        owl:sameAs      <http://websm.org/projet/Pays_de_la_Loire> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Pays%20de%20la%20Loire> .
+
+nous:Schoelcher  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      97229 ;
+        foaf:name           "Schoelcher" ;
+        igeo:subdivisionDe  nous:Fort-de-France ;
+        dbp:department      nous:Martinique ;
+        w3geo:long          "50.627577"^^xsd:float ;
+        w3geo:lat           "3.1245373"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Schoelcher> .
+
+nous:Fort-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Fort-de-France" ;
+        igeo:codeINSEE      "9B601" ;
+        igeo:subdivisionDe  nous:Martinique .
+
+nous:Martinique  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  972 ;
+        foaf:name       "Martinique" ;
+        dbo:region      nous:Martinique ;
+        owl:sameAs      <http://websm.org/projet/Martinique> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Martinique> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  2 ;
+        foaf:name       "Martinique" ;
+        owl:sameAs      <http://websm.org/projet/Martinique> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Martinique> .
+
+nous:Rueil-Malmaison  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      92063 ;
+        foaf:name           "Rueil-Malmaison" ;
+        igeo:subdivisionDe  nous:Paris ;
+        dbp:department      nous:Hauts-de-Seine ;
+        w3geo:long          "48.876713"^^xsd:float ;
+        w3geo:lat           "2.173826"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Rueil-Malmaison> .
+
+nous:Paris  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Paris" ;
+        igeo:codeINSEE      "00851" ;
+        igeo:subdivisionDe  nous:Hauts-de-Seine .
+
+nous:Hauts-de-Seine  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  92 ;
+        foaf:name       "Hauts-de-Seine" ;
+        dbo:region      nous:Île-de-France ;
+        owl:sameAs      <http://websm.org/projet/Hauts-de-Seine> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Hauts-de-Seine> .
+
+nous:Île-de-France  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  11 ;
+        foaf:name       "Île-de-France" ;
+        owl:sameAs      <http://websm.org/projet/%C3%8Ele-de-France> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/%C3%8Ele-de-France> .
+
+nous:Amiens  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      80021 ;
+        foaf:name           "Amiens" ;
+        igeo:subdivisionDe  nous:Amiens ;
+        dbp:department      nous:Somme ;
+        w3geo:long          "49.899049"^^xsd:float ;
+        w3geo:lat           "2.300528"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Amiens> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Amiens" ;
+        igeo:codeINSEE      "80601" ;
+        igeo:subdivisionDe  nous:Somme .
+
+nous:Somme  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  80 ;
+        foaf:name       "Somme" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie> ;
+        owl:sameAs      <http://websm.org/projet/Somme> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Somme> .
+
+<http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  32 ;
+        foaf:name       "Nord-Pas-de-Calais - Picardie" ;
+        owl:sameAs      <http://websm.org/projet/Nord-Pas-de-Calais_-_Picardie> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord-Pas-de-Calais%20-%20Picardie> .
+
+nous:Tourcoing  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Settlement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:CommuneOuAssimilee ;
+        dbp:postalCode      59599 ;
+        foaf:name           "Tourcoing" ;
+        igeo:subdivisionDe  nous:Lille ;
+        dbp:department      nous:Nord ;
+        w3geo:long          "50.706835"^^xsd:float ;
+        w3geo:lat           "3.164579"^^xsd:float ;
+        owl:sameAs          <http://fr.dbpedia.org/page/Tourcoing> .
+
+nous:Lille  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:UniteUrbaine ;
+        igeo:nom            "Lille" ;
+        igeo:codeINSEE      "59702" ;
+        igeo:subdivisionDe  nous:Nord .
+
+nous:Nord  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  igeo:Departement ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:Department ;
+        igeo:codeINSEE  59 ;
+        foaf:name       "Nord" ;
+        dbo:region      <http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie> ;
+        owl:sameAs      <http://websm.org/projet/Nord> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord> .
+
+<http://concours-etoiles-europe.org/ns#Nord-Pas-de-Calais%20-%20Picardie>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  dbo:region ;
+        igeo:codeINSEE  32 ;
+        foaf:name       "Nord-Pas-de-Calais - Picardie" ;
+        owl:sameAs      <http://websm.org/projet/Nord-Pas-de-Calais_-_Picardie> ;
+        owl:sameAs      <http://fr.dbpedia.org/page/Nord-Pas-de-Calais%20-%20Picardie> .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Innovation>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Innovation" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Innovation" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+nous:2013  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+nous:2013  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+<http://concours-etoiles-europe.org/ns#2016-Prix%20sp%C3%A9cial%20du%20jury>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Prix spécial du jury" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Science%20ouverte>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Science ouverte" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Science%20ouverte>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Science ouverte" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+nous:2013  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+nous:2014  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 .
+
+nous:2013  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Renouvellement>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Renouvellement" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+nous:2014  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Science%20ouverte>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Science ouverte" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+nous:2014  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+nous:2013  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Innovation>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Innovation" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Renouvellement>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Renouvellement" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Renouvellement" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+nous:2014  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Renouvellement>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Renouvellement" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+nous:2014  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 .
+
+nous:2015  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  3 ;
+        nous:edition         2015 .
+
+nous:2013  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 .
+
+<http://concours-etoiles-europe.org/ns#2016-Mention%20Science%20ouverte>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:mention         "Mention Science ouverte" ;
+        nous:numero_edition  4 ;
+        nous:edition         2016 .
+
+nous:2014  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 .
+
+nous:2013  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 .
+
+nous:2014  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  2 ;
+        nous:edition         2014 .
+
+nous:2013  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  nous:EtoilesDeLeurope ;
+        nous:typeDePrix      "Etoiles de l'Europe" ;
+        nous:numero_edition  1 ;
+        nous:edition         2013 .
