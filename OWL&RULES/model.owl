@@ -1,0 +1,231 @@
+@prefix : <http://localhost:8000/MT180.owl#> .
+@prefix ex: <http://www.example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@base <http://localhost:8000/MT180.owl> .
+
+<http://localhost:8000/MT180.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://schema.org/alumni
+schema:alumni rdf:type owl:ObjectProperty ;
+              owl:inverseOf schema:alumniOf ;
+              rdfs:domain schema:Organization ;
+              rdfs:range schema:Person .
+
+
+###  http://schema.org/alumniOf
+schema:alumniOf rdf:type owl:ObjectProperty ;
+                rdfs:domain schema:Person ;
+                rdfs:range schema:Organization .
+
+
+###  http://schema.org/author
+schema:author rdf:type owl:ObjectProperty ;
+              owl:inverseOf ex:hasAuthor ;
+              rdfs:domain schema:CreativeWork ;
+              rdfs:range [ rdf:type owl:Class ;
+                           owl:unionOf ( schema:Organization
+                                         schema:Person
+                                       )
+                         ] .
+
+
+###  http://schema.org/employee
+schema:employee rdf:type owl:ObjectProperty ;
+                owl:inverseOf schema:worksFor ;
+                rdfs:domain schema:Organization ;
+                rdfs:range schema:Person .
+
+
+###  http://schema.org/identifier
+schema:identifier rdf:type owl:ObjectProperty ;
+                  rdfs:domain owl:Thing ;
+                  rdfs:range schema:URL .
+
+
+###  http://schema.org/location
+schema:location rdf:type owl:ObjectProperty ;
+                rdfs:domain schema:Organization ;
+                rdfs:range schema:GeoCoordinates .
+
+
+###  http://schema.org/mainEntity
+schema:mainEntity rdf:type owl:ObjectProperty ;
+                  owl:inverseOf schema:mainEntityOfPage ;
+                  rdfs:domain schema:CreativeWork ;
+                  rdfs:range owl:Thing .
+
+
+###  http://schema.org/mainEntityOfPage
+schema:mainEntityOfPage rdf:type owl:ObjectProperty ;
+                        rdfs:domain owl:Thing ;
+                        rdfs:range [ rdf:type owl:Class ;
+                                     owl:unionOf ( schema:CreativeWork
+                                                   schema:URL
+                                                 )
+                                   ] .
+
+
+###  http://schema.org/publishingPrinciples
+schema:publishingPrinciples rdf:type owl:ObjectProperty ;
+                            rdfs:domain [ rdf:type owl:Class ;
+                                          owl:unionOf ( schema:CreativeWork
+                                                        schema:Organization
+                                                        schema:Person
+                                                      )
+                                        ] ;
+                            rdfs:range [ rdf:type owl:Class ;
+                                         owl:unionOf ( schema:CreativeWork
+                                                       schema:URL
+                                                     )
+                                       ] .
+
+
+###  http://schema.org/url
+schema:url rdf:type owl:ObjectProperty ;
+           rdfs:domain owl:Thing ;
+           rdfs:range schema:URL .
+
+
+###  http://schema.org/worksFor
+schema:worksFor rdf:type owl:ObjectProperty ;
+                rdfs:domain schema:Person ;
+                rdfs:range schema:Organization .
+
+
+###  http://www.example.org/hasAuthor
+ex:hasAuthor rdf:type owl:ObjectProperty ;
+             rdfs:domain schema:CreativeWork ;
+             rdfs:range [ rdf:type owl:Class ;
+                          owl:unionOf ( schema:Organization
+                                        schema:Person
+                                      )
+                        ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://schema.org/award
+schema:award rdf:type owl:DatatypeProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( schema:CreativeWork
+                                         schema:Organization
+                                         schema:Person
+                                       )
+                         ] ;
+             rdfs:range rdfs:Literal .
+
+
+###  http://schema.org/familyName
+schema:familyName rdf:type owl:DatatypeProperty ;
+                  rdfs:domain schema:Person ;
+                  rdfs:range rdfs:Literal .
+
+
+###  http://schema.org/gender
+schema:gender rdf:type owl:DatatypeProperty ;
+              rdfs:domain schema:Person ;
+              rdfs:range rdfs:Literal .
+
+
+###  http://schema.org/givenName
+schema:givenName rdf:type owl:DatatypeProperty ;
+                 rdfs:domain schema:Person ;
+                 rdfs:range rdfs:Literal .
+
+
+###  http://schema.org/headline
+schema:headline rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:CreativeWork ;
+                rdfs:range rdfs:Literal .
+
+
+###  http://schema.org/identifier
+schema:identifier rdf:type owl:DatatypeProperty ;
+                  rdfs:domain owl:Thing ;
+                  rdfs:range rdfs:Literal .
+
+
+###  http://schema.org/latitude
+schema:latitude rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:GeoCoordinates ;
+                rdfs:range xsd:float .
+
+
+###  http://schema.org/longitue
+schema:longitue rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:GeoCoordinates ;
+                rdfs:range xsd:float .
+
+
+###  http://schema.org/name
+schema:name rdf:type owl:DatatypeProperty ;
+            rdfs:domain owl:Thing ;
+            rdfs:range rdfs:Literal .
+
+
+###  http://schema.org/position
+schema:position rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:CreativeWork ;
+                rdfs:range rdfs:Literal .
+
+
+###  http://schema.org/temporalCoverage
+schema:temporalCoverage rdf:type owl:DatatypeProperty ;
+                        rdfs:domain schema:CreativeWork ;
+                        rdfs:range rdfs:Literal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://schema.org/BroadcastChannel
+schema:BroadcastChannel rdf:type owl:Class .
+
+
+###  http://schema.org/CollegeOrUniversity
+schema:CollegeOrUniversity rdf:type owl:Class ;
+                           rdfs:subClassOf schema:Organization .
+
+
+###  http://schema.org/CreativeWork
+schema:CreativeWork rdf:type owl:Class .
+
+
+###  http://schema.org/GeoCoordinates
+schema:GeoCoordinates rdf:type owl:Class .
+
+
+###  http://schema.org/Organization
+schema:Organization rdf:type owl:Class .
+
+
+###  http://schema.org/Person
+schema:Person rdf:type owl:Class .
+
+
+###  http://schema.org/Place
+schema:Place rdf:type owl:Class .
+
+
+###  http://schema.org/URL
+schema:URL rdf:type owl:Class .
+
+
+###  http://schema.org/WebSite
+schema:WebSite rdf:type owl:Class ;
+               rdfs:subClassOf schema:CreativeWork .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
