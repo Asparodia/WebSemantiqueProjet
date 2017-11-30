@@ -1,0 +1,83 @@
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+CONSTRUCT {
+     
+    ?maThese rdf:type schema:WebSite;
+        schema:mainEntity ?youtubeMT180URI;
+        schema:mainEntity ?facebookMT180URI;
+        schema:mainEntity ?twitterMT180URI;
+        schema:mainEntity ?blogMT180URI;
+        schema:publishingPrinciples ?URI.
+
+
+    ?youtubeMT180URI rdf:type schema:BroadcastChannel.
+
+    ?facebookMT180URI rdf:type schema:URL.
+
+    ?twitterMT180URI rdf:type schema:URL.
+
+    ?blogMT180URI rdf:type schema:URL.
+
+    _:a rdf:type schema:Person;
+        schema:familyName ?nom;
+        schema:givenName ?prenom;
+        schema:gender ?sexe;
+        schema:identifier ?idRef;
+        schema:identifier ?lienIdRef;
+        schema:worksFor _:b;
+        schema:alumniOf _:c;
+        schema:publishingPrinciples ?URI.
+
+
+    ?URI rdf:type schema:CreativeWork;
+        schema:headline ?titreThese;
+        schema:author _:a;
+        schema:url ?lienVersThesesFr;
+        schema:genre ?niveau;
+        schema:name ?typeConcours;
+        schema:position ?echelle;
+        schema:award ?prix;
+        schema:temporalCoverage ?millesime.
+
+
+    _:b rdf:type schema:Organization;
+        schema:identifier ?codeLaboratoire;
+        schema:name ?laboratoire;
+        schema:identifier ?ficheScanRURI.
+    
+
+    _:c rdf:type schema:CollegeOrUniversity;
+        schema:identifier ?codeEtablissement;
+        schema:name ?etablissement;
+        owl:sameAs ?sameEtab;
+        schema:location _:l.
+
+	_:l rdf:type schema:Place;
+		schema:geo _:geoCoor.
+
+    
+		
+	_:geoCoor rdf:type schema:GeoCoordinates;
+		schema:latitude ?latitudeEtablissement;
+		schema:longitue ?longitudeEtablissement.
+
+}
+FROM <file:maThesefrance.csv>
+FROM NAMED <file:donnees.rdf>
+WHERE {
+  BIND(URI("http://localhost:3333/"+?etablissement) AS ?sameEtab)
+  BIND(URI("http://mt180.fr/") AS ?maThese)
+  BIND(URI(?video) AS ?URI)
+  BIND(URI(?ficheScanR) AS ?ficheScanRURI)
+  BIND(URI(?blogMT180) AS ?blogMT180URI)
+  BIND(URI(?twitterMT180) AS ?twitterMT180URI)
+  BIND(URI(?facebookMT180) AS ?facebookMT180URI)
+  BIND(URI(?youtubeMT180) AS ?youtubeMT180URI)
+}
