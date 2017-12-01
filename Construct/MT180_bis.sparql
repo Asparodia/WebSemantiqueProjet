@@ -6,6 +6,8 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX schema: <http://schema.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 
 CONSTRUCT {
      
@@ -16,14 +18,16 @@ CONSTRUCT {
         schema:mainEntity ?blogMT180URI;
         schema:publishingPrinciples ?URI.
 
+
     _:a 
         schema:familyName ?nom;
         schema:givenName ?prenom;
         schema:gender ?sexe;
         schema:identifier ?idRef;
         schema:identifier ?lienIdRef;
-        schema:worksFor _:b;
-        schema:alumniOf _:c;
+        owl:sameAs ?lienIdRefUri;
+        schema:worksFor ?codeLaboratoireUri;
+        schema:alumniOf ?codeEtablissementUri;
         schema:publishingPrinciples ?URI.
 
 
@@ -38,37 +42,55 @@ CONSTRUCT {
         schema:temporalCoverage ?millesime.
 
 
-    _:b 
+   ?codeLaboratoireUri 
         schema:identifier ?codeLaboratoire;
         schema:name ?laboratoire;
-        schema:identifier ?ficheScanRURI.
+        schema:identifier ?ficheScanR;
+        owl:sameAs ?ficheScanRURI;
+        owl:sameAs ?codeLaboratoireUri.
     
 
-    _:c 
+    ?codeEtablissementUri 
         schema:identifier ?codeEtablissement;
         schema:name ?etablissement;
-        owl:sameAs ?sameEtab;
-        schema:location _:l.
+        schema:location _:l;
+        schema:sameAs ?codeEtablissementUri.
 
-	_:l 
+	_:l rdf:type schema:Place;
 		schema:geo _:geoCoor.
 
     
 		
 	_:geoCoor 
-		schema:latitude ?latitudeEtablissement;
-		schema:longitue ?longitudeEtablissement.
+		schema:latitude ?latitudeEtablissementB;
+		schema:longitue ?longitudeEtablissementB.
 
 }
 FROM <file:maThesefrance.csv>
-FROM NAMED <file:donnees.rdf>
 WHERE {
-  BIND(URI("http://localhost:3333/"+?etablissement) AS ?sameEtab)
-  BIND(URI("http://mt180.fr/") AS ?maThese)
-  BIND(URI(?video) AS ?URI)
-  BIND(URI(?ficheScanR) AS ?ficheScanRURI)
-  BIND(URI(?blogMT180) AS ?blogMT180URI)
-  BIND(URI(?twitterMT180) AS ?twitterMT180URI)
-  BIND(URI(?facebookMT180) AS ?facebookMT180URI)
-  BIND(URI(?youtubeMT180) AS ?youtubeMT180URI)
+    BIND(STRAFTER(?CodeLaboratoire, ";") AS ?codeLaboratoireBis)
+    BIND(
+        if(?codeLaboratoireBis!="",
+            ?codeLaboratoireBis,
+            ?CodeLaboratoire
+            
+            
+        ) AS ?codeLaboratoire
+    )
+    BIND(URI(?codeLaboratoire) AS ?codeLaboratoireUri)
+    BIND(URI(?codeEtablissement) AS ?codeEtablissementUri)
+    BIND(URI(?lienIdRef) AS ?lienIdRefUri)
+
+    BIND(xsd:float(?latitudeEtablissement) AS ?latitudeEtablissementB)
+    BIND(xsd:float(?longitudeEtablissement) AS ?longitudeEtablissementB)
+     
+    
+    BIND(URI("http://mt180.fr/") AS ?maThese)
+    BIND(URI(?video) AS ?URI)
+    BIND(URI(?ficheScanR) AS ?ficheScanRURI)
+    BIND(URI(?blogMT180) AS ?blogMT180URI)
+    BIND(URI(?twitterMT180) AS ?twitterMT180URI)
+    BIND(URI(?facebookMT180) AS ?facebookMT180URI)
+    BIND(URI(?youtubeMT180) AS ?youtubeMT180URI)
+    Filter not exists{?codeEtablissementUri schema:identifier  ?codeEtablissement}
 }
