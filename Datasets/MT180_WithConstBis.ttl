@@ -41,9 +41,10 @@ _:b0    schema:familyName            "PACINI" ;
         schema:sameAs      <0755598C> .
 
 _:b1    rdf:type    schema:Place ;
-        schema:geo  _:b2 .
+        schema:geo  <GEO-48.836066-2.37187> .
 
-_:b2    schema:latitude  "48.836066"^^xsd:float ;
+<GEO-48.836066-2.37187>
+        schema:latitude  "48.836066"^^xsd:float ;
         schema:longitue  "2.37187"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -52,7 +53,7 @@ _:b2    schema:latitude  "48.836066"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/96loSvYH-sE> .
 
-_:b3    schema:familyName            "COCHARD" ;
+_:b2    schema:familyName            "COCHARD" ;
         schema:givenName             "Bertrand" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200815548V> ;
@@ -61,7 +62,7 @@ _:b3    schema:familyName            "COCHARD" ;
 
 <https://www.youtube.com/embed/96loSvYH-sE>
         schema:headline          "Figures de l'alienation dans l'oeuvre de Guy Debord" ;
-        schema:author            _:b3 ;
+        schema:author            _:b2 ;
         schema:url               "http://www.theses.fr/s159199" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -77,13 +78,14 @@ _:b3    schema:familyName            "COCHARD" ;
 
 <0062126D>  schema:identifier  "0062126D" ;
         schema:name        "Université Côte d'Azur" ;
-        schema:location    _:b4 ;
+        schema:location    _:b3 ;
         schema:sameAs      <0062126D> .
 
-_:b4    rdf:type    schema:Place ;
-        schema:geo  _:b5 .
+_:b3    rdf:type    schema:Place ;
+        schema:geo  <GEO-43.716324-7.269781> .
 
-_:b5    schema:latitude  "43.716324"^^xsd:float ;
+<GEO-43.716324-7.269781>
+        schema:latitude  "43.716324"^^xsd:float ;
         schema:longitue  "7.269781"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -92,7 +94,7 @@ _:b5    schema:latitude  "43.716324"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/Su2cPSUwL1U> .
 
-_:b6    schema:familyName            "BERMENT" ;
+_:b4    schema:familyName            "BERMENT" ;
         schema:givenName             "Perrine" ;
         schema:gender                "Féminin" ;
         schema:identifier            "195088557" ;
@@ -104,7 +106,7 @@ _:b6    schema:familyName            "BERMENT" ;
 
 <https://www.youtube.com/embed/Su2cPSUwL1U>
         schema:headline          "Modélisation mathématiques de tumeurs cérébrales de bas grade et assimilation de données cliniques d'imagerie" ;
-        schema:author            _:b6 ;
+        schema:author            _:b4 ;
         schema:url               "http://www.theses.fr/s134777" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -119,13 +121,14 @@ _:b6    schema:familyName            "BERMENT" ;
 
 <0333178A>  schema:identifier  "0333178A" ;
         schema:name        "Communauté d'universités et établissements d'Aquitaine" ;
-        schema:location    _:b7 ;
+        schema:location    _:b5 ;
         schema:sameAs      <0333178A> .
 
-_:b7    rdf:type    schema:Place ;
-        schema:geo  _:b8 .
+_:b5    rdf:type    schema:Place ;
+        schema:geo  <GEO-44.825325--0.577763> .
 
-_:b8    schema:latitude  "44.825325"^^xsd:float ;
+<GEO-44.825325--0.577763>
+        schema:latitude  "44.825325"^^xsd:float ;
         schema:longitue  "-0.577763"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -134,7 +137,7 @@ _:b8    schema:latitude  "44.825325"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/X4ioSjEdot4> .
 
-_:b9    schema:familyName            "ROY" ;
+_:b6    schema:familyName            "ROY" ;
         schema:givenName             "Charlotte" ;
         schema:gender                "Féminin" ;
         schema:identifier            "20083388X" ;
@@ -146,7 +149,7 @@ _:b9    schema:familyName            "ROY" ;
 
 <https://www.youtube.com/embed/X4ioSjEdot4>
         schema:headline          "Effet de la stimulation rythmique audio-tactile sur les mouvements de coordination" ;
-        schema:author            _:b9 ;
+        schema:author            _:b6 ;
         schema:url               "http://www.theses.fr/s142603" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -161,13 +164,14 @@ _:b9    schema:familyName            "ROY" ;
 
 <0342255S>  schema:identifier  "0342255S" ;
         schema:name        "Languedoc-Roussillon Universités" ;
-        schema:location    _:b10 ;
+        schema:location    _:b7 ;
         schema:sameAs      <0342255S> .
 
-_:b10   rdf:type    schema:Place ;
-        schema:geo  _:b11 .
+_:b7    rdf:type    schema:Place ;
+        schema:geo  <GEO-43.615855-3.871992> .
 
-_:b11   schema:latitude  "43.615855"^^xsd:float ;
+<GEO-43.615855-3.871992>
+        schema:latitude  "43.615855"^^xsd:float ;
         schema:longitue  "3.871992"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -176,7 +180,7 @@ _:b11   schema:latitude  "43.615855"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/c4-vAk2JZME> .
 
-_:b12   schema:familyName            "CRUZ" ;
+_:b8    schema:familyName            "CRUZ" ;
         schema:givenName             "Justine" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <199512085M> ;
@@ -185,7 +189,7 @@ _:b12   schema:familyName            "CRUZ" ;
 
 <https://www.youtube.com/embed/c4-vAk2JZME>
         schema:headline          "Etude de la contamination par les pesticides des milieux eau, air et sols : développement de nouveaux outils et application à l’estuaire de la Gironde" ;
-        schema:author            _:b12 ;
+        schema:author            _:b8 ;
         schema:url               "http://www.theses.fr/2015BORD0221" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -200,13 +204,14 @@ _:b12   schema:familyName            "CRUZ" ;
 
 <0333178A>  schema:identifier  "0333178A" ;
         schema:name        "Communauté d'universités et établissements d'Aquitaine" ;
-        schema:location    _:b13 ;
+        schema:location    _:b9 ;
         schema:sameAs      <0333178A> .
 
-_:b13   rdf:type    schema:Place ;
-        schema:geo  _:b14 .
+_:b9    rdf:type    schema:Place ;
+        schema:geo  <GEO-44.825325--0.577763> .
 
-_:b14   schema:latitude  "44.825325"^^xsd:float ;
+<GEO-44.825325--0.577763>
+        schema:latitude  "44.825325"^^xsd:float ;
         schema:longitue  "-0.577763"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -215,7 +220,7 @@ _:b14   schema:latitude  "44.825325"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/T0Fi8KOEo84> .
 
-_:b15   schema:familyName            "DUMONTEIL" ;
+_:b10   schema:familyName            "DUMONTEIL" ;
         schema:givenName             "Geoffrey" ;
         schema:gender                "Masculin" ;
         schema:identifier            "194701158" ;
@@ -227,7 +232,7 @@ _:b15   schema:familyName            "DUMONTEIL" ;
 
 <https://www.youtube.com/embed/T0Fi8KOEo84>
         schema:headline          "Synthèse et pharmacomodulation de composés naturels" ;
-        schema:author            _:b15 ;
+        schema:author            _:b10 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -241,13 +246,14 @@ _:b15   schema:familyName            "DUMONTEIL" ;
 
 <0861420B>  schema:identifier  "0861420B" ;
         schema:name        "Université confédérale Léonard de Vinci" ;
-        schema:location    _:b16 ;
+        schema:location    _:b11 ;
         schema:sameAs      <0861420B> .
 
-_:b16   rdf:type    schema:Place ;
-        schema:geo  _:b17 .
+_:b11   rdf:type    schema:Place ;
+        schema:geo  <GEO-46.586013-0.345772> .
 
-_:b17   schema:latitude  "46.586013"^^xsd:float ;
+<GEO-46.586013-0.345772>
+        schema:latitude  "46.586013"^^xsd:float ;
         schema:longitue  "0.345772"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -256,7 +262,7 @@ _:b17   schema:latitude  "46.586013"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/5ih33Y1GSzk> .
 
-_:b18   schema:familyName            "SAPEY-TRIOMPHE" ;
+_:b12   schema:familyName            "SAPEY-TRIOMPHE" ;
         schema:givenName             "Laurie-Anne" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201119399T> ;
@@ -265,7 +271,7 @@ _:b18   schema:familyName            "SAPEY-TRIOMPHE" ;
 
 <https://www.youtube.com/embed/5ih33Y1GSzk>
         schema:headline          "Inférence et apprentissage perceptifs dans l'autisme : une approche neurophysiologique et comportementale" ;
-        schema:author            _:b18 ;
+        schema:author            _:b12 ;
         schema:url               "http://www.theses.fr/s101896" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -280,13 +286,14 @@ _:b18   schema:familyName            "SAPEY-TRIOMPHE" ;
 
 <0694094A>  schema:identifier  "0694094A" ;
         schema:name        "Université de Lyon" ;
-        schema:location    _:b19 ;
+        schema:location    _:b13 ;
         schema:sameAs      <0694094A> .
 
-_:b19   rdf:type    schema:Place ;
-        schema:geo  _:b20 .
+_:b13   rdf:type    schema:Place ;
+        schema:geo  <GEO-45.748414-4.836668> .
 
-_:b20   schema:latitude  "45.748414"^^xsd:float ;
+<GEO-45.748414-4.836668>
+        schema:latitude  "45.748414"^^xsd:float ;
         schema:longitue  "4.836668"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -295,7 +302,7 @@ _:b20   schema:latitude  "45.748414"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/8ZCS6p9mhGk> .
 
-_:b21   schema:familyName            "NHAT PHAM" ;
+_:b14   schema:familyName            "NHAT PHAM" ;
         schema:givenName             "Than" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200815504X> ;
@@ -304,7 +311,7 @@ _:b21   schema:familyName            "NHAT PHAM" ;
 
 <https://www.youtube.com/embed/8ZCS6p9mhGk>
         schema:headline          "Caractérisation et modélisation du comportement thermodynamique du combustible RNR-Na sous irradiation" ;
-        schema:author            _:b21 ;
+        schema:author            _:b14 ;
         schema:url               "http://www.theses.fr/2014AIXM4044" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -319,13 +326,14 @@ _:b21   schema:familyName            "NHAT PHAM" ;
 
 <0251985X>  schema:identifier  "0251985X" ;
         schema:name        "Université Bourgogne - Franche-Comté" ;
-        schema:location    _:b22 ;
+        schema:location    _:b15 ;
         schema:sameAs      <0251985X> .
 
-_:b22   rdf:type    schema:Place ;
-        schema:geo  _:b23 .
+_:b15   rdf:type    schema:Place ;
+        schema:geo  <GEO-47.248103-5.991326> .
 
-_:b23   schema:latitude  "47.248103"^^xsd:float ;
+<GEO-47.248103-5.991326>
+        schema:latitude  "47.248103"^^xsd:float ;
         schema:longitue  "5.991326"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -334,7 +342,7 @@ _:b23   schema:latitude  "47.248103"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/oMGMg051A4Y> .
 
-_:b24   schema:familyName            "PERROT" ;
+_:b16   schema:familyName            "PERROT" ;
         schema:givenName             "Thomas" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200117307M> ;
@@ -343,7 +351,7 @@ _:b24   schema:familyName            "PERROT" ;
 
 <https://www.youtube.com/embed/oMGMg051A4Y>
         schema:headline          "Diversité fonctionnelle des systèmes de détoxication des champignons lignolytiques" ;
-        schema:author            _:b24 ;
+        schema:author            _:b16 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -357,13 +365,14 @@ _:b24   schema:familyName            "PERROT" ;
 
 <0542493S>  schema:identifier  "0542493S" ;
         schema:name        "Université de Lorraine" ;
-        schema:location    _:b25 ;
+        schema:location    _:b17 ;
         schema:sameAs      <0542493S> .
 
-_:b25   rdf:type    schema:Place ;
-        schema:geo  _:b26 .
+_:b17   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.6962-6.17634> .
 
-_:b26   schema:latitude  "48.6962"^^xsd:float ;
+<GEO-48.6962-6.17634>
+        schema:latitude  "48.6962"^^xsd:float ;
         schema:longitue  "6.17634"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -372,7 +381,7 @@ _:b26   schema:latitude  "48.6962"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/HCRb308MXb8> .
 
-_:b27   schema:familyName            "JACQUELINE" ;
+_:b18   schema:familyName            "JACQUELINE" ;
         schema:givenName             "Camille" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201119437J> ;
@@ -381,7 +390,7 @@ _:b27   schema:familyName            "JACQUELINE" ;
 
 <https://www.youtube.com/embed/HCRb308MXb8>
         schema:headline          "Communauté d'agents pathogènes et incidence des cancers : Le rôle de l'écologie du système immunitaire." ;
-        schema:author            _:b27 ;
+        schema:author            _:b18 ;
         schema:url               "http://www.theses.fr/s152606" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -396,13 +405,14 @@ _:b27   schema:familyName            "JACQUELINE" ;
 
 <0342255S>  schema:identifier  "0342255S" ;
         schema:name        "Languedoc-Roussillon Universités" ;
-        schema:location    _:b28 ;
+        schema:location    _:b19 ;
         schema:sameAs      <0342255S> .
 
-_:b28   rdf:type    schema:Place ;
-        schema:geo  _:b29 .
+_:b19   rdf:type    schema:Place ;
+        schema:geo  <GEO-43.615855-3.871992> .
 
-_:b29   schema:latitude  "43.615855"^^xsd:float ;
+<GEO-43.615855-3.871992>
+        schema:latitude  "43.615855"^^xsd:float ;
         schema:longitue  "3.871992"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -411,7 +421,7 @@ _:b29   schema:latitude  "43.615855"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/JxQY-0N1Sgk> .
 
-_:b30   schema:familyName            "HAUTBERGUE" ;
+_:b20   schema:familyName            "HAUTBERGUE" ;
         schema:givenName             "Thaïs" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201119649P> ;
@@ -420,7 +430,7 @@ _:b30   schema:familyName            "HAUTBERGUE" ;
 
 <https://www.youtube.com/embed/JxQY-0N1Sgk>
         schema:headline          "Caractérisation chimique et toxicologique du metabolome secondaire de Penicillium et Fusarium par marquage isotopique et spectrométrie de masse." ;
-        schema:author            _:b30 ;
+        schema:author            _:b20 ;
         schema:url               "http://www.theses.fr/s159716" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -435,13 +445,14 @@ _:b30   schema:familyName            "HAUTBERGUE" ;
 
 <0312758E>  schema:identifier  "0312758E" ;
         schema:name        "Université fédérale de Toulouse Midi-Pyrénées" ;
-        schema:location    _:b31 ;
+        schema:location    _:b21 ;
         schema:sameAs      <0312758E> .
 
-_:b31   rdf:type    schema:Place ;
-        schema:geo  _:b32 .
+_:b21   rdf:type    schema:Place ;
+        schema:geo  <GEO-43.594874-1.451321> .
 
-_:b32   schema:latitude  "43.594874"^^xsd:float ;
+<GEO-43.594874-1.451321>
+        schema:latitude  "43.594874"^^xsd:float ;
         schema:longitue  "1.451321"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -450,7 +461,7 @@ _:b32   schema:latitude  "43.594874"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/0Pgg-UzTfxM> .
 
-_:b33   schema:familyName            "QUILLET" ;
+_:b22   schema:familyName            "QUILLET" ;
         schema:givenName             "Aurélien" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <201019271H> ;
@@ -459,7 +470,7 @@ _:b33   schema:familyName            "QUILLET" ;
 
 <https://www.youtube.com/embed/0Pgg-UzTfxM>
         schema:headline          "Rôle des micro ARNo dans le contrôle de la sécrétion par les phéochromocytomes." ;
-        schema:author            _:b33 ;
+        schema:author            _:b22 ;
         schema:url               "http://www.theses.fr/s149257" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -474,13 +485,14 @@ _:b33   schema:familyName            "QUILLET" ;
 
 <0142382N>  schema:identifier  "0142382N" ;
         schema:name        "Normandie Université" ;
-        schema:location    _:b34 ;
+        schema:location    _:b23 ;
         schema:sameAs      <0142382N> .
 
-_:b34   rdf:type    schema:Place ;
-        schema:geo  _:b35 .
+_:b23   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.188964--0.363963> .
 
-_:b35   schema:latitude  "49.188964"^^xsd:float ;
+<GEO-49.188964--0.363963>
+        schema:latitude  "49.188964"^^xsd:float ;
         schema:longitue  "-0.363963"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -489,7 +501,7 @@ _:b35   schema:latitude  "49.188964"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/JgVt4rTGyWk> .
 
-_:b36   schema:familyName            "GUIBBAL" ;
+_:b24   schema:familyName            "GUIBBAL" ;
         schema:givenName             "Florian" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <201019068M> ;
@@ -498,7 +510,7 @@ _:b36   schema:familyName            "GUIBBAL" ;
 
 <https://www.youtube.com/embed/JgVt4rTGyWk>
         schema:headline          "Nouveaux outils pour la détection précoce des plaques d'athérome vulnérables en imagerie TEP." ;
-        schema:author            _:b36 ;
+        schema:author            _:b24 ;
         schema:url               "http://www.theses.fr/s159515" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -513,13 +525,14 @@ _:b36   schema:familyName            "GUIBBAL" ;
 
 <9740478B>  schema:identifier  "9740478B" ;
         schema:name        "Université de La Réunion" ;
-        schema:location    _:b37 ;
+        schema:location    _:b25 ;
         schema:sameAs      <9740478B> .
 
-_:b37   rdf:type    schema:Place ;
-        schema:geo  _:b38 .
+_:b25   rdf:type    schema:Place ;
+        schema:geo  <GEO--20.9019-55.4843> .
 
-_:b38   schema:latitude  "-20.9019"^^xsd:float ;
+<GEO--20.9019-55.4843>
+        schema:latitude  "-20.9019"^^xsd:float ;
         schema:longitue  "55.4843"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -528,7 +541,7 @@ _:b38   schema:latitude  "-20.9019"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/-HAEt1Rh0RY> .
 
-_:b39   schema:familyName            "CHAMBAULT" ;
+_:b26   schema:familyName            "CHAMBAULT" ;
         schema:givenName             "Philippine" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200612557C> ;
@@ -537,7 +550,7 @@ _:b39   schema:familyName            "CHAMBAULT" ;
 
 <https://www.youtube.com/embed/-HAEt1Rh0RY>
         schema:headline          "Influence des processus méso-échelle sur la distribution et les mouvements des tortues marines" ;
-        schema:author            _:b39 ;
+        schema:author            _:b26 ;
         schema:url               "http://www.theses.fr/s102443" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -552,13 +565,13 @@ _:b39   schema:familyName            "CHAMBAULT" ;
 
 <0673021V>  schema:identifier  "0673021V" ;
         schema:name        "Université de Strasbourg" ;
-        schema:location    _:b40 ;
+        schema:location    _:b27 ;
         schema:sameAs      <0673021V> .
 
-_:b40   rdf:type    schema:Place ;
-        schema:geo  _:b41 .
+_:b27   rdf:type    schema:Place ;
+        schema:geo  <GEO-48579-7.7663> .
 
-_:b41   schema:latitude  "48579"^^xsd:float ;
+<GEO-48579-7.7663>  schema:latitude  "48579"^^xsd:float ;
         schema:longitue  "7.7663"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -567,7 +580,7 @@ _:b41   schema:latitude  "48579"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/P6w5r3ny3_I> .
 
-_:b42   schema:familyName            "BOURLES" ;
+_:b28   schema:familyName            "BOURLES" ;
         schema:givenName             "Alexandre" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <130003221> ;
@@ -576,7 +589,7 @@ _:b42   schema:familyName            "BOURLES" ;
 
 <https://www.youtube.com/embed/P6w5r3ny3_I>
         schema:headline          "Les bactéries à activités PGPR et champignons mycorhiziens à arbuscule de maquis minier de NC. Interaction et rôle dans l'adaptation des plantes à la contraintes édaptique et développement d'inoculation utilisables pour la restauration des sites dégradés" ;
-        schema:author            _:b42 ;
+        schema:author            _:b28 ;
         schema:url               "http://www.theses.fr/s161957" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -589,13 +602,14 @@ _:b42   schema:familyName            "BOURLES" ;
 
 <9830445S>  schema:identifier  "9830445S" ;
         schema:name        "Université de la Nouvelle-Calédonie" ;
-        schema:location    _:b43 ;
+        schema:location    _:b29 ;
         schema:sameAs      <9830445S> .
 
-_:b43   rdf:type    schema:Place ;
-        schema:geo  _:b44 .
+_:b29   rdf:type    schema:Place ;
+        schema:geo  <GEO--22.2638507-166.4043178> .
 
-_:b44   schema:latitude  "-22.2638507"^^xsd:float ;
+<GEO--22.2638507-166.4043178>
+        schema:latitude  "-22.2638507"^^xsd:float ;
         schema:longitue  "166.4043178"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -604,7 +618,7 @@ _:b44   schema:latitude  "-22.2638507"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/Ee9yPt1sCvc> .
 
-_:b45   schema:familyName            "SANCHEZ-DEHESA-GALAN" ;
+_:b30   schema:familyName            "SANCHEZ-DEHESA-GALAN" ;
         schema:givenName             "Sol" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <199912453V> ;
@@ -613,7 +627,7 @@ _:b45   schema:familyName            "SANCHEZ-DEHESA-GALAN" ;
 
 <https://www.youtube.com/embed/Ee9yPt1sCvc>
         schema:headline          "Réflexion sur les industries de chronologie acheuleenne : le cas de GARBA I (Melka Kunture)" ;
-        schema:author            _:b45 ;
+        schema:author            _:b30 ;
         schema:url               "http://www.theses.fr/s154063" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -628,13 +642,14 @@ _:b45   schema:familyName            "SANCHEZ-DEHESA-GALAN" ;
 
 <0755698L>  schema:identifier  "0755698L" ;
         schema:name        "Université Paris Lumières" ;
-        schema:location    _:b46 ;
+        schema:location    _:b31 ;
         schema:sameAs      <0755698L> .
 
-_:b46   rdf:type    schema:Place ;
-        schema:geo  _:b47 .
+_:b31   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.859342-2.357173> .
 
-_:b47   schema:latitude  "48.859342"^^xsd:float ;
+<GEO-48.859342-2.357173>
+        schema:latitude  "48.859342"^^xsd:float ;
         schema:longitue  "2.357173"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -643,7 +658,7 @@ _:b47   schema:latitude  "48.859342"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/XZzHdnt-1iU> .
 
-_:b48   schema:familyName            "FORTIN" ;
+_:b32   schema:familyName            "FORTIN" ;
         schema:givenName             "Alexandre" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <201019023N> ;
@@ -652,7 +667,7 @@ _:b48   schema:familyName            "FORTIN" ;
 
 <https://www.youtube.com/embed/XZzHdnt-1iU>
         schema:headline          "ANR VIVABRAIN - Simulation d'expériences d'angiographie cérébrale par résonance magnétique." ;
-        schema:author            _:b48 ;
+        schema:author            _:b32 ;
         schema:url               "http://www.theses.fr/s98651" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -667,13 +682,14 @@ _:b48   schema:familyName            "FORTIN" ;
 
 <0512141A>  schema:identifier  "0512141A" ;
         schema:name        "Université de Champagne" ;
-        schema:location    _:b49 ;
+        schema:location    _:b33 ;
         schema:sameAs      <0512141A> .
 
-_:b49   rdf:type    schema:Place ;
-        schema:geo  _:b50 .
+_:b33   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.238294-4.063106> .
 
-_:b50   schema:latitude  "49.238294"^^xsd:float ;
+<GEO-49.238294-4.063106>
+        schema:latitude  "49.238294"^^xsd:float ;
         schema:longitue  "4.063106"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -682,7 +698,7 @@ _:b50   schema:latitude  "49.238294"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/DGrBgVRZ3yU> .
 
-_:b51   schema:familyName            "PESTEL" ;
+_:b34   schema:familyName            "PESTEL" ;
         schema:givenName             "Valentin" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <199612324T> ;
@@ -691,7 +707,7 @@ _:b51   schema:familyName            "PESTEL" ;
 
 <https://www.youtube.com/embed/DGrBgVRZ3yU>
         schema:headline          "Recherche d'oscillation de neutrino à très courte distance, Expérience SoLiD'" ;
-        schema:author            _:b51 ;
+        schema:author            _:b34 ;
         schema:url               "http://www.theses.fr/s164329" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -706,13 +722,14 @@ _:b51   schema:familyName            "PESTEL" ;
 
 <0142382N>  schema:identifier  "0142382N" ;
         schema:name        "Normandie Université" ;
-        schema:location    _:b52 ;
+        schema:location    _:b35 ;
         schema:sameAs      <0142382N> .
 
-_:b52   rdf:type    schema:Place ;
-        schema:geo  _:b53 .
+_:b35   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.188964--0.363963> .
 
-_:b53   schema:latitude  "49.188964"^^xsd:float ;
+<GEO-49.188964--0.363963>
+        schema:latitude  "49.188964"^^xsd:float ;
         schema:longitue  "-0.363963"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -721,7 +738,7 @@ _:b53   schema:latitude  "49.188964"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/PIVYYB7sEP0> .
 
-_:b54   schema:familyName            "FAYDI" ;
+_:b36   schema:familyName            "FAYDI" ;
         schema:givenName             "Younes" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200214907Z> ;
@@ -730,7 +747,7 @@ _:b54   schema:familyName            "FAYDI" ;
 
 <https://www.youtube.com/embed/PIVYYB7sEP0>
         schema:headline          "Classement mécanique des sciages feuillus" ;
-        schema:author            _:b54 ;
+        schema:author            _:b36 ;
         schema:url               "http://www.theses.fr/s134695" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -745,13 +762,14 @@ _:b54   schema:familyName            "FAYDI" ;
 
 <0755581J>  schema:identifier  "0755581J" ;
         schema:name        "Hautes Études-Sorbonne-Arts et Métiers" ;
-        schema:location    _:b55 ;
+        schema:location    _:b37 ;
         schema:sameAs      <0755581J> .
 
-_:b55   rdf:type    schema:Place ;
-        schema:geo  _:b56 .
+_:b37   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.846765-2.342056> .
 
-_:b56   schema:latitude  "48.846765"^^xsd:float ;
+<GEO-48.846765-2.342056>
+        schema:latitude  "48.846765"^^xsd:float ;
         schema:longitue  "2.342056"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -760,7 +778,7 @@ _:b56   schema:latitude  "48.846765"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/Bnjghe47gW0> .
 
-_:b57   schema:familyName            "HARLE" ;
+_:b38   schema:familyName            "HARLE" ;
         schema:givenName             "Thibault" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <201019146X> ;
@@ -769,7 +787,7 @@ _:b57   schema:familyName            "HARLE" ;
 
 <https://www.youtube.com/embed/Bnjghe47gW0>
         schema:headline          "Création et caractérisation d'un matériau de construction composite incorporant un matériau à changement de phase pour une meilleure régulation de la température intérieure." ;
-        schema:author            _:b57 ;
+        schema:author            _:b38 ;
         schema:url               "http://www.theses.fr/s95552" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -784,13 +802,14 @@ _:b57   schema:familyName            "HARLE" ;
 
 <0952199Z>  schema:identifier  "0952199Z" ;
         schema:name        "Université Paris-Seine" ;
-        schema:location    _:b58 ;
+        schema:location    _:b39 ;
         schema:sameAs      <0952199Z> .
 
-_:b58   rdf:type    schema:Place ;
-        schema:geo  _:b59 .
+_:b39   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.034147-2.077993> .
 
-_:b59   schema:latitude  "49.034147"^^xsd:float ;
+<GEO-49.034147-2.077993>
+        schema:latitude  "49.034147"^^xsd:float ;
         schema:longitue  "2.077993"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -799,7 +818,7 @@ _:b59   schema:latitude  "49.034147"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/cDlK38Cz48U> .
 
-_:b60   schema:familyName            "DE ROCHECHOUART" ;
+_:b40   schema:familyName            "DE ROCHECHOUART" ;
         schema:givenName             "Alice" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <199812910W> ;
@@ -808,7 +827,7 @@ _:b60   schema:familyName            "DE ROCHECHOUART" ;
 
 <https://www.youtube.com/embed/cDlK38Cz48U>
         schema:headline          "L'eschatologie du présent : un motif dans la philosophie contemporaine française" ;
-        schema:author            _:b60 ;
+        schema:author            _:b40 ;
         schema:url               "http://www.theses.fr/s124972" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -823,13 +842,14 @@ _:b60   schema:familyName            "DE ROCHECHOUART" ;
 
 <0755700N>  schema:identifier  "0755700N" ;
         schema:name        "Université de recherche Paris sciences et lettres - PSL Research University" ;
-        schema:location    _:b61 ;
+        schema:location    _:b41 ;
         schema:sameAs      <0755700N> .
 
-_:b61   rdf:type    schema:Place ;
-        schema:geo  _:b62 .
+_:b41   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.84214-2.343007> .
 
-_:b62   schema:latitude  "48.84214"^^xsd:float ;
+<GEO-48.84214-2.343007>
+        schema:latitude  "48.84214"^^xsd:float ;
         schema:longitue  "2.343007"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -838,7 +858,7 @@ _:b62   schema:latitude  "48.84214"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/F7GNtwKxbUk> .
 
-_:b63   schema:familyName            "COLIN" ;
+_:b42   schema:familyName            "COLIN" ;
         schema:givenName             "Marius" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <201220348V> ;
@@ -847,7 +867,7 @@ _:b63   schema:familyName            "COLIN" ;
 
 <https://www.youtube.com/embed/F7GNtwKxbUk>
         schema:headline          "Evaluation de l'activité antimicrobienne de surfaces en alliages de cuivre dans des établissements de santé" ;
-        schema:author            _:b63 ;
+        schema:author            _:b42 ;
         schema:url               "http://www.theses.fr/s143486" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -862,13 +882,14 @@ _:b63   schema:familyName            "COLIN" ;
 
 <0512141A>  schema:identifier  "0512141A" ;
         schema:name        "Université de Champagne" ;
-        schema:location    _:b64 ;
+        schema:location    _:b43 ;
         schema:sameAs      <0512141A> .
 
-_:b64   rdf:type    schema:Place ;
-        schema:geo  _:b65 .
+_:b43   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.238294-4.063106> .
 
-_:b65   schema:latitude  "49.238294"^^xsd:float ;
+<GEO-49.238294-4.063106>
+        schema:latitude  "49.238294"^^xsd:float ;
         schema:longitue  "4.063106"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -877,7 +898,7 @@ _:b65   schema:latitude  "49.238294"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/eqQupMlJ-rU> .
 
-_:b66   schema:familyName            "HAUMONT-SAUTEREAU" ;
+_:b44   schema:familyName            "HAUMONT-SAUTEREAU" ;
         schema:givenName             "Marie-Claudine" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200919245J> ;
@@ -886,7 +907,7 @@ _:b66   schema:familyName            "HAUMONT-SAUTEREAU" ;
 
 <https://www.youtube.com/embed/eqQupMlJ-rU>
         schema:headline          "Plaisir et souffrance au travail et risques de burn out. Étude clinique et analyse différentielle entre hommes et femmes menées auprès de dirigeants de PME" ;
-        schema:author            _:b66 ;
+        schema:author            _:b44 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -900,13 +921,14 @@ _:b66   schema:familyName            "HAUMONT-SAUTEREAU" ;
 
 <0542493S>  schema:identifier  "0542493S" ;
         schema:name        "Université de Lorraine" ;
-        schema:location    _:b67 ;
+        schema:location    _:b45 ;
         schema:sameAs      <0542493S> .
 
-_:b67   rdf:type    schema:Place ;
-        schema:geo  _:b68 .
+_:b45   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.6962-6.17634> .
 
-_:b68   schema:latitude  "48.6962"^^xsd:float ;
+<GEO-48.6962-6.17634>
+        schema:latitude  "48.6962"^^xsd:float ;
         schema:longitue  "6.17634"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -915,7 +937,7 @@ _:b68   schema:latitude  "48.6962"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/aZkLcGdTmDQ> .
 
-_:b69   schema:familyName            "LECOSSOIS" ;
+_:b46   schema:familyName            "LECOSSOIS" ;
         schema:givenName             "Leslie" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200815535F> ;
@@ -924,7 +946,7 @@ _:b69   schema:familyName            "LECOSSOIS" ;
 
 <https://www.youtube.com/embed/aZkLcGdTmDQ>
         schema:headline          "Faut-il tuer l'Homme pour préserver l'humanité ?" ;
-        schema:author            _:b69 ;
+        schema:author            _:b46 ;
         schema:url               "http://www.theses.fr/s102468" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -939,13 +961,14 @@ _:b69   schema:familyName            "LECOSSOIS" ;
 
 <0512141A>  schema:identifier  "0512141A" ;
         schema:name        "Université de Champagne" ;
-        schema:location    _:b70 ;
+        schema:location    _:b47 ;
         schema:sameAs      <0512141A> .
 
-_:b70   rdf:type    schema:Place ;
-        schema:geo  _:b71 .
+_:b47   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.238294-4.063106> .
 
-_:b71   schema:latitude  "49.238294"^^xsd:float ;
+<GEO-49.238294-4.063106>
+        schema:latitude  "49.238294"^^xsd:float ;
         schema:longitue  "4.063106"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -954,7 +977,7 @@ _:b71   schema:latitude  "49.238294"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/2-XbLXK1w0Y> .
 
-_:b72   schema:familyName            "WANG" ;
+_:b48   schema:familyName            "WANG" ;
         schema:givenName             "Lanjiao" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <775684897> ;
@@ -963,7 +986,7 @@ _:b72   schema:familyName            "WANG" ;
 
 <https://www.youtube.com/embed/2-XbLXK1w0Y>
         schema:headline          "Insecticide resistance in mosquito vectors of arboviruses / importance in vector competence and impact on viral evolution" ;
-        schema:author            _:b72 ;
+        schema:author            _:b48 ;
         schema:url               "http://www.theses.fr/s135451" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -978,13 +1001,14 @@ _:b72   schema:familyName            "WANG" ;
 
 <9730429D>  schema:identifier  "9730429D" ;
         schema:name        "Université de Guyane" ;
-        schema:location    _:b73 ;
+        schema:location    _:b49 ;
         schema:sameAs      <9730429D> .
 
-_:b73   rdf:type    schema:Place ;
-        schema:geo  _:b74 .
+_:b49   rdf:type    schema:Place ;
+        schema:geo  <GEO-4.93278--52.301511> .
 
-_:b74   schema:latitude  "4.93278"^^xsd:float ;
+<GEO-4.93278--52.301511>
+        schema:latitude  "4.93278"^^xsd:float ;
         schema:longitue  "-52.301511"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -993,7 +1017,7 @@ _:b74   schema:latitude  "4.93278"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/u5i8CrSRu1A> .
 
-_:b75   schema:familyName            "RASSER" ;
+_:b50   schema:familyName            "RASSER" ;
         schema:givenName             "Charlotte" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201420730B> ;
@@ -1002,7 +1026,7 @@ _:b75   schema:familyName            "RASSER" ;
 
 <https://www.youtube.com/embed/u5i8CrSRu1A>
         schema:headline          "Biomimétisme et bioingénierie: Evaluation in vitro et in vivo de la biocompatibilité apportée par l'immbilisation d'un peptique dérivé du CD31 à la surface de biomatériaux endovasculaires" ;
-        schema:author            _:b75 ;
+        schema:author            _:b50 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -1016,13 +1040,14 @@ _:b75   schema:familyName            "RASSER" ;
 
 <0755598C>  schema:identifier  "0755598C" ;
         schema:name        "Université Sorbonne Paris Cité" ;
-        schema:location    _:b76 ;
+        schema:location    _:b51 ;
         schema:sameAs      <0755598C> .
 
-_:b76   rdf:type    schema:Place ;
-        schema:geo  _:b77 .
+_:b51   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.836066-2.37187> .
 
-_:b77   schema:latitude  "48.836066"^^xsd:float ;
+<GEO-48.836066-2.37187>
+        schema:latitude  "48.836066"^^xsd:float ;
         schema:longitue  "2.37187"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1031,7 +1056,7 @@ _:b77   schema:latitude  "48.836066"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/U6c2_qVUcwQ> .
 
-_:b78   schema:familyName            "PETTON" ;
+_:b52   schema:familyName            "PETTON" ;
         schema:givenName             "Mathilde" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201119399T> ;
@@ -1040,7 +1065,7 @@ _:b78   schema:familyName            "PETTON" ;
 
 <https://www.youtube.com/embed/U6c2_qVUcwQ>
         schema:headline          "Bases neurales des fluctuations spontanées de l'attention" ;
-        schema:author            _:b78 ;
+        schema:author            _:b52 ;
         schema:url               "http://www.theses.fr/s102153" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1055,13 +1080,14 @@ _:b78   schema:familyName            "PETTON" ;
 
 <0694094A>  schema:identifier  "0694094A" ;
         schema:name        "Université de Lyon" ;
-        schema:location    _:b79 ;
+        schema:location    _:b53 ;
         schema:sameAs      <0694094A> .
 
-_:b79   rdf:type    schema:Place ;
-        schema:geo  _:b80 .
+_:b53   rdf:type    schema:Place ;
+        schema:geo  <GEO-45.748414-4.836668> .
 
-_:b80   schema:latitude  "45.748414"^^xsd:float ;
+<GEO-45.748414-4.836668>
+        schema:latitude  "45.748414"^^xsd:float ;
         schema:longitue  "4.836668"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1070,7 +1096,7 @@ _:b80   schema:latitude  "45.748414"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/kxplRMoESXA> .
 
-_:b81   schema:familyName            "POULET" ;
+_:b54   schema:familyName            "POULET" ;
         schema:givenName             "Lucie" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <199412376H> ;
@@ -1078,7 +1104,7 @@ _:b81   schema:familyName            "POULET" ;
 
 <https://www.youtube.com/embed/kxplRMoESXA>
         schema:headline          "Définition de modèles physiques pour prédire la croissance de plantes supérieures en environnement de gravité réduite pour une application en système support-vie" ;
-        schema:author            _:b81 ;
+        schema:author            _:b54 ;
         schema:url               "http://www.theses.fr/s131625" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1091,10 +1117,11 @@ _:b81   schema:familyName            "POULET" ;
         owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199412376H> ;
         owl:sameAs         <199412376H> .
 
-_:b82   rdf:type    schema:Place ;
-        schema:geo  _:b83 .
+_:b55   rdf:type    schema:Place ;
+        schema:geo  <GEO-45.7703-3.08803> .
 
-_:b83   schema:latitude  "45.7703"^^xsd:float ;
+<GEO-45.7703-3.08803>
+        schema:latitude  "45.7703"^^xsd:float ;
         schema:longitue  "3.08803"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1103,7 +1130,7 @@ _:b83   schema:latitude  "45.7703"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/52jVVJ2eu6c> .
 
-_:b84   schema:familyName            "BASTIANELLI" ;
+_:b56   schema:familyName            "BASTIANELLI" ;
         schema:givenName             "Carole" ;
         schema:gender                "Féminin" ;
         schema:alumniOf              <0755700N> ;
@@ -1111,7 +1138,7 @@ _:b84   schema:familyName            "BASTIANELLI" ;
 
 <https://www.youtube.com/embed/52jVVJ2eu6c>
         schema:headline          "Changements globaux et dynamiques forestières des pessières du Québec au cours des 8000 dernières années" ;
-        schema:author            _:b84 ;
+        schema:author            _:b56 ;
         schema:url               "http://www.theses.fr/s145320" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1120,13 +1147,14 @@ _:b84   schema:familyName            "BASTIANELLI" ;
 
 <0755700N>  schema:identifier  "0755700N" ;
         schema:name        "Université de recherche Paris sciences et lettres - PSL Research University" ;
-        schema:location    _:b85 ;
+        schema:location    _:b57 ;
         schema:sameAs      <0755700N> .
 
-_:b85   rdf:type    schema:Place ;
-        schema:geo  _:b86 .
+_:b57   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.84214-2.343007> .
 
-_:b86   schema:latitude  "48.84214"^^xsd:float ;
+<GEO-48.84214-2.343007>
+        schema:latitude  "48.84214"^^xsd:float ;
         schema:longitue  "2.343007"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1135,7 +1163,7 @@ _:b86   schema:latitude  "48.84214"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/i4GjRaERjkA> .
 
-_:b87   schema:familyName            "ARTAUD" ;
+_:b58   schema:familyName            "ARTAUD" ;
         schema:givenName             "Alexandre" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200717446M> ;
@@ -1144,7 +1172,7 @@ _:b87   schema:familyName            "ARTAUD" ;
 
 <https://www.youtube.com/embed/i4GjRaERjkA>
         schema:headline          "Spectroscopie tunnel à très basse température de graphène sur rhénium" ;
-        schema:author            _:b87 ;
+        schema:author            _:b58 ;
         schema:url               "http://www.theses.fr/s95621" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1160,13 +1188,14 @@ _:b87   schema:familyName            "ARTAUD" ;
 
 <0383412C>  schema:identifier  "0383412C" ;
         schema:name        "Université Grenoble Alpes" ;
-        schema:location    _:b88 ;
+        schema:location    _:b59 ;
         schema:sameAs      <0383412C> .
 
-_:b88   rdf:type    schema:Place ;
-        schema:geo  _:b89 .
+_:b59   rdf:type    schema:Place ;
+        schema:geo  <GEO-45.192363-5.756681> .
 
-_:b89   schema:latitude  "45.192363"^^xsd:float ;
+<GEO-45.192363-5.756681>
+        schema:latitude  "45.192363"^^xsd:float ;
         schema:longitue  "5.756681"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1175,7 +1204,7 @@ _:b89   schema:latitude  "45.192363"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/RPXEhdg8g7o> .
 
-_:b90   schema:familyName            "ESPINASSOUZE" ;
+_:b60   schema:familyName            "ESPINASSOUZE" ;
         schema:givenName             "Aline-Laure" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200612831A> ;
@@ -1184,7 +1213,7 @@ _:b90   schema:familyName            "ESPINASSOUZE" ;
 
 <https://www.youtube.com/embed/RPXEhdg8g7o>
         schema:headline          "La question de la rentabilité des politiques de responsabilité sociale d'entreprise : étude des liens entre performance financière et extra-financière." ;
-        schema:author            _:b90 ;
+        schema:author            _:b60 ;
         schema:url               "http://www.theses.fr/s86714" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1199,13 +1228,14 @@ _:b90   schema:familyName            "ESPINASSOUZE" ;
 
 <0952199Z>  schema:identifier  "0952199Z" ;
         schema:name        "Université Paris-Seine" ;
-        schema:location    _:b91 ;
+        schema:location    _:b61 ;
         schema:sameAs      <0952199Z> .
 
-_:b91   rdf:type    schema:Place ;
-        schema:geo  _:b92 .
+_:b61   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.034147-2.077993> .
 
-_:b92   schema:latitude  "49.034147"^^xsd:float ;
+<GEO-49.034147-2.077993>
+        schema:latitude  "49.034147"^^xsd:float ;
         schema:longitue  "2.077993"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1214,7 +1244,7 @@ _:b92   schema:latitude  "49.034147"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/zMS6mwoPorA> .
 
-_:b93   schema:familyName            "DUC" ;
+_:b62   schema:familyName            "DUC" ;
         schema:givenName             "Caroline" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <199812849E> ;
@@ -1223,7 +1253,7 @@ _:b93   schema:familyName            "DUC" ;
 
 <https://www.youtube.com/embed/zMS6mwoPorA>
         schema:headline          "la Surface polymère électro-active texturée anti-biofouling" ;
-        schema:author            _:b93 ;
+        schema:author            _:b62 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -1237,13 +1267,14 @@ _:b93   schema:familyName            "DUC" ;
 
 <0596870X>  schema:identifier  "0596870X" ;
         schema:name        "Université Lille Nord de France" ;
-        schema:location    _:b94 ;
+        schema:location    _:b63 ;
         schema:sameAs      <0596870X> .
 
-_:b94   rdf:type    schema:Place ;
-        schema:geo  _:b95 .
+_:b63   rdf:type    schema:Place ;
+        schema:geo  <GEO-50.639261-3.136031> .
 
-_:b95   schema:latitude  "50.639261"^^xsd:float ;
+<GEO-50.639261-3.136031>
+        schema:latitude  "50.639261"^^xsd:float ;
         schema:longitue  "3.136031"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1252,7 +1283,7 @@ _:b95   schema:latitude  "50.639261"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/eXgtKS4GngE> .
 
-_:b96   schema:familyName            "ASRIR" ;
+_:b64   schema:familyName            "ASRIR" ;
         schema:givenName             "Assia" ;
         schema:gender                "Féminin" ;
         schema:identifier            "192269259" ;
@@ -1264,7 +1295,7 @@ _:b96   schema:familyName            "ASRIR" ;
 
 <https://www.youtube.com/embed/eXgtKS4GngE>
         schema:headline          "Caractérisation phénotypique et fonctionnelle des diff��rentes populations de Lymphocytes T CD4 Folliculaires Mémoires" ;
-        schema:author            _:b96 ;
+        schema:author            _:b64 ;
         schema:url               "http://www.theses.fr/2015TOU30084" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1279,13 +1310,14 @@ _:b96   schema:familyName            "ASRIR" ;
 
 <0312758E>  schema:identifier  "0312758E" ;
         schema:name        "Université fédérale de Toulouse Midi-Pyrénées" ;
-        schema:location    _:b97 ;
+        schema:location    _:b65 ;
         schema:sameAs      <0312758E> .
 
-_:b97   rdf:type    schema:Place ;
-        schema:geo  _:b98 .
+_:b65   rdf:type    schema:Place ;
+        schema:geo  <GEO-43.594874-1.451321> .
 
-_:b98   schema:latitude  "43.594874"^^xsd:float ;
+<GEO-43.594874-1.451321>
+        schema:latitude  "43.594874"^^xsd:float ;
         schema:longitue  "1.451321"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1294,7 +1326,7 @@ _:b98   schema:latitude  "43.594874"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/9ZJ3cZzdlOk> .
 
-_:b99   schema:familyName            "BODEZ" ;
+_:b66   schema:familyName            "BODEZ" ;
         schema:givenName             "Diane" ;
         schema:gender                "Féminin" ;
         schema:identifier            "139822976" ;
@@ -1306,7 +1338,7 @@ _:b99   schema:familyName            "BODEZ" ;
 
 <https://www.youtube.com/embed/9ZJ3cZzdlOk>
         schema:headline          "Caractérisation moléculaire et cellulaire des évènements précoces du rejet aigu de greffe cardiaque : identification de biomarqueurs du rejet" ;
-        schema:author            _:b99 ;
+        schema:author            _:b66 ;
         schema:url               "http://www.theses.fr/s121817" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1321,13 +1353,14 @@ _:b99   schema:familyName            "BODEZ" ;
 
 <0772710C>  schema:identifier  "0772710C" ;
         schema:name        "Université Paris-Est" ;
-        schema:location    _:b100 ;
+        schema:location    _:b67 ;
         schema:sameAs      <0772710C> .
 
-_:b100  rdf:type    schema:Place ;
-        schema:geo  _:b101 .
+_:b67   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.840572-2.586957> .
 
-_:b101  schema:latitude  "48.840572"^^xsd:float ;
+<GEO-48.840572-2.586957>
+        schema:latitude  "48.840572"^^xsd:float ;
         schema:longitue  "2.586957"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1336,7 +1369,7 @@ _:b101  schema:latitude  "48.840572"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/TVvujW5K2bw> .
 
-_:b102  schema:familyName            "CORMAN" ;
+_:b68   schema:familyName            "CORMAN" ;
         schema:givenName             "Laura" ;
         schema:gender                "Féminin" ;
         schema:identifier            "197925952" ;
@@ -1348,7 +1381,7 @@ _:b102  schema:familyName            "CORMAN" ;
 
 <https://www.youtube.com/embed/TVvujW5K2bw>
         schema:headline          "Gaz d'atomes froids et matière quantique topologique" ;
-        schema:author            _:b102 ;
+        schema:author            _:b68 ;
         schema:url               "http://www.theses.fr/s92559" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1363,13 +1396,14 @@ _:b102  schema:familyName            "CORMAN" ;
 
 <0755700N>  schema:identifier  "0755700N" ;
         schema:name        "Université de recherche Paris sciences et lettres - PSL Research University" ;
-        schema:location    _:b103 ;
+        schema:location    _:b69 ;
         schema:sameAs      <0755700N> .
 
-_:b103  rdf:type    schema:Place ;
-        schema:geo  _:b104 .
+_:b69   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.84214-2.343007> .
 
-_:b104  schema:latitude  "48.84214"^^xsd:float ;
+<GEO-48.84214-2.343007>
+        schema:latitude  "48.84214"^^xsd:float ;
         schema:longitue  "2.343007"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1378,7 +1412,7 @@ _:b104  schema:latitude  "48.84214"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/49m_Dp3jBZI> .
 
-_:b105  schema:familyName            "SOEWARTO" ;
+_:b70   schema:familyName            "SOEWARTO" ;
         schema:givenName             "Julia" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <130003221> ;
@@ -1387,7 +1421,7 @@ _:b105  schema:familyName            "SOEWARTO" ;
 
 <https://www.youtube.com/embed/49m_Dp3jBZI>
         schema:headline          "Pestes végétales et profils de vulnérabilités : le cas de la rouille (Puccinia Psidii) des Myrtacées en Nouvelle-Calédonie" ;
-        schema:author            _:b105 ;
+        schema:author            _:b70 ;
         schema:url               "http://www.theses.fr/s117302" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1402,13 +1436,14 @@ _:b105  schema:familyName            "SOEWARTO" ;
 
 <9830445S>  schema:identifier  "9830445S" ;
         schema:name        "Université de la Nouvelle-Calédonie" ;
-        schema:location    _:b106 ;
+        schema:location    _:b71 ;
         schema:sameAs      <9830445S> .
 
-_:b106  rdf:type    schema:Place ;
-        schema:geo  _:b107 .
+_:b71   rdf:type    schema:Place ;
+        schema:geo  <GEO--22.2638507-166.4043178> .
 
-_:b107  schema:latitude  "-22.2638507"^^xsd:float ;
+<GEO--22.2638507-166.4043178>
+        schema:latitude  "-22.2638507"^^xsd:float ;
         schema:longitue  "166.4043178"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1417,7 +1452,7 @@ _:b107  schema:latitude  "-22.2638507"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/CxPw4r3s0RQ> .
 
-_:b108  schema:familyName            "CESBRON" ;
+_:b72   schema:familyName            "CESBRON" ;
         schema:givenName             "Nora" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201019716S> ;
@@ -1426,7 +1461,7 @@ _:b108  schema:familyName            "CESBRON" ;
 
 <https://www.youtube.com/embed/CxPw4r3s0RQ>
         schema:headline          "Les SARM's (Selective Androgen Receptor Modulators), une nouvelle famille d'agents anabolisants : études des effets zootechniques et développement de stratégies analytiques visant la mise en évidence de leur utilisation chez le jeune bovin" ;
-        schema:author            _:b108 ;
+        schema:author            _:b72 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -1440,13 +1475,14 @@ _:b108  schema:familyName            "CESBRON" ;
 
 <0352756F>  schema:identifier  "0352756F" ;
         schema:name        "Université Bretagne Loire" ;
-        schema:location    _:b109 ;
+        schema:location    _:b73 ;
         schema:sameAs      <0352756F> .
 
-_:b109  rdf:type    schema:Place ;
-        schema:geo  _:b110 .
+_:b73   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.107017--1.675798> .
 
-_:b110  schema:latitude  "48.107017"^^xsd:float ;
+<GEO-48.107017--1.675798>
+        schema:latitude  "48.107017"^^xsd:float ;
         schema:longitue  "-1.675798"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1455,7 +1491,7 @@ _:b110  schema:latitude  "48.107017"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/nWjVu5rRyus> .
 
-_:b111  schema:familyName            "KALUVANGIMOKO" ;
+_:b74   schema:familyName            "KALUVANGIMOKO" ;
         schema:givenName             "Fleur" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201320868F> ;
@@ -1464,7 +1500,7 @@ _:b111  schema:familyName            "KALUVANGIMOKO" ;
 
 <https://www.youtube.com/embed/nWjVu5rRyus>
         schema:headline          "Les alternatives à l'Etat-Nation en Afrique et en Europe carrefour de deux dynamiques à contre-courant" ;
-        schema:author            _:b111 ;
+        schema:author            _:b74 ;
         schema:url               "http://www.theses.fr/s134380" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1479,13 +1515,14 @@ _:b111  schema:familyName            "KALUVANGIMOKO" ;
 
 <0542493S>  schema:identifier  "0542493S" ;
         schema:name        "Université de Lorraine" ;
-        schema:location    _:b112 ;
+        schema:location    _:b75 ;
         schema:sameAs      <0542493S> .
 
-_:b112  rdf:type    schema:Place ;
-        schema:geo  _:b113 .
+_:b75   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.6962-6.17634> .
 
-_:b113  schema:latitude  "48.6962"^^xsd:float ;
+<GEO-48.6962-6.17634>
+        schema:latitude  "48.6962"^^xsd:float ;
         schema:longitue  "6.17634"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1494,7 +1531,7 @@ _:b113  schema:latitude  "48.6962"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/NeWV6n7PFHU> .
 
-_:b114  schema:familyName            "TOUIDJINE" ;
+_:b76   schema:familyName            "TOUIDJINE" ;
         schema:givenName             "Amina" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201220281X> ;
@@ -1502,7 +1539,7 @@ _:b114  schema:familyName            "TOUIDJINE" ;
 
 <https://www.youtube.com/embed/NeWV6n7PFHU>
         schema:headline          "Optimisation de l'électrode négative à base de silicium pour la batterie Lithium-Ion" ;
-        schema:author            _:b114 ;
+        schema:author            _:b76 ;
         schema:url               "http://www.theses.fr/s115639" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1515,10 +1552,11 @@ _:b114  schema:familyName            "TOUIDJINE" ;
         owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220281X> ;
         owl:sameAs         <201220281X> .
 
-_:b115  rdf:type    schema:Place ;
-        schema:geo  _:b116 .
+_:b77   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.8743-2.26417> .
 
-_:b116  schema:latitude  "49.8743"^^xsd:float ;
+<GEO-49.8743-2.26417>
+        schema:latitude  "49.8743"^^xsd:float ;
         schema:longitue  "2.26417"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1527,7 +1565,7 @@ _:b116  schema:latitude  "49.8743"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/_awTwsLLeig> .
 
-_:b117  schema:familyName            "URRUTY" ;
+_:b78   schema:familyName            "URRUTY" ;
         schema:givenName             "Nicolas" ;
         schema:gender                "Masculin" ;
         schema:identifier            "199215022" ;
@@ -1539,7 +1577,7 @@ _:b117  schema:familyName            "URRUTY" ;
 
 <https://www.youtube.com/embed/_awTwsLLeig>
         schema:headline          "Vers une robustesse des systèmes de production agricole par la complexité ?" ;
-        schema:author            _:b117 ;
+        schema:author            _:b78 ;
         schema:url               "http://www.theses.fr/s107809" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1555,13 +1593,14 @@ _:b117  schema:familyName            "URRUTY" ;
 
 <0861420B>  schema:identifier  "0861420B" ;
         schema:name        "Université confédérale Léonard de Vinci" ;
-        schema:location    _:b118 ;
+        schema:location    _:b79 ;
         schema:sameAs      <0861420B> .
 
-_:b118  rdf:type    schema:Place ;
-        schema:geo  _:b119 .
+_:b79   rdf:type    schema:Place ;
+        schema:geo  <GEO-46.586013-0.345772> .
 
-_:b119  schema:latitude  "46.586013"^^xsd:float ;
+<GEO-46.586013-0.345772>
+        schema:latitude  "46.586013"^^xsd:float ;
         schema:longitue  "0.345772"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1570,7 +1609,7 @@ _:b119  schema:latitude  "46.586013"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/Grmwv4ye2i4> .
 
-_:b120  schema:familyName            "DESPLAN" ;
+_:b80   schema:familyName            "DESPLAN" ;
         schema:givenName             "Davina" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200212702C> ;
@@ -1579,7 +1618,7 @@ _:b120  schema:familyName            "DESPLAN" ;
 
 <https://www.youtube.com/embed/Grmwv4ye2i4>
         schema:headline          "Caractérisation mécaniques et électriques de produits cosmétiques et de leur stabilité lien avec des modifications chimiques ou des contaminations biologiques" ;
-        schema:author            _:b120 ;
+        schema:author            _:b80 ;
         schema:url               "http://www.theses.fr/s140118" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1595,13 +1634,14 @@ _:b120  schema:familyName            "DESPLAN" ;
 
 <0952199Z>  schema:identifier  "0952199Z" ;
         schema:name        "Université Paris-Seine" ;
-        schema:location    _:b121 ;
+        schema:location    _:b81 ;
         schema:sameAs      <0952199Z> .
 
-_:b121  rdf:type    schema:Place ;
-        schema:geo  _:b122 .
+_:b81   rdf:type    schema:Place ;
+        schema:geo  <GEO-49.034147-2.077993> .
 
-_:b122  schema:latitude  "49.034147"^^xsd:float ;
+<GEO-49.034147-2.077993>
+        schema:latitude  "49.034147"^^xsd:float ;
         schema:longitue  "2.077993"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1610,7 +1650,7 @@ _:b122  schema:latitude  "49.034147"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/-i_3ALztV4s> .
 
-_:b123  schema:familyName            "FADLOUN" ;
+_:b82   schema:familyName            "FADLOUN" ;
         schema:givenName             "Sabrina" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200711929R> ;
@@ -1619,7 +1659,7 @@ _:b123  schema:familyName            "FADLOUN" ;
 
 <https://www.youtube.com/embed/-i_3ALztV4s>
         schema:headline          "Etude d'un procédé de dépôt de cuivre par MOCVD pour la réalisation de vias traversants à fort facteur de forme pour l'intégration 3D." ;
-        schema:author            _:b123 ;
+        schema:author            _:b82 ;
         schema:url               "http://www.theses.fr/s154811" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1635,13 +1675,14 @@ _:b123  schema:familyName            "FADLOUN" ;
 
 <0383412C>  schema:identifier  "0383412C" ;
         schema:name        "Université Grenoble Alpes" ;
-        schema:location    _:b124 ;
+        schema:location    _:b83 ;
         schema:sameAs      <0383412C> .
 
-_:b124  rdf:type    schema:Place ;
-        schema:geo  _:b125 .
+_:b83   rdf:type    schema:Place ;
+        schema:geo  <GEO-45.192363-5.756681> .
 
-_:b125  schema:latitude  "45.192363"^^xsd:float ;
+<GEO-45.192363-5.756681>
+        schema:latitude  "45.192363"^^xsd:float ;
         schema:longitue  "5.756681"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1650,7 +1691,7 @@ _:b125  schema:latitude  "45.192363"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/9H7UQds9XM8> .
 
-_:b126  schema:familyName            "BUONAFINE" ;
+_:b84   schema:familyName            "BUONAFINE" ;
         schema:givenName             "Mathieu" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200716512X> ;
@@ -1659,7 +1700,7 @@ _:b126  schema:familyName            "BUONAFINE" ;
 
 <https://www.youtube.com/embed/9H7UQds9XM8>
         schema:headline          "Étude du rôle de la Neutrophil Gelatinase Associated Lipocalin dans les effets cardiovasculaires de l’activation du récepteur minéralocorticoïde" ;
-        schema:author            _:b126 ;
+        schema:author            _:b84 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -1674,13 +1715,14 @@ _:b126  schema:familyName            "BUONAFINE" ;
 
 <0755574B>  schema:identifier  "0755574B" ;
         schema:name        "Sorbonne Universités" ;
-        schema:location    _:b127 ;
+        schema:location    _:b85 ;
         schema:sameAs      <0755574B> .
 
-_:b127  rdf:type    schema:Place ;
-        schema:geo  _:b128 .
+_:b85   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.844921-2.344866> .
 
-_:b128  schema:latitude  "48.844921"^^xsd:float ;
+<GEO-48.844921-2.344866>
+        schema:latitude  "48.844921"^^xsd:float ;
         schema:longitue  "2.344866"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1689,7 +1731,7 @@ _:b128  schema:latitude  "48.844921"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/2WpJVaGW-OM> .
 
-_:b129  schema:familyName            "PETITJEAN" ;
+_:b86   schema:familyName            "PETITJEAN" ;
         schema:givenName             "Marie" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200812285Y> ;
@@ -1698,7 +1740,7 @@ _:b129  schema:familyName            "PETITJEAN" ;
 
 <https://www.youtube.com/embed/2WpJVaGW-OM>
         schema:headline          "Evolution d'une souche épidémique de Pseudomonas aeruginosa au cours de sa diffusion hospitalière" ;
-        schema:author            _:b129 ;
+        schema:author            _:b86 ;
         schema:url               "http://www.theses.fr/s123116" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1713,13 +1755,14 @@ _:b129  schema:familyName            "PETITJEAN" ;
 
 <0251985X>  schema:identifier  "0251985X" ;
         schema:name        "Université Bourgogne - Franche-Comté" ;
-        schema:location    _:b130 ;
+        schema:location    _:b87 ;
         schema:sameAs      <0251985X> .
 
-_:b130  rdf:type    schema:Place ;
-        schema:geo  _:b131 .
+_:b87   rdf:type    schema:Place ;
+        schema:geo  <GEO-47.248103-5.991326> .
 
-_:b131  schema:latitude  "47.248103"^^xsd:float ;
+<GEO-47.248103-5.991326>
+        schema:latitude  "47.248103"^^xsd:float ;
         schema:longitue  "5.991326"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1728,7 +1771,7 @@ _:b131  schema:latitude  "47.248103"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/b1U54yiK9Jg> .
 
-_:b132  schema:familyName            "LAGARDE" ;
+_:b88   schema:familyName            "LAGARDE" ;
         schema:givenName             "Nathalie" ;
         schema:gender                "Féminin" ;
         schema:identifier            "183683145" ;
@@ -1740,7 +1783,7 @@ _:b132  schema:familyName            "LAGARDE" ;
 
 <https://www.youtube.com/embed/b1U54yiK9Jg>
         schema:headline          "Méthodes de criblage virtuel in silico : importance de l’évaluation et application à la recherche de nouveaux inhibiteurs de l’interleukine 6." ;
-        schema:author            _:b132 ;
+        schema:author            _:b88 ;
         schema:url               "http://www.theses.fr/2014CNAM0943" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1755,13 +1798,14 @@ _:b132  schema:familyName            "LAGARDE" ;
 
 <0755581J>  schema:identifier  "0755581J" ;
         schema:name        "Hautes Études-Sorbonne-Arts et Métiers" ;
-        schema:location    _:b133 ;
+        schema:location    _:b89 ;
         schema:sameAs      <0755581J> .
 
-_:b133  rdf:type    schema:Place ;
-        schema:geo  _:b134 .
+_:b89   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.846765-2.342056> .
 
-_:b134  schema:latitude  "48.846765"^^xsd:float ;
+<GEO-48.846765-2.342056>
+        schema:latitude  "48.846765"^^xsd:float ;
         schema:longitue  "2.342056"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1770,7 +1814,7 @@ _:b134  schema:latitude  "48.846765"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/z4c7sCbt88o> .
 
-_:b135  schema:familyName            "BRAHIM" ;
+_:b90   schema:familyName            "BRAHIM" ;
         schema:givenName             "Rachida" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201220309C> ;
@@ -1779,7 +1823,7 @@ _:b135  schema:familyName            "BRAHIM" ;
 
 <https://www.youtube.com/embed/z4c7sCbt88o>
         schema:headline          "Sociologie politique des crimes racistes. Processus de construction et de reconnaissance des groupes ethniquement minorisés dans la France contemporaine, 1971-2003" ;
-        schema:author            _:b135 ;
+        schema:author            _:b90 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -1794,13 +1838,14 @@ _:b135  schema:familyName            "BRAHIM" ;
 
 <0134009M>  schema:identifier  "0134009M" ;
         schema:name        "Aix-Marseille université" ;
-        schema:location    _:b136 ;
+        schema:location    _:b91 ;
         schema:sameAs      <0134009M> .
 
-_:b136  rdf:type    schema:Place ;
-        schema:geo  _:b137 .
+_:b91   rdf:type    schema:Place ;
+        schema:geo  <GEO-43.2936-5.35871> .
 
-_:b137  schema:latitude  "43.2936"^^xsd:float ;
+<GEO-43.2936-5.35871>
+        schema:latitude  "43.2936"^^xsd:float ;
         schema:longitue  "5.35871"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1809,7 +1854,7 @@ _:b137  schema:latitude  "43.2936"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/9bDh4CEM-T4> .
 
-_:b138  schema:familyName            "KERBAOL" ;
+_:b92   schema:familyName            "KERBAOL" ;
         schema:givenName             "Camille" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201320505L> ;
@@ -1818,7 +1863,7 @@ _:b138  schema:familyName            "KERBAOL" ;
 
 <https://www.youtube.com/embed/9bDh4CEM-T4>
         schema:headline          "Les lettres d'Adrien Galliot-Marie de Mandat-Grancey. Edition critique de la correspondance familière d'un officier de la Marine Royale française (1781-1791)" ;
-        schema:author            _:b138 ;
+        schema:author            _:b92 ;
         schema:url               "http://www.theses.fr/s79151" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1833,13 +1878,14 @@ _:b138  schema:familyName            "KERBAOL" ;
 
 <0352756F>  schema:identifier  "0352756F" ;
         schema:name        "Université Bretagne Loire" ;
-        schema:location    _:b139 ;
+        schema:location    _:b93 ;
         schema:sameAs      <0352756F> .
 
-_:b139  rdf:type    schema:Place ;
-        schema:geo  _:b140 .
+_:b93   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.107017--1.675798> .
 
-_:b140  schema:latitude  "48.107017"^^xsd:float ;
+<GEO-48.107017--1.675798>
+        schema:latitude  "48.107017"^^xsd:float ;
         schema:longitue  "-1.675798"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1848,7 +1894,7 @@ _:b140  schema:latitude  "48.107017"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/g8pfhpBnFCE> .
 
-_:b141  schema:familyName            "PLASSAN" ;
+_:b94   schema:familyName            "PLASSAN" ;
         schema:givenName             "Guillaume" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200311834E> ;
@@ -1857,7 +1903,7 @@ _:b141  schema:familyName            "PLASSAN" ;
 
 <https://www.youtube.com/embed/g8pfhpBnFCE>
         schema:headline          "Vérification semi-formelle des propriétés de systèmes multi-horloges" ;
-        schema:author            _:b141 ;
+        schema:author            _:b94 ;
         schema:url               "http://www.theses.fr/s175519" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1872,13 +1918,14 @@ _:b141  schema:familyName            "PLASSAN" ;
 
 <0383412C>  schema:identifier  "0383412C" ;
         schema:name        "Université Grenoble Alpes" ;
-        schema:location    _:b142 ;
+        schema:location    _:b95 ;
         schema:sameAs      <0383412C> .
 
-_:b142  rdf:type    schema:Place ;
-        schema:geo  _:b143 .
+_:b95   rdf:type    schema:Place ;
+        schema:geo  <GEO-45.192363-5.756681> .
 
-_:b143  schema:latitude  "45.192363"^^xsd:float ;
+<GEO-45.192363-5.756681>
+        schema:latitude  "45.192363"^^xsd:float ;
         schema:longitue  "5.756681"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1887,7 +1934,7 @@ _:b143  schema:latitude  "45.192363"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/vmCDQ5goL04> .
 
-_:b144  schema:familyName            "GRIVEAU-GENEST" ;
+_:b96   schema:familyName            "GRIVEAU-GENEST" ;
         schema:givenName             "Viviane" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <199213515E> ;
@@ -1896,7 +1943,7 @@ _:b144  schema:familyName            "GRIVEAU-GENEST" ;
 
 <https://www.youtube.com/embed/vmCDQ5goL04>
         schema:headline          "L’esthétique du faire croire : étude littéraire des sermons français et latins de Jean Gerson" ;
-        schema:author            _:b144 ;
+        schema:author            _:b96 ;
         schema:url               "http://www.theses.fr/s79914" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1911,13 +1958,14 @@ _:b144  schema:familyName            "GRIVEAU-GENEST" ;
 
 <0755698L>  schema:identifier  "0755698L" ;
         schema:name        "Université Paris Lumières" ;
-        schema:location    _:b145 ;
+        schema:location    _:b97 ;
         schema:sameAs      <0755698L> .
 
-_:b145  rdf:type    schema:Place ;
-        schema:geo  _:b146 .
+_:b97   rdf:type    schema:Place ;
+        schema:geo  <GEO-48.859342-2.357173> .
 
-_:b146  schema:latitude  "48.859342"^^xsd:float ;
+<GEO-48.859342-2.357173>
+        schema:latitude  "48.859342"^^xsd:float ;
         schema:longitue  "2.357173"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1926,7 +1974,7 @@ _:b146  schema:latitude  "48.859342"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/ZBeG0wpgbVs> .
 
-_:b147  schema:familyName            "RUBIO" ;
+_:b98   schema:familyName            "RUBIO" ;
         schema:givenName             "Tristan" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200711909U> ;
@@ -1935,7 +1983,7 @@ _:b147  schema:familyName            "RUBIO" ;
 
 <https://www.youtube.com/embed/ZBeG0wpgbVs>
         schema:headline          "Biodiversité des interactions parmi les Vibrio pathogènes de l'huître creuse Crassostrea gigas." ;
-        schema:author            _:b147 ;
+        schema:author            _:b98 ;
         schema:url               "http://www.theses.fr/s143559" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1950,13 +1998,14 @@ _:b147  schema:familyName            "RUBIO" ;
 
 <0342255S>  schema:identifier  "0342255S" ;
         schema:name        "Languedoc-Roussillon Universités" ;
-        schema:location    _:b148 ;
+        schema:location    _:b99 ;
         schema:sameAs      <0342255S> .
 
-_:b148  rdf:type    schema:Place ;
-        schema:geo  _:b149 .
+_:b99   rdf:type    schema:Place ;
+        schema:geo  <GEO-43.615855-3.871992> .
 
-_:b149  schema:latitude  "43.615855"^^xsd:float ;
+<GEO-43.615855-3.871992>
+        schema:latitude  "43.615855"^^xsd:float ;
         schema:longitue  "3.871992"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -1965,7 +2014,7 @@ _:b149  schema:latitude  "43.615855"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/-8__lnpAJSs> .
 
-_:b150  schema:familyName            "HÉRAUD" ;
+_:b100  schema:familyName            "HÉRAUD" ;
         schema:givenName             "Lorène" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200612270R> ;
@@ -1974,7 +2023,7 @@ _:b150  schema:familyName            "HÉRAUD" ;
 
 <https://www.youtube.com/embed/-8__lnpAJSs>
         schema:headline          "Nouveaux alliages de titane biocompatibles et superélastiques pour applications medicales" ;
-        schema:author            _:b150 ;
+        schema:author            _:b100 ;
         schema:url               "http://www.theses.fr/s121221" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -1989,13 +2038,14 @@ _:b150  schema:familyName            "HÉRAUD" ;
 
 <0352756F>  schema:identifier  "0352756F" ;
         schema:name        "Université Bretagne Loire" ;
-        schema:location    _:b151 ;
+        schema:location    _:b101 ;
         schema:sameAs      <0352756F> .
 
-_:b151  rdf:type    schema:Place ;
-        schema:geo  _:b152 .
+_:b101  rdf:type    schema:Place ;
+        schema:geo  <GEO-48.107017--1.675798> .
 
-_:b152  schema:latitude  "48.107017"^^xsd:float ;
+<GEO-48.107017--1.675798>
+        schema:latitude  "48.107017"^^xsd:float ;
         schema:longitue  "-1.675798"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2004,7 +2054,7 @@ _:b152  schema:latitude  "48.107017"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/e7WQlPpyJNM> .
 
-_:b153  schema:familyName            "FRESNEAU" ;
+_:b102  schema:familyName            "FRESNEAU" ;
         schema:givenName             "Aurélien" ;
         schema:gender                "Masculin" ;
         schema:identifier            "20264863X" ;
@@ -2016,7 +2066,7 @@ _:b153  schema:familyName            "FRESNEAU" ;
 
 <https://www.youtube.com/embed/e7WQlPpyJNM>
         schema:headline          "Simulations expérimentales en laboratoire pou rla préparation à l'analyse des données issues de missions spatiales, ainsi que l'étude de l'impact en exobiologie de l'évolution de la matière organique au sein d'environnements astrophysiques" ;
-        schema:author            _:b153 ;
+        schema:author            _:b102 ;
         schema:url               "http://www.theses.fr/s119304" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2031,13 +2081,14 @@ _:b153  schema:familyName            "FRESNEAU" ;
 
 <0134009M>  schema:identifier  "0134009M" ;
         schema:name        "Aix-Marseille université" ;
-        schema:location    _:b154 ;
+        schema:location    _:b103 ;
         schema:sameAs      <0134009M> .
 
-_:b154  rdf:type    schema:Place ;
-        schema:geo  _:b155 .
+_:b103  rdf:type    schema:Place ;
+        schema:geo  <GEO-43.2936-5.35871> .
 
-_:b155  schema:latitude  "43.2936"^^xsd:float ;
+<GEO-43.2936-5.35871>
+        schema:latitude  "43.2936"^^xsd:float ;
         schema:longitue  "5.35871"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2046,7 +2097,7 @@ _:b155  schema:latitude  "43.2936"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/3WQ9W0XuQ8Y> .
 
-_:b156  schema:familyName            "ACQUIER" ;
+_:b104  schema:familyName            "ACQUIER" ;
         schema:givenName             "Océane" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201220314H> ;
@@ -2055,7 +2106,7 @@ _:b156  schema:familyName            "ACQUIER" ;
 
 <https://www.youtube.com/embed/3WQ9W0XuQ8Y>
         schema:headline          "Écriture, signes graphiques et paroles dans les peintures murales des lieux de culte du sud de l’arc alpin du XIVe au XVIe siècle (Provence orientale, Ligurie, Piémont)" ;
-        schema:author            _:b156 ;
+        schema:author            _:b104 ;
         schema:url               "http://www.theses.fr/s139477" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2070,13 +2121,14 @@ _:b156  schema:familyName            "ACQUIER" ;
 
 <0062126D>  schema:identifier  "0062126D" ;
         schema:name        "Université Côte d'Azur" ;
-        schema:location    _:b157 ;
+        schema:location    _:b105 ;
         schema:sameAs      <0062126D> .
 
-_:b157  rdf:type    schema:Place ;
-        schema:geo  _:b158 .
+_:b105  rdf:type    schema:Place ;
+        schema:geo  <GEO-43.716324-7.269781> .
 
-_:b158  schema:latitude  "43.716324"^^xsd:float ;
+<GEO-43.716324-7.269781>
+        schema:latitude  "43.716324"^^xsd:float ;
         schema:longitue  "7.269781"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2085,7 +2137,7 @@ _:b158  schema:latitude  "43.716324"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/YPWRq7qt178> .
 
-_:b159  schema:familyName            "GONZVA" ;
+_:b106  schema:familyName            "GONZVA" ;
         schema:givenName             "Michaël" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200114758S> ;
@@ -2094,7 +2146,7 @@ _:b159  schema:familyName            "GONZVA" ;
 
 <https://www.youtube.com/embed/YPWRq7qt178>
         schema:headline          "Résilience des systèmes de transports guidés en milieu urbain face à différents risques naturels, technologiques et d'exploitation : approche quantitative et stratégies de protection" ;
-        schema:author            _:b159 ;
+        schema:author            _:b106 ;
         schema:url               "http://www.theses.fr/s99839" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2109,13 +2161,14 @@ _:b159  schema:familyName            "GONZVA" ;
 
 <0772710C>  schema:identifier  "0772710C" ;
         schema:name        "Université Paris-Est" ;
-        schema:location    _:b160 ;
+        schema:location    _:b107 ;
         schema:sameAs      <0772710C> .
 
-_:b160  rdf:type    schema:Place ;
-        schema:geo  _:b161 .
+_:b107  rdf:type    schema:Place ;
+        schema:geo  <GEO-48.840572-2.586957> .
 
-_:b161  schema:latitude  "48.840572"^^xsd:float ;
+<GEO-48.840572-2.586957>
+        schema:latitude  "48.840572"^^xsd:float ;
         schema:longitue  "2.586957"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2124,7 +2177,7 @@ _:b161  schema:latitude  "48.840572"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/fmEZMQpjd8c> .
 
-_:b162  schema:familyName            "SIDIKI DIOURTE" ;
+_:b108  schema:familyName            "SIDIKI DIOURTE" ;
         schema:givenName             "Adama" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200918478A> ;
@@ -2133,7 +2186,7 @@ _:b162  schema:familyName            "SIDIKI DIOURTE" ;
 
 <https://www.youtube.com/embed/fmEZMQpjd8c>
         schema:headline          "Le marché des sondages en France. Rapports entre commande et mise en oeuvre d'une méthode d'analyse des faits sociaux." ;
-        schema:author            _:b162 ;
+        schema:author            _:b108 ;
         schema:url               "http://www.theses.fr/s114777" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2148,13 +2201,14 @@ _:b162  schema:familyName            "SIDIKI DIOURTE" ;
 
 <0755698L>  schema:identifier  "0755698L" ;
         schema:name        "Université Paris Lumières" ;
-        schema:location    _:b163 ;
+        schema:location    _:b109 ;
         schema:sameAs      <0755698L> .
 
-_:b163  rdf:type    schema:Place ;
-        schema:geo  _:b164 .
+_:b109  rdf:type    schema:Place ;
+        schema:geo  <GEO-48.859342-2.357173> .
 
-_:b164  schema:latitude  "48.859342"^^xsd:float ;
+<GEO-48.859342-2.357173>
+        schema:latitude  "48.859342"^^xsd:float ;
         schema:longitue  "2.357173"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2163,7 +2217,7 @@ _:b164  schema:latitude  "48.859342"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/hzNeKb3C3H8> .
 
-_:b165  schema:familyName            "HECHELSKI" ;
+_:b110  schema:familyName            "HECHELSKI" ;
         schema:givenName             "Marie" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201019043K> ;
@@ -2172,7 +2226,7 @@ _:b165  schema:familyName            "HECHELSKI" ;
 
 <https://www.youtube.com/embed/hzNeKb3C3H8>
         schema:headline          "Intérêt d’un amendement phosphaté sur des sols fortement contaminés par les éléments métalliques en vue d’élaborer, à partir de biomasses végétales, des catalyseurs hétérogènes supportés utilisables en synthèse organique" ;
-        schema:author            _:b165 ;
+        schema:author            _:b110 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -2186,13 +2240,14 @@ _:b165  schema:familyName            "HECHELSKI" ;
 
 <0596870X>  schema:identifier  "0596870X" ;
         schema:name        "Université Lille Nord de France" ;
-        schema:location    _:b166 ;
+        schema:location    _:b111 ;
         schema:sameAs      <0596870X> .
 
-_:b166  rdf:type    schema:Place ;
-        schema:geo  _:b167 .
+_:b111  rdf:type    schema:Place ;
+        schema:geo  <GEO-50.639261-3.136031> .
 
-_:b167  schema:latitude  "50.639261"^^xsd:float ;
+<GEO-50.639261-3.136031>
+        schema:latitude  "50.639261"^^xsd:float ;
         schema:longitue  "3.136031"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2201,7 +2256,7 @@ _:b167  schema:latitude  "50.639261"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/MqRNMNZ_erk> .
 
-_:b168  schema:familyName            "LAFAYE" ;
+_:b112  schema:familyName            "LAFAYE" ;
         schema:givenName             "Paul" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <200712561C> ;
@@ -2210,7 +2265,7 @@ _:b168  schema:familyName            "LAFAYE" ;
 
 <https://www.youtube.com/embed/MqRNMNZ_erk>
         schema:headline          "De?veloppement d'outils thermodynamiques pour la pre?diction de l'e?tat me?tallurgique d'alliages a? base zirconium" ;
-        schema:author            _:b168 ;
+        schema:author            _:b112 ;
         schema:url               "http://www.theses.fr/s122746" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2225,13 +2280,14 @@ _:b168  schema:familyName            "LAFAYE" ;
 
 <0772710C>  schema:identifier  "0772710C" ;
         schema:name        "Université Paris-Est" ;
-        schema:location    _:b169 ;
+        schema:location    _:b113 ;
         schema:sameAs      <0772710C> .
 
-_:b169  rdf:type    schema:Place ;
-        schema:geo  _:b170 .
+_:b113  rdf:type    schema:Place ;
+        schema:geo  <GEO-48.840572-2.586957> .
 
-_:b170  schema:latitude  "48.840572"^^xsd:float ;
+<GEO-48.840572-2.586957>
+        schema:latitude  "48.840572"^^xsd:float ;
         schema:longitue  "2.586957"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2240,7 +2296,7 @@ _:b170  schema:latitude  "48.840572"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/JOv3AXl8_wY> .
 
-_:b171  schema:familyName            "FRITZELL" ;
+_:b114  schema:familyName            "FRITZELL" ;
         schema:givenName             "Camille" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <130020597> ;
@@ -2249,7 +2305,7 @@ _:b171  schema:familyName            "FRITZELL" ;
 
 <https://www.youtube.com/embed/JOv3AXl8_wY>
         schema:headline          "Séro-épidémiologie des arbovirus prioritaires en Guyane" ;
-        schema:author            _:b171 ;
+        schema:author            _:b114 ;
         schema:url               "http://www.theses.fr/s161890" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2262,13 +2318,14 @@ _:b171  schema:familyName            "FRITZELL" ;
 
 <9730429D>  schema:identifier  "9730429D" ;
         schema:name        "Université de Guyane" ;
-        schema:location    _:b172 ;
+        schema:location    _:b115 ;
         schema:sameAs      <9730429D> .
 
-_:b172  rdf:type    schema:Place ;
-        schema:geo  _:b173 .
+_:b115  rdf:type    schema:Place ;
+        schema:geo  <GEO-4.93278--52.301511> .
 
-_:b173  schema:latitude  "4.93278"^^xsd:float ;
+<GEO-4.93278--52.301511>
+        schema:latitude  "4.93278"^^xsd:float ;
         schema:longitue  "-52.301511"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2277,7 +2334,7 @@ _:b173  schema:latitude  "4.93278"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/xF4PBYPyF3I> .
 
-_:b174  schema:familyName            "KAUFFMANN" ;
+_:b116  schema:familyName            "KAUFFMANN" ;
         schema:givenName             "Paul-Etienne" ;
         schema:gender                "Masculin" ;
         schema:identifier            "197751067" ;
@@ -2289,7 +2346,7 @@ _:b174  schema:familyName            "KAUFFMANN" ;
 
 <https://www.youtube.com/embed/xF4PBYPyF3I>
         schema:headline          "L'évaluation de la qualité de la loi par le parlement." ;
-        schema:author            _:b174 ;
+        schema:author            _:b116 ;
         schema:url               "http://www.theses.fr/s79318" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2304,13 +2361,14 @@ _:b174  schema:familyName            "KAUFFMANN" ;
 
 <0142382N>  schema:identifier  "0142382N" ;
         schema:name        "Normandie Université" ;
-        schema:location    _:b175 ;
+        schema:location    _:b117 ;
         schema:sameAs      <0142382N> .
 
-_:b175  rdf:type    schema:Place ;
-        schema:geo  _:b176 .
+_:b117  rdf:type    schema:Place ;
+        schema:geo  <GEO-49.188964--0.363963> .
 
-_:b176  schema:latitude  "49.188964"^^xsd:float ;
+<GEO-49.188964--0.363963>
+        schema:latitude  "49.188964"^^xsd:float ;
         schema:longitue  "-0.363963"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2319,7 +2377,7 @@ _:b176  schema:latitude  "49.188964"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/KvcSZc17zTw> .
 
-_:b177  schema:familyName            "MYRGORODSKA" ;
+_:b118  schema:familyName            "MYRGORODSKA" ;
         schema:givenName             "Iuliia" ;
         schema:gender                "Féminin" ;
         schema:identifier            "197698085" ;
@@ -2331,7 +2389,7 @@ _:b177  schema:familyName            "MYRGORODSKA" ;
 
 <https://www.youtube.com/embed/KvcSZc17zTw>
         schema:headline          "Photolyse asymétrique des molécules chirales d'importance prébiotique au synchrotron SOLEIL" ;
-        schema:author            _:b177 ;
+        schema:author            _:b118 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -2345,13 +2403,14 @@ _:b177  schema:familyName            "MYRGORODSKA" ;
 
 <0062126D>  schema:identifier  "0062126D" ;
         schema:name        "Université Côte d'Azur" ;
-        schema:location    _:b178 ;
+        schema:location    _:b119 ;
         schema:sameAs      <0062126D> .
 
-_:b178  rdf:type    schema:Place ;
-        schema:geo  _:b179 .
+_:b119  rdf:type    schema:Place ;
+        schema:geo  <GEO-43.716324-7.269781> .
 
-_:b179  schema:latitude  "43.716324"^^xsd:float ;
+<GEO-43.716324-7.269781>
+        schema:latitude  "43.716324"^^xsd:float ;
         schema:longitue  "7.269781"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2360,7 +2419,7 @@ _:b179  schema:latitude  "43.716324"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/rBLTs_NDEqY> .
 
-_:b180  schema:familyName            "CHATELARD" ;
+_:b120  schema:familyName            "CHATELARD" ;
         schema:givenName             "Aude" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200112444B> ;
@@ -2369,7 +2428,7 @@ _:b180  schema:familyName            "CHATELARD" ;
 
 <https://www.youtube.com/embed/rBLTs_NDEqY>
         schema:headline          "Citoyennes par la religion - la citoyenneté féminine dans l'Italie romaine du IVème siècle avant J-C au Principet d'Auguste, vue à travers les pratiques religieuses" ;
-        schema:author            _:b180 ;
+        schema:author            _:b120 ;
         schema:url               "http://www.theses.fr/s78852" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2384,13 +2443,13 @@ _:b180  schema:familyName            "CHATELARD" ;
 
 <0673021V>  schema:identifier  "0673021V" ;
         schema:name        "Université de Strasbourg" ;
-        schema:location    _:b181 ;
+        schema:location    _:b121 ;
         schema:sameAs      <0673021V> .
 
-_:b181  rdf:type    schema:Place ;
-        schema:geo  _:b182 .
+_:b121  rdf:type    schema:Place ;
+        schema:geo  <GEO-48579-7.7663> .
 
-_:b182  schema:latitude  "48579"^^xsd:float ;
+<GEO-48579-7.7663>  schema:latitude  "48579"^^xsd:float ;
         schema:longitue  "7.7663"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2399,7 +2458,7 @@ _:b182  schema:latitude  "48579"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/hCxb3e3nmG0> .
 
-_:b183  schema:familyName            "RIVIÈRE" ;
+_:b122  schema:familyName            "RIVIÈRE" ;
         schema:givenName             "Julie" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200615318D> ;
@@ -2408,7 +2467,7 @@ _:b183  schema:familyName            "RIVIÈRE" ;
 
 <https://www.youtube.com/embed/hCxb3e3nmG0>
         schema:headline          "Processus psychologiques impliqués de l’insatisfaction corporelle : perfectionnisme, rumination et déficit d’inhibition" ;
-        schema:author            _:b183 ;
+        schema:author            _:b122 ;
         schema:url               "http://www.theses.fr/s151999" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2423,13 +2482,14 @@ _:b183  schema:familyName            "RIVIÈRE" ;
 
 <0596870X>  schema:identifier  "0596870X" ;
         schema:name        "Université Lille Nord de France" ;
-        schema:location    _:b184 ;
+        schema:location    _:b123 ;
         schema:sameAs      <0596870X> .
 
-_:b184  rdf:type    schema:Place ;
-        schema:geo  _:b185 .
+_:b123  rdf:type    schema:Place ;
+        schema:geo  <GEO-50.639261-3.136031> .
 
-_:b185  schema:latitude  "50.639261"^^xsd:float ;
+<GEO-50.639261-3.136031>
+        schema:latitude  "50.639261"^^xsd:float ;
         schema:longitue  "3.136031"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2438,7 +2498,7 @@ _:b185  schema:latitude  "50.639261"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/yGmWa6QzoJQ> .
 
-_:b186  schema:familyName            "LAENCINA" ;
+_:b124  schema:familyName            "LAENCINA" ;
         schema:givenName             "Laura" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201521272L> ;
@@ -2447,7 +2507,7 @@ _:b186  schema:familyName            "LAENCINA" ;
 
 <https://www.youtube.com/embed/yGmWa6QzoJQ>
         schema:headline          "Avantages génomiques conférés à Mycobacterium abscessus pour une existence intracellulaire" ;
-        schema:author            _:b186 ;
+        schema:author            _:b124 ;
         schema:url               "http://www.theses.fr/s156406" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2462,13 +2522,14 @@ _:b186  schema:familyName            "LAENCINA" ;
 
 <0912330N>  schema:identifier  "0912330N" ;
         schema:name        "Université Paris-Saclay" ;
-        schema:location    _:b187 ;
+        schema:location    _:b125 ;
         schema:sameAs      <0912330N> .
 
-_:b187  rdf:type    schema:Place ;
-        schema:geo  _:b188 .
+_:b125  rdf:type    schema:Place ;
+        schema:geo  <GEO-48.707834-2.152419> .
 
-_:b188  schema:latitude  "48.707834"^^xsd:float ;
+<GEO-48.707834-2.152419>
+        schema:latitude  "48.707834"^^xsd:float ;
         schema:longitue  "2.152419"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2477,7 +2538,7 @@ _:b188  schema:latitude  "48.707834"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/aZJvIXX2HUM> .
 
-_:b189  schema:familyName            "HOUVER" ;
+_:b126  schema:familyName            "HOUVER" ;
         schema:givenName             "Sarah" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <199812879M> ;
@@ -2485,7 +2546,7 @@ _:b189  schema:familyName            "HOUVER" ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/aZJvIXX2HUM> .
 
 <https://www.youtube.com/embed/aZJvIXX2HUM>
-        schema:author            _:b189 ;
+        schema:author            _:b126 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -2499,13 +2560,14 @@ _:b189  schema:familyName            "HOUVER" ;
 
 <0755574B>  schema:identifier  "0755574B" ;
         schema:name        "Sorbonne Universités" ;
-        schema:location    _:b190 ;
+        schema:location    _:b127 ;
         schema:sameAs      <0755574B> .
 
-_:b190  rdf:type    schema:Place ;
-        schema:geo  _:b191 .
+_:b127  rdf:type    schema:Place ;
+        schema:geo  <GEO-48.844921-2.344866> .
 
-_:b191  schema:latitude  "48.844921"^^xsd:float ;
+<GEO-48.844921-2.344866>
+        schema:latitude  "48.844921"^^xsd:float ;
         schema:longitue  "2.344866"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2514,7 +2576,7 @@ _:b191  schema:latitude  "48.844921"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/mUGE2HldnWE> .
 
-_:b192  schema:familyName            "MAISONNASSE" ;
+_:b128  schema:familyName            "MAISONNASSE" ;
         schema:givenName             "Pauline" ;
         schema:gender                "Féminin" ;
         schema:identifier            "167097105" ;
@@ -2526,7 +2588,7 @@ _:b192  schema:familyName            "MAISONNASSE" ;
 
 <https://www.youtube.com/embed/mUGE2HldnWE>
         schema:headline          "Étude des interactions entre virus influenza et cellules dendritiques pulmonaires porcines et implications dans l'induction de l'inflammation." ;
-        schema:author            _:b192 ;
+        schema:author            _:b128 ;
         schema:url               "http://www.theses.fr/s142461" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2541,13 +2603,14 @@ _:b192  schema:familyName            "MAISONNASSE" ;
 
 <0912330N>  schema:identifier  "0912330N" ;
         schema:name        "Université Paris-Saclay" ;
-        schema:location    _:b193 ;
+        schema:location    _:b129 ;
         schema:sameAs      <0912330N> .
 
-_:b193  rdf:type    schema:Place ;
-        schema:geo  _:b194 .
+_:b129  rdf:type    schema:Place ;
+        schema:geo  <GEO-48.707834-2.152419> .
 
-_:b194  schema:latitude  "48.707834"^^xsd:float ;
+<GEO-48.707834-2.152419>
+        schema:latitude  "48.707834"^^xsd:float ;
         schema:longitue  "2.152419"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2556,7 +2619,7 @@ _:b194  schema:latitude  "48.707834"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/W-2dfIo8yUU> .
 
-_:b195  schema:familyName            "CHABROL" ;
+_:b130  schema:familyName            "CHABROL" ;
         schema:givenName             "Olivier" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <201420768T> ;
@@ -2565,7 +2628,7 @@ _:b195  schema:familyName            "CHABROL" ;
 
 <https://www.youtube.com/embed/W-2dfIo8yUU>
         schema:headline          "Mise en place de méthode informatique pour la détection de convergence génomique" ;
-        schema:author            _:b195 ;
+        schema:author            _:b130 ;
         schema:url               "http://www.theses.fr/s109767" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2581,13 +2644,14 @@ _:b195  schema:familyName            "CHABROL" ;
 
 <0134009M>  schema:identifier  "0134009M" ;
         schema:name        "Aix-Marseille université" ;
-        schema:location    _:b196 ;
+        schema:location    _:b131 ;
         schema:sameAs      <0134009M> .
 
-_:b196  rdf:type    schema:Place ;
-        schema:geo  _:b197 .
+_:b131  rdf:type    schema:Place ;
+        schema:geo  <GEO-43.2936-5.35871> .
 
-_:b197  schema:latitude  "43.2936"^^xsd:float ;
+<GEO-43.2936-5.35871>
+        schema:latitude  "43.2936"^^xsd:float ;
         schema:longitue  "5.35871"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2596,7 +2660,7 @@ _:b197  schema:latitude  "43.2936"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/wtx5hmWwgyM> .
 
-_:b198  schema:familyName            "ROUILLON" ;
+_:b132  schema:familyName            "ROUILLON" ;
         schema:givenName             "Camille" ;
         schema:gender                "Féminin" ;
         schema:identifier            "19230688X" ;
@@ -2607,7 +2671,7 @@ _:b198  schema:familyName            "ROUILLON" ;
 
 <https://www.youtube.com/embed/wtx5hmWwgyM>
         schema:headline          "Etude de l'impact des vieillissements photochimique, thermique et climatique sur les propriétés d'aspect de polypropylènes teintés masse colorés" ;
-        schema:author            _:b198 ;
+        schema:author            _:b132 ;
         schema:url               "http://www.theses.fr/2015CLF22636" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2620,10 +2684,11 @@ _:b198  schema:familyName            "ROUILLON" ;
         owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220211W> ;
         owl:sameAs         <201220211W> .
 
-_:b199  rdf:type    schema:Place ;
-        schema:geo  _:b200 .
+_:b133  rdf:type    schema:Place ;
+        schema:geo  <GEO-45.7703-3.08803> .
 
-_:b200  schema:latitude  "45.7703"^^xsd:float ;
+<GEO-45.7703-3.08803>
+        schema:latitude  "45.7703"^^xsd:float ;
         schema:longitue  "3.08803"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2632,7 +2697,7 @@ _:b200  schema:latitude  "45.7703"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/PD5cpvbg_Yk> .
 
-_:b201  schema:familyName            "JAMES" ;
+_:b134  schema:familyName            "JAMES" ;
         schema:givenName             "Samantha" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <130020597> ;
@@ -2641,7 +2706,7 @@ _:b201  schema:familyName            "JAMES" ;
 
 <https://www.youtube.com/embed/PD5cpvbg_Yk>
         schema:headline          "Identification de gènes cellulaires cibles du transactivateur viral Rta de l'herpès virus humain 8 (HHV8) et leur implication dans la pathogenèse virale" ;
-        schema:author            _:b201 ;
+        schema:author            _:b134 ;
         schema:url               "http://www.theses.fr/s108020" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2656,13 +2721,14 @@ _:b201  schema:familyName            "JAMES" ;
 
 <9730429D>  schema:identifier  "9730429D" ;
         schema:name        "Université de Guyane" ;
-        schema:location    _:b202 ;
+        schema:location    _:b135 ;
         schema:sameAs      <9730429D> .
 
-_:b202  rdf:type    schema:Place ;
-        schema:geo  _:b203 .
+_:b135  rdf:type    schema:Place ;
+        schema:geo  <GEO-4.93278--52.301511> .
 
-_:b203  schema:latitude  "4.93278"^^xsd:float ;
+<GEO-4.93278--52.301511>
+        schema:latitude  "4.93278"^^xsd:float ;
         schema:longitue  "-52.301511"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2671,7 +2737,7 @@ _:b203  schema:latitude  "4.93278"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/5aUCugcjxBc> .
 
-_:b204  schema:familyName            "NOVELLI" ;
+_:b136  schema:familyName            "NOVELLI" ;
         schema:givenName             "Vittoria" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <201220281X> ;
@@ -2679,7 +2745,7 @@ _:b204  schema:familyName            "NOVELLI" ;
 
 <https://www.youtube.com/embed/5aUCugcjxBc>
         schema:headline          "Apport de la catalyse / photocatalyse dans les réactions endergoniques des systèmes de stockage électrochimique de l'énergie" ;
-        schema:author            _:b204 ;
+        schema:author            _:b136 ;
         schema:url               "http://www.theses.fr/s115617" ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
@@ -2692,10 +2758,11 @@ _:b204  schema:familyName            "NOVELLI" ;
         owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220281X> ;
         owl:sameAs         <201220281X> .
 
-_:b205  rdf:type    schema:Place ;
-        schema:geo  _:b206 .
+_:b137  rdf:type    schema:Place ;
+        schema:geo  <GEO-49.8743-2.26417> .
 
-_:b206  schema:latitude  "49.8743"^^xsd:float ;
+<GEO-49.8743-2.26417>
+        schema:latitude  "49.8743"^^xsd:float ;
         schema:longitue  "2.26417"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2704,7 +2771,7 @@ _:b206  schema:latitude  "49.8743"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/QmhJ_bBZiuE> .
 
-_:b207  schema:familyName            "LOISON" ;
+_:b138  schema:familyName            "LOISON" ;
         schema:givenName             "Pierre" ;
         schema:gender                "Masculin" ;
         schema:worksFor              <201220413R> ;
@@ -2713,7 +2780,7 @@ _:b207  schema:familyName            "LOISON" ;
 
 <https://www.youtube.com/embed/QmhJ_bBZiuE>
         schema:headline          "Développement d’un revêtement fonctionnel anticorrosion pour applications aérospatiales" ;
-        schema:author            _:b207 ;
+        schema:author            _:b138 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -2727,13 +2794,14 @@ _:b207  schema:familyName            "LOISON" ;
 
 <0861420B>  schema:identifier  "0861420B" ;
         schema:name        "Université confédérale Léonard de Vinci" ;
-        schema:location    _:b208 ;
+        schema:location    _:b139 ;
         schema:sameAs      <0861420B> .
 
-_:b208  rdf:type    schema:Place ;
-        schema:geo  _:b209 .
+_:b139  rdf:type    schema:Place ;
+        schema:geo  <GEO-46.586013-0.345772> .
 
-_:b209  schema:latitude  "46.586013"^^xsd:float ;
+<GEO-46.586013-0.345772>
+        schema:latitude  "46.586013"^^xsd:float ;
         schema:longitue  "0.345772"^^xsd:float .
 
 <http://mt180.fr/>  schema:mainEntity  <https://www.youtube.com/channel/UCvWoYjTzOe-dC0xFNQI-TGg> ;
@@ -2742,7 +2810,7 @@ _:b209  schema:latitude  "46.586013"^^xsd:float ;
         schema:mainEntity            <http://blog.mt180.fr/> ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/xZz_ycXNSzY> .
 
-_:b210  schema:familyName            "PARIZOT" ;
+_:b140  schema:familyName            "PARIZOT" ;
         schema:givenName             "Lauréanne" ;
         schema:gender                "Féminin" ;
         schema:worksFor              <200712566H> ;
@@ -2751,7 +2819,7 @@ _:b210  schema:familyName            "PARIZOT" ;
 
 <https://www.youtube.com/embed/xZz_ycXNSzY>
         schema:headline          "Etude de la cavitation par impact mécanique et par ultrasons pour la dégradation de composés organiques" ;
-        schema:author            _:b210 ;
+        schema:author            _:b140 ;
         schema:genre             "Finale" ;
         schema:name              "MT180" ;
         schema:position          "National" ;
@@ -2765,11 +2833,12 @@ _:b210  schema:familyName            "PARIZOT" ;
 
 <0755574B>  schema:identifier  "0755574B" ;
         schema:name        "Sorbonne Universités" ;
-        schema:location    _:b211 ;
+        schema:location    _:b141 ;
         schema:sameAs      <0755574B> .
 
-_:b211  rdf:type    schema:Place ;
-        schema:geo  _:b212 .
+_:b141  rdf:type    schema:Place ;
+        schema:geo  <GEO-48.844921-2.344866> .
 
-_:b212  schema:latitude  "48.844921"^^xsd:float ;
+<GEO-48.844921-2.344866>
+        schema:latitude  "48.844921"^^xsd:float ;
         schema:longitue  "2.344866"^^xsd:float .
