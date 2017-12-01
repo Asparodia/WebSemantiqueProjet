@@ -1,0 +1,37 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX local: <http://localhost:3333/>
+PREFIX dbprop: <http://dbpedia.org/property/>
+
+SELECT  ?nom ?prenom
+        ?prix ?titreThese
+        ?millesime ?nomEtablissement
+        ?categorie_juridique_etablissement ?location_etablissement
+        ?publishingPrinciples
+FROM <MT180_liee.rdf>
+FROM NAMED <donnees.rdf>
+WHERE{
+    ?p schema:publishingPrinciples ?publishingPrinciples.
+    ?publishingPrinciples schema:award ?prix.
+    ?publishingPrinciples schema:headline ?titreThese.
+    ?publishingPrinciples schema:temporalCoverage ?millesime.
+    
+    ?p schema:alumniOf ?etablissement.
+    ?etablissement schema:name ?nomEtablissement.
+    ?etablissement owl:sameAs ?same.
+    ?p schema:familyName ?nom.
+    ?p schema:givenName ?prenom.
+    
+    GRAPH <donnees.rdf>{
+        ?org rdf:type schema:Organization.
+        OPTIONAL{
+            ?org local:categorie_juridique ?categorie_juridique_etablissement.
+        }
+        OPTIONAL{
+            ?org dbprop:location ?location_etablissement.
+        }
+    }
+    FILTER(?org = ?same)
+}
+ORDER BY ASC(?nom)

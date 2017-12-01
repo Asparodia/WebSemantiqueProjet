@@ -1,0 +1,89 @@
+PREFIX schema: <http://schema.org/>
+
+SELECT 
+    (ROUND((?total_masculin/(?total_masculin+?total_feminin)) * 100) AS ?pourcentage_participant_masculin) 
+    (ROUND((?total_feminin/(?total_masculin+?total_feminin)) * 100) AS ?pourcentage_participant_feminin)
+    (ROUND((?total_gagnant_masculin/(?total_gagnant_masculin+?total_gagnant_feminin)) * 100) AS ?pourcentage_gagnant_masculin) 
+    (ROUND((?total_gagnant_feminin/(?total_gagnant_masculin+?total_gagnant_feminin)) * 100) AS ?pourcentage_gagnant_feminin)
+    (ROUND(?total_gagnant_masculin/?total_masculin * 100)  AS ?ratio_masculin_gagnant_participant)
+    (ROUND(?total_gagnant_feminin/?total_feminin * 100)  AS ?ratio_feminin_gagnant_participant)
+WHERE{
+
+    {
+        SELECT  (sum(?total_sex) AS ?total_masculin)
+        WHERE{
+            
+            {
+                SELECT ?sex (COUNT(?sex) AS ?total_sex)
+                WHERE{
+                    ?p schema:publishingPrinciples ?publishingPrinciples.
+                    ?p schema:gender ?sex
+                }
+                GROUP BY ?publishingPrinciples ?sex 
+            }
+            
+            FILTER (?sex = "Masculin")
+            
+        }
+    }
+
+    {
+        SELECT  (sum(?total_sex) AS ?total_feminin)
+        WHERE{
+            
+            {
+                SELECT ?sex (COUNT(?sex) AS ?total_sex)
+                WHERE{
+                    ?p schema:publishingPrinciples ?publishingPrinciples.
+                    ?p schema:gender ?sex
+                    
+                }
+                GROUP BY ?publishingPrinciples ?sex 
+            }
+            
+            FILTER (?sex != "Masculin")
+            
+        }
+    }
+
+    {
+        SELECT  (sum(?total_gagnant_sex) AS ?total_gagnant_masculin)
+        WHERE{
+            
+            {
+                SELECT ?sex (COUNT(?sex) AS ?total_gagnant_sex)
+                WHERE{
+                    ?p schema:publishingPrinciples ?publishingPrinciples.
+                    ?p schema:gender ?sex.
+                    ?publishingPrinciples schema:award ?prix
+                }
+                GROUP BY ?publishingPrinciples ?sex 
+            }
+            
+            FILTER (?sex = "Masculin")
+            
+        }
+    }
+
+    {
+        SELECT  (sum(?total_gagnant_sex) AS ?total_gagnant_feminin)
+        WHERE{
+            
+            {
+                SELECT ?sex (COUNT(?sex) AS ?total_gagnant_sex)
+                WHERE{
+                    ?p schema:publishingPrinciples ?publishingPrinciples.
+                    ?p schema:gender ?sex.
+                    ?publishingPrinciples schema:award ?prix
+                }
+                GROUP BY ?publishingPrinciples ?sex 
+            }
+            
+            FILTER (?sex != "Masculin")
+            
+        }
+    }
+
+}
+
+

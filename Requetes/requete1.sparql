@@ -1,0 +1,19 @@
+PREFIX schema: <http://schema.org/>
+
+SELECT  ?nom ?prenom
+        ?prix ?titreThese
+        ?millesime ?nomEtablissement
+        ?publishingPrinciples
+WHERE{
+    ?p schema:publishingPrinciples ?publishingPrinciples.
+    ?publishingPrinciples schema:award ?prix.
+    ?publishingPrinciples schema:headline ?titreThese.
+    ?publishingPrinciples schema:temporalCoverage ?millesime.
+    
+    ?p schema:alumniOf ?etablissement.
+    ?etablissement schema:name ?nomEtablissement.
+    ?p schema:familyName ?nom.
+    ?p schema:givenName ?prenom.
+    
+}
+ORDER BY ASC(?nom)

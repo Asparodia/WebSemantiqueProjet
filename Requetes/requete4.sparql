@@ -1,0 +1,30 @@
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT
+    (ROUND((COUNT(?personneMasculin)/COUNT(?tous)) * 100) AS ?pourcentage_participant_masculin) 
+    (ROUND(((COUNT(?tous)-COUNT(?personneMasculin))/COUNT(?tous)) * 100) AS ?pourcentage_participant_feminin) 
+    (ROUND(((COUNT(?creativeWork1)-COUNT(?creativeWork))/COUNT(?creativeWork1)) * 100) AS ?pourcentage_participant_feminin_gagnat_un_prix) 
+    (ROUND((COUNT(?creativeWork)/COUNT(?creativeWork1)) * 100) AS ?pourcentage_participant_masculin_gagnat_un_prix) 
+    (ROUND((COUNT(?creativeWork)/COUNT(?personneMasculin)) * 100) AS ?ratio_masculin_gagnant_participant)
+    (ROUND(((COUNT(?creativeWork1)-COUNT(?creativeWork))/(COUNT(?tous)-COUNT(?personneMasculin))) * 100) AS ?ratio_feminin_gagnant_participant) 
+
+WHERE
+{	
+	{
+        ?tous rdf:type schema:Person.
+    }
+	UNION{
+	    ?personneMasculin schema:gender "Masculin".
+    }
+    UNION{
+        ?creativeWork1 rdf:type schema:CreativeWork.
+        ?creativeWork1 schema:award ?prix.
+    }
+    UNION{
+        ?creativeWork rdf:type schema:CreativeWork.
+        ?creativeWork schema:award ?prix.
+        ?creativeWork schema:author ?author.
+        ?author schema:gender "Masculin".
+    }
+	
+}
