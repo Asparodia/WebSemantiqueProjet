@@ -46,12 +46,12 @@ _:b0    rdf:type                     schema:Person ;
 
 _:b1    rdf:type           schema:Organization ;
         schema:name        "Institut Cochin" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200217519N> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200217519N> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200217519N> .
 
 _:b2    rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755598C" ;
         schema:name        "Université Sorbonne Paris Cité" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Sorbonne%20Paris%20Cit%C3%A9> ;
         schema:location    _:b3 .
 
 _:b3    rdf:type    schema:Place ;
@@ -101,12 +101,12 @@ _:b5    rdf:type                     schema:Person ;
 
 _:b6    rdf:type           schema:Organization ;
         schema:name        "Centre de Recherche en Histoire des Idées" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815548V> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815548V> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815548V> .
 
 _:b7    rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0062126D" ;
         schema:name        "Université Côte d'Azur" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20C%C3%B4te%20d'Azur> ;
         schema:location    _:b8 .
 
 _:b8    rdf:type    schema:Place ;
@@ -141,6 +141,7 @@ _:b10   rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "195088557" ;
         schema:identifier            "http://www.idref.fr/195088557" ;
+        owl:sameAs                   "http://www.idref.fr/195088557" ;
         schema:worksFor              _:b11 ;
         schema:alumniOf              _:b12 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/Su2cPSUwL1U> .
@@ -157,12 +158,12 @@ _:b10   rdf:type                     schema:Person ;
 
 _:b11   rdf:type           schema:Organization ;
         schema:name        "Institut de Mathématiques de Bordeaux" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711916B> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711916B> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711916B> .
 
 _:b12   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0333178A" ;
         schema:name        "Communauté d'universités et établissements d'Aquitaine" ;
-        owl:sameAs         <http://localhost:3333/Communaut%C3%A9%20d'universit%C3%A9s%20et%20%C3%A9tablissements%20d'Aquitaine> ;
         schema:location    _:b13 .
 
 _:b13   rdf:type    schema:Place ;
@@ -197,6 +198,7 @@ _:b15   rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "20083388X" ;
         schema:identifier            "http://www.idref.fr/20083388X" ;
+        owl:sameAs                   "http://www.idref.fr/20083388X" ;
         schema:worksFor              _:b16 ;
         schema:alumniOf              _:b17 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/X4ioSjEdot4> .
@@ -213,12 +215,12 @@ _:b15   rdf:type                     schema:Person ;
 
 _:b16   rdf:type           schema:Organization ;
         schema:name        "Centre Européen de Recherche sur le Mouvement Humain" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199914310N> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199914310N> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199914310N> .
 
 _:b17   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0342255S" ;
         schema:name        "Languedoc-Roussillon Universités" ;
-        owl:sameAs         <http://localhost:3333/Languedoc-Roussillon%20Universit%C3%A9s> ;
         schema:location    _:b18 .
 
 _:b18   rdf:type    schema:Place ;
@@ -267,12 +269,12 @@ _:b20   rdf:type                     schema:Person ;
 
 _:b21   rdf:type           schema:Organization ;
         schema:name        "Environnements et Paléoenvironnements Océaniques et Continentaux" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199512085M> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199512085M> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199512085M> .
 
 _:b22   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0333178A" ;
         schema:name        "Communauté d'universités et établissements d'Aquitaine" ;
-        owl:sameAs         <http://localhost:3333/Communaut%C3%A9%20d'universit%C3%A9s%20et%20%C3%A9tablissements%20d'Aquitaine> ;
         schema:location    _:b23 .
 
 _:b23   rdf:type    schema:Place ;
@@ -307,6 +309,7 @@ _:b25   rdf:type                     schema:Person ;
         schema:gender                "Masculin" ;
         schema:identifier            "194701158" ;
         schema:identifier            "http://www.idref.fr/194701158" ;
+        owl:sameAs                   "http://www.idref.fr/194701158" ;
         schema:worksFor              _:b26 ;
         schema:alumniOf              _:b27 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/T0Fi8KOEo84> .
@@ -322,12 +325,12 @@ _:b25   rdf:type                     schema:Person ;
 
 _:b26   rdf:type           schema:Organization ;
         schema:name        "Institut de Chimie Organique et Analytique" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220206R> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220206R> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220206R> .
 
 _:b27   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0861420B" ;
         schema:name        "Université confédérale Léonard de Vinci" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20conf%C3%A9d%C3%A9rale%20L%C3%A9onard%20de%20Vinci> ;
         schema:location    _:b28 .
 
 _:b28   rdf:type    schema:Place ;
@@ -376,12 +379,12 @@ _:b30   rdf:type                     schema:Person ;
 
 _:b31   rdf:type           schema:Organization ;
         schema:name        "Centre de Recherche en Neurosciences de Lyon" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119399T> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119399T> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119399T> .
 
 _:b32   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0694094A" ;
         schema:name        "Université de Lyon" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Lyon> ;
         schema:location    _:b33 .
 
 _:b33   rdf:type    schema:Place ;
@@ -430,12 +433,12 @@ _:b35   rdf:type                     schema:Person ;
 
 _:b36   rdf:type           schema:Organization ;
         schema:name        "Fonctions et Dysfonctions Épithéliales" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815504X> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815504X> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815504X> .
 
 _:b37   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0251985X" ;
         schema:name        "Université Bourgogne - Franche-Comté" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Bourgogne%20-%20Franche-Comt%C3%A9> ;
         schema:location    _:b38 .
 
 _:b38   rdf:type    schema:Place ;
@@ -483,12 +486,12 @@ _:b40   rdf:type                     schema:Person ;
 
 _:b41   rdf:type           schema:Organization ;
         schema:name        "Interactions Arbres/Micro-Organismes" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200117307M> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200117307M> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200117307M> .
 
 _:b42   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0542493S" ;
         schema:name        "Université de Lorraine" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Lorraine> ;
         schema:location    _:b43 .
 
 _:b43   rdf:type    schema:Place ;
@@ -537,12 +540,12 @@ _:b45   rdf:type                     schema:Person ;
 
 _:b46   rdf:type           schema:Organization ;
         schema:name        "Maladies Infectieuses et Vecteurs : Écologie, Génétique, Évolution et Contrôle" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119437J> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119437J> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119437J> .
 
 _:b47   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0342255S" ;
         schema:name        "Languedoc-Roussillon Universités" ;
-        owl:sameAs         <http://localhost:3333/Languedoc-Roussillon%20Universit%C3%A9s> ;
         schema:location    _:b48 .
 
 _:b48   rdf:type    schema:Place ;
@@ -591,12 +594,12 @@ _:b50   rdf:type                     schema:Person ;
 
 _:b51   rdf:type           schema:Organization ;
         schema:name        "Toxicologie Alimentaire" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119649P> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119649P> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119649P> .
 
 _:b52   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0312758E" ;
         schema:name        "Université fédérale de Toulouse Midi-Pyrénées" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20f%C3%A9d%C3%A9rale%20de%20Toulouse%20Midi-Pyr%C3%A9n%C3%A9es> ;
         schema:location    _:b53 .
 
 _:b53   rdf:type    schema:Place ;
@@ -645,12 +648,12 @@ _:b55   rdf:type                     schema:Person ;
 
 _:b56   rdf:type           schema:Organization ;
         schema:name        "Différenciation et Communication Neuronale et Neuroendocrine" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019271H> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019271H> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019271H> .
 
 _:b57   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0142382N" ;
         schema:name        "Normandie Université" ;
-        owl:sameAs         <http://localhost:3333/Normandie%20Universit%C3%A9> ;
         schema:location    _:b58 .
 
 _:b58   rdf:type    schema:Place ;
@@ -699,12 +702,12 @@ _:b60   rdf:type                     schema:Person ;
 
 _:b61   rdf:type           schema:Organization ;
         schema:name        "Diabète et Thérapie Réunion Océan Indien" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019068M> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019068M> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019068M> .
 
 _:b62   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "9740478B" ;
         schema:name        "Université de La Réunion" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20La%20R%C3%A9union> ;
         schema:location    _:b63 .
 
 _:b63   rdf:type    schema:Place ;
@@ -753,12 +756,12 @@ _:b65   rdf:type                     schema:Person ;
 
 _:b66   rdf:type           schema:Organization ;
         schema:name        "Institut Pluridisciplinaire Hubert Curien" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612557C> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612557C> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612557C> .
 
 _:b67   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0673021V" ;
         schema:name        "Université de Strasbourg" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Strasbourg> ;
         schema:location    _:b68 .
 
 _:b68   rdf:type    schema:Place ;
@@ -811,7 +814,6 @@ _:b71   rdf:type     schema:Organization ;
 _:b72   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "9830445S" ;
         schema:name        "Université de la Nouvelle-Calédonie" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20la%20Nouvelle-Cal%C3%A9donie> ;
         schema:location    _:b73 .
 
 _:b73   rdf:type    schema:Place ;
@@ -860,12 +862,12 @@ _:b75   rdf:type                     schema:Person ;
 
 _:b76   rdf:type           schema:Organization ;
         schema:name        "Préhistoire et Technologie" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199912453V> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199912453V> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199912453V> .
 
 _:b77   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755698L" ;
         schema:name        "Université Paris Lumières" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris%20Lumi%C3%A8res> ;
         schema:location    _:b78 .
 
 _:b78   rdf:type    schema:Place ;
@@ -914,12 +916,12 @@ _:b80   rdf:type                     schema:Person ;
 
 _:b81   rdf:type           schema:Organization ;
         schema:name        "Laboratoire de Mathématiques de Reims" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019023N> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019023N> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019023N> .
 
 _:b82   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0512141A" ;
         schema:name        "Université de Champagne" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Champagne> ;
         schema:location    _:b83 .
 
 _:b83   rdf:type    schema:Place ;
@@ -968,12 +970,12 @@ _:b85   rdf:type                     schema:Person ;
 
 _:b86   rdf:type           schema:Organization ;
         schema:name        "Laboratoire de Physique Corpusculaire de Caen" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199612324T> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199612324T> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199612324T> .
 
 _:b87   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0142382N" ;
         schema:name        "Normandie Université" ;
-        owl:sameAs         <http://localhost:3333/Normandie%20Universit%C3%A9> ;
         schema:location    _:b88 .
 
 _:b88   rdf:type    schema:Place ;
@@ -1022,12 +1024,12 @@ _:b90   rdf:type                     schema:Person ;
 
 _:b91   rdf:type           schema:Organization ;
         schema:name        "Laboratoire Bourguignon des Matériaux et Procedes" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200214907Z> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200214907Z> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200214907Z> .
 
 _:b92   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755581J" ;
         schema:name        "Hautes Études-Sorbonne-Arts et Métiers" ;
-        owl:sameAs         <http://localhost:3333/Hautes%20%C3%89tudes-Sorbonne-Arts%20et%20M%C3%A9tiers> ;
         schema:location    _:b93 .
 
 _:b93   rdf:type    schema:Place ;
@@ -1076,12 +1078,12 @@ _:b95   rdf:type                     schema:Person ;
 
 _:b96   rdf:type           schema:Organization ;
         schema:name        "Géosciences et Environnement Cergy" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019146X> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019146X> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019146X> .
 
 _:b97   rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0952199Z" ;
         schema:name        "Université Paris-Seine" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris-Seine> ;
         schema:location    _:b98 .
 
 _:b98   rdf:type    schema:Place ;
@@ -1130,12 +1132,12 @@ _:b100  rdf:type                     schema:Person ;
 
 _:b101  rdf:type           schema:Organization ;
         schema:name        "Groupe Sociétés, Religions, Laicités" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812910W> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812910W> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812910W> .
 
 _:b102  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755700N" ;
         schema:name        "Université de recherche Paris sciences et lettres - PSL Research University" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20recherche%20Paris%20sciences%20et%20lettres%20-%20PSL%20Research%20University> ;
         schema:location    _:b103 .
 
 _:b103  rdf:type    schema:Place ;
@@ -1184,12 +1186,12 @@ _:b105  rdf:type                     schema:Person ;
 
 _:b106  rdf:type           schema:Organization ;
         schema:name        "Biomatériaux et Inflammation en Site Osseux" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220348V> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220348V> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220348V> .
 
 _:b107  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0512141A" ;
         schema:name        "Université de Champagne" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Champagne> ;
         schema:location    _:b108 .
 
 _:b108  rdf:type    schema:Place ;
@@ -1237,12 +1239,12 @@ _:b110  rdf:type                     schema:Person ;
 
 _:b111  rdf:type           schema:Organization ;
         schema:name        "Laboratoire de Psychologie de l'Interaction et des Relations Intersubjectives" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200919245J> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200919245J> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200919245J> .
 
 _:b112  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0542493S" ;
         schema:name        "Université de Lorraine" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Lorraine> ;
         schema:location    _:b113 .
 
 _:b113  rdf:type    schema:Place ;
@@ -1291,12 +1293,12 @@ _:b115  rdf:type                     schema:Person ;
 
 _:b116  rdf:type           schema:Organization ;
         schema:name        "Centre Interdisciplinaire de Recherches sur les Langues et la Pensée" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815535F> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815535F> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200815535F> .
 
 _:b117  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0512141A" ;
         schema:name        "Université de Champagne" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Champagne> ;
         schema:location    _:b118 .
 
 _:b118  rdf:type    schema:Place ;
@@ -1345,12 +1347,12 @@ _:b120  rdf:type                     schema:Person ;
 
 _:b121  rdf:type           schema:Organization ;
         schema:name        "Institut Pasteur" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/775684897> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/775684897> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/775684897> .
 
 _:b122  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "9730429D" ;
         schema:name        "Université de Guyane" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Guyane> ;
         schema:location    _:b123 .
 
 _:b123  rdf:type    schema:Place ;
@@ -1398,12 +1400,12 @@ _:b125  rdf:type                     schema:Person ;
 
 _:b126  rdf:type           schema:Organization ;
         schema:name        "Laboratoire de Recherche Vasculaire Translationnelle" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201420730B> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201420730B> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201420730B> .
 
 _:b127  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755598C" ;
         schema:name        "Université Sorbonne Paris Cité" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Sorbonne%20Paris%20Cit%C3%A9> ;
         schema:location    _:b128 .
 
 _:b128  rdf:type    schema:Place ;
@@ -1452,12 +1454,12 @@ _:b130  rdf:type                     schema:Person ;
 
 _:b131  rdf:type           schema:Organization ;
         schema:name        "Centre de Recherche en Neurosciences de Lyon" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119399T> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119399T> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119399T> .
 
 _:b132  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0694094A" ;
         schema:name        "Université de Lyon" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Lyon> ;
         schema:location    _:b133 .
 
 _:b133  rdf:type    schema:Place ;
@@ -1506,11 +1508,11 @@ _:b135  rdf:type                     schema:Person ;
 
 _:b136  rdf:type           schema:Organization ;
         schema:name        "Institut Pascal" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199412376H> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199412376H> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199412376H> .
 
 _:b137  rdf:type         schema:CollegeOrUniversity ;
         schema:name      "Université Clermont Auvergne et associés" ;
-        owl:sameAs       <http://localhost:3333/Universit%C3%A9%20Clermont%20Auvergne%20et%20associ%C3%A9s> ;
         schema:location  _:b138 .
 
 _:b138  rdf:type    schema:Place ;
@@ -1562,7 +1564,6 @@ _:b141  rdf:type  schema:Organization .
 _:b142  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755700N" ;
         schema:name        "Université de recherche Paris sciences et lettres - PSL Research University" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20recherche%20Paris%20sciences%20et%20lettres%20-%20PSL%20Research%20University> ;
         schema:location    _:b143 .
 
 _:b143  rdf:type    schema:Place ;
@@ -1612,12 +1613,12 @@ _:b145  rdf:type                     schema:Person ;
 
 _:b146  rdf:type           schema:Organization ;
         schema:name        "Service de Physique Statistique, de Magnétisme et de Supraconductivité" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200717446M> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200717446M> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200717446M> .
 
 _:b147  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0383412C" ;
         schema:name        "Université Grenoble Alpes" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Grenoble%20Alpes> ;
         schema:location    _:b148 .
 
 _:b148  rdf:type    schema:Place ;
@@ -1666,12 +1667,12 @@ _:b150  rdf:type                     schema:Person ;
 
 _:b151  rdf:type           schema:Organization ;
         schema:name        "Théorie Économique, Modélisation et Applications" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612831A> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612831A> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612831A> .
 
 _:b152  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0952199Z" ;
         schema:name        "Université Paris-Seine" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris-Seine> ;
         schema:location    _:b153 .
 
 _:b153  rdf:type    schema:Place ;
@@ -1719,12 +1720,12 @@ _:b155  rdf:type                     schema:Person ;
 
 _:b156  rdf:type           schema:Organization ;
         schema:name        "Institut d'Électronique, de Microélectronique et de Nanotechnologie" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812849E> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812849E> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812849E> .
 
 _:b157  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0596870X" ;
         schema:name        "Université Lille Nord de France" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Lille%20Nord%20de%20France> ;
         schema:location    _:b158 .
 
 _:b158  rdf:type    schema:Place ;
@@ -1759,6 +1760,7 @@ _:b160  rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "192269259" ;
         schema:identifier            "http://www.idref.fr/192269259" ;
+        owl:sameAs                   "http://www.idref.fr/192269259" ;
         schema:worksFor              _:b161 ;
         schema:alumniOf              _:b162 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/eXgtKS4GngE> .
@@ -1775,12 +1777,12 @@ _:b160  rdf:type                     schema:Person ;
 
 _:b161  rdf:type           schema:Organization ;
         schema:name        "Centre de Physiopathologie de Toulouse Purpan" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119370L> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119370L> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119370L> .
 
 _:b162  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0312758E" ;
         schema:name        "Université fédérale de Toulouse Midi-Pyrénées" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20f%C3%A9d%C3%A9rale%20de%20Toulouse%20Midi-Pyr%C3%A9n%C3%A9es> ;
         schema:location    _:b163 .
 
 _:b163  rdf:type    schema:Place ;
@@ -1815,6 +1817,7 @@ _:b165  rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "139822976" ;
         schema:identifier            "http://www.idref.fr/139822976" ;
+        owl:sameAs                   "http://www.idref.fr/139822976" ;
         schema:worksFor              _:b166 ;
         schema:alumniOf              _:b167 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/9ZJ3cZzdlOk> .
@@ -1831,12 +1834,12 @@ _:b165  rdf:type                     schema:Person ;
 
 _:b166  rdf:type           schema:Organization ;
         schema:name        "Institut Mondor de Recherche Biomédicale" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200919261B> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200919261B> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200919261B> .
 
 _:b167  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0772710C" ;
         schema:name        "Université Paris-Est" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris-Est> ;
         schema:location    _:b168 .
 
 _:b168  rdf:type    schema:Place ;
@@ -1871,6 +1874,7 @@ _:b170  rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "197925952" ;
         schema:identifier            "http://www.idref.fr/197925952" ;
+        owl:sameAs                   "http://www.idref.fr/197925952" ;
         schema:worksFor              _:b171 ;
         schema:alumniOf              _:b172 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/TVvujW5K2bw> .
@@ -1887,12 +1891,12 @@ _:b170  rdf:type                     schema:Person ;
 
 _:b171  rdf:type           schema:Organization ;
         schema:name        "Laboratoire Kastler Brossel" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812880N> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812880N> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812880N> .
 
 _:b172  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755700N" ;
         schema:name        "Université de recherche Paris sciences et lettres - PSL Research University" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20recherche%20Paris%20sciences%20et%20lettres%20-%20PSL%20Research%20University> ;
         schema:location    _:b173 .
 
 _:b173  rdf:type    schema:Place ;
@@ -1941,12 +1945,12 @@ _:b175  rdf:type                     schema:Person ;
 
 _:b176  rdf:type           schema:Organization ;
         schema:name        "Amélioration Génétique et Adaptation des Plantes Méditerranéennes et Tropicales;Université de la Nouvelle-Calédonie" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119637B;https://scanr.enseignementsup-recherche.gouv.fr/structure/130003221> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119637B;https://scanr.enseignementsup-recherche.gouv.fr/structure/130003221> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119637B;https://scanr.enseignementsup-recherche.gouv.fr/structure/130003221> .
 
 _:b177  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "9830445S" ;
         schema:name        "Université de la Nouvelle-Calédonie" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20la%20Nouvelle-Cal%C3%A9donie> ;
         schema:location    _:b178 .
 
 _:b178  rdf:type    schema:Place ;
@@ -1994,12 +1998,12 @@ _:b180  rdf:type                     schema:Person ;
 
 _:b181  rdf:type           schema:Organization ;
         schema:name        "Laboratoire d'Études des Résidus et Contaminants dans les Aliments" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019716S> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019716S> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019716S> .
 
 _:b182  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0352756F" ;
         schema:name        "Université Bretagne Loire" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Bretagne%20Loire> ;
         schema:location    _:b183 .
 
 _:b183  rdf:type    schema:Place ;
@@ -2048,12 +2052,12 @@ _:b185  rdf:type                     schema:Person ;
 
 _:b186  rdf:type           schema:Organization ;
         schema:name        "Institut de Recherches sur l'Évolution de la Nation et de l'État" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201320868F> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201320868F> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201320868F> .
 
 _:b187  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0542493S" ;
         schema:name        "Université de Lorraine" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Lorraine> ;
         schema:location    _:b188 .
 
 _:b188  rdf:type    schema:Place ;
@@ -2102,11 +2106,11 @@ _:b190  rdf:type                     schema:Person ;
 
 _:b191  rdf:type           schema:Organization ;
         schema:name        "Laboratoire de Réactivité et Chimie des Solides" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220281X> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220281X> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220281X> .
 
 _:b192  rdf:type         schema:CollegeOrUniversity ;
         schema:name      "Picardie Universités" ;
-        owl:sameAs       <http://localhost:3333/Picardie%20Universit%C3%A9s> ;
         schema:location  _:b193 .
 
 _:b193  rdf:type    schema:Place ;
@@ -2141,6 +2145,7 @@ _:b195  rdf:type                     schema:Person ;
         schema:gender                "Masculin" ;
         schema:identifier            "199215022" ;
         schema:identifier            "http://www.idref.fr/199215022" ;
+        owl:sameAs                   "http://www.idref.fr/199215022" ;
         schema:worksFor              _:b196 ;
         schema:alumniOf              _:b197 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/_awTwsLLeig> .
@@ -2158,12 +2163,12 @@ _:b195  rdf:type                     schema:Person ;
 
 _:b196  rdf:type           schema:Organization ;
         schema:name        "Institut national de la recherche agronomique;Université de Poitiers" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/180070039;https://scanr.enseignementsup-recherche.gouv.fr/structure/198608564> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/180070039;https://scanr.enseignementsup-recherche.gouv.fr/structure/198608564> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/180070039;https://scanr.enseignementsup-recherche.gouv.fr/structure/198608564> .
 
 _:b197  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0861420B" ;
         schema:name        "Université confédérale Léonard de Vinci" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20conf%C3%A9d%C3%A9rale%20L%C3%A9onard%20de%20Vinci> ;
         schema:location    _:b198 .
 
 _:b198  rdf:type    schema:Place ;
@@ -2213,12 +2218,12 @@ _:b200  rdf:type                     schema:Person ;
 
 _:b201  rdf:type           schema:Organization ;
         schema:name        "Laboratoire des Systèmes et Applications des Technologies de l'Information et de l'Énergie" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200212702C> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200212702C> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200212702C> .
 
 _:b202  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0952199Z" ;
         schema:name        "Université Paris-Seine" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris-Seine> ;
         schema:location    _:b203 .
 
 _:b203  rdf:type    schema:Place ;
@@ -2268,12 +2273,12 @@ _:b205  rdf:type                     schema:Person ;
 
 _:b206  rdf:type           schema:Organization ;
         schema:name        "Sciences et Ingénierie, Matériaux, Procédés" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711929R> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711929R> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711929R> .
 
 _:b207  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0383412C" ;
         schema:name        "Université Grenoble Alpes" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Grenoble%20Alpes> ;
         schema:location    _:b208 .
 
 _:b208  rdf:type    schema:Place ;
@@ -2322,12 +2327,12 @@ _:b210  rdf:type                     schema:Person ;
 
 _:b211  rdf:type           schema:Organization ;
         schema:name        "Centre de Recherche des Cordeliers" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200716512X> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200716512X> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200716512X> .
 
 _:b212  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755574B" ;
         schema:name        "Sorbonne Universités" ;
-        owl:sameAs         <http://localhost:3333/Sorbonne%20Universit%C3%A9s> ;
         schema:location    _:b213 .
 
 _:b213  rdf:type    schema:Place ;
@@ -2376,12 +2381,12 @@ _:b215  rdf:type                     schema:Person ;
 
 _:b216  rdf:type           schema:Organization ;
         schema:name        "Chrono-Environnement" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200812285Y> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200812285Y> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200812285Y> .
 
 _:b217  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0251985X" ;
         schema:name        "Université Bourgogne - Franche-Comté" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Bourgogne%20-%20Franche-Comt%C3%A9> ;
         schema:location    _:b218 .
 
 _:b218  rdf:type    schema:Place ;
@@ -2416,6 +2421,7 @@ _:b220  rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "183683145" ;
         schema:identifier            "http://www.idref.fr/183683145" ;
+        owl:sameAs                   "http://www.idref.fr/183683145" ;
         schema:worksFor              _:b221 ;
         schema:alumniOf              _:b222 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/b1U54yiK9Jg> .
@@ -2432,12 +2438,12 @@ _:b220  rdf:type                     schema:Person ;
 
 _:b221  rdf:type           schema:Organization ;
         schema:name        "Génomique, Bioinformatique et Applications" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119474Z> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119474Z> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201119474Z> .
 
 _:b222  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755581J" ;
         schema:name        "Hautes Études-Sorbonne-Arts et Métiers" ;
-        owl:sameAs         <http://localhost:3333/Hautes%20%C3%89tudes-Sorbonne-Arts%20et%20M%C3%A9tiers> ;
         schema:location    _:b223 .
 
 _:b223  rdf:type    schema:Place ;
@@ -2486,12 +2492,12 @@ _:b225  rdf:type                     schema:Person ;
 
 _:b226  rdf:type           schema:Organization ;
         schema:name        "Laboratoire Méditerranéen de Sociologie" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220309C> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220309C> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220309C> .
 
 _:b227  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0134009M" ;
         schema:name        "Aix-Marseille université" ;
-        owl:sameAs         <http://localhost:3333/Aix-Marseille%20universit%C3%A9> ;
         schema:location    _:b228 .
 
 _:b228  rdf:type    schema:Place ;
@@ -2540,12 +2546,12 @@ _:b230  rdf:type                     schema:Person ;
 
 _:b231  rdf:type           schema:Organization ;
         schema:name        "Centre d'Étude des Correspondances et Journaux Intimes des 19e et 20e Siècles" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201320505L> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201320505L> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201320505L> .
 
 _:b232  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0352756F" ;
         schema:name        "Université Bretagne Loire" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Bretagne%20Loire> ;
         schema:location    _:b233 .
 
 _:b233  rdf:type    schema:Place ;
@@ -2594,12 +2600,12 @@ _:b235  rdf:type                     schema:Person ;
 
 _:b236  rdf:type           schema:Organization ;
         schema:name        "Techniques de l'Informatique et de la Microélectronique pour l'Architecture de Systèmes Intégrés" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200311834E> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200311834E> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200311834E> .
 
 _:b237  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0383412C" ;
         schema:name        "Université Grenoble Alpes" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Grenoble%20Alpes> ;
         schema:location    _:b238 .
 
 _:b238  rdf:type    schema:Place ;
@@ -2648,12 +2654,12 @@ _:b240  rdf:type                     schema:Person ;
 
 _:b241  rdf:type           schema:Organization ;
         schema:name        "Centre des Sciences de la Littérature Francaise" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199213515E> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199213515E> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199213515E> .
 
 _:b242  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755698L" ;
         schema:name        "Université Paris Lumières" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris%20Lumi%C3%A8res> ;
         schema:location    _:b243 .
 
 _:b243  rdf:type    schema:Place ;
@@ -2702,12 +2708,12 @@ _:b245  rdf:type                     schema:Person ;
 
 _:b246  rdf:type           schema:Organization ;
         schema:name        "Interactions Hôtes-Pathogènes-Environnements" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711909U> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711909U> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200711909U> .
 
 _:b247  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0342255S" ;
         schema:name        "Languedoc-Roussillon Universités" ;
-        owl:sameAs         <http://localhost:3333/Languedoc-Roussillon%20Universit%C3%A9s> ;
         schema:location    _:b248 .
 
 _:b248  rdf:type    schema:Place ;
@@ -2756,12 +2762,12 @@ _:b250  rdf:type                     schema:Person ;
 
 _:b251  rdf:type           schema:Organization ;
         schema:name        "Institut des Sciences Chimiques de Rennes" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612270R> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612270R> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200612270R> .
 
 _:b252  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0352756F" ;
         schema:name        "Université Bretagne Loire" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Bretagne%20Loire> ;
         schema:location    _:b253 .
 
 _:b253  rdf:type    schema:Place ;
@@ -2796,6 +2802,7 @@ _:b255  rdf:type                     schema:Person ;
         schema:gender                "Masculin" ;
         schema:identifier            "20264863X" ;
         schema:identifier            "http://www.idref.fr/20264863X" ;
+        owl:sameAs                   "http://www.idref.fr/20264863X" ;
         schema:worksFor              _:b256 ;
         schema:alumniOf              _:b257 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/e7WQlPpyJNM> .
@@ -2812,12 +2819,12 @@ _:b255  rdf:type                     schema:Person ;
 
 _:b256  rdf:type           schema:Organization ;
         schema:name        "Physique des Interactions Ioniques et Moléculaires" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220272M> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220272M> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220272M> .
 
 _:b257  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0134009M" ;
         schema:name        "Aix-Marseille université" ;
-        owl:sameAs         <http://localhost:3333/Aix-Marseille%20universit%C3%A9> ;
         schema:location    _:b258 .
 
 _:b258  rdf:type    schema:Place ;
@@ -2866,12 +2873,12 @@ _:b260  rdf:type                     schema:Person ;
 
 _:b261  rdf:type           schema:Organization ;
         schema:name        "Centre d'Études de la Préhistoire, de l'Antiquité et du Moyen-Age" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220314H> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220314H> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220314H> .
 
 _:b262  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0062126D" ;
         schema:name        "Université Côte d'Azur" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20C%C3%B4te%20d'Azur> ;
         schema:location    _:b263 .
 
 _:b263  rdf:type    schema:Place ;
@@ -2920,12 +2927,12 @@ _:b265  rdf:type                     schema:Person ;
 
 _:b266  rdf:type           schema:Organization ;
         schema:name        "Laboratoire d'Urbanisme" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200114758S> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200114758S> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200114758S> .
 
 _:b267  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0772710C" ;
         schema:name        "Université Paris-Est" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris-Est> ;
         schema:location    _:b268 .
 
 _:b268  rdf:type    schema:Place ;
@@ -2974,12 +2981,12 @@ _:b270  rdf:type                     schema:Person ;
 
 _:b271  rdf:type           schema:Organization ;
         schema:name        "Centre de Recherches Sociologiques et Politiques de Paris - Cresppa" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200918478A> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200918478A> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200918478A> .
 
 _:b272  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755698L" ;
         schema:name        "Université Paris Lumières" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris%20Lumi%C3%A8res> ;
         schema:location    _:b273 .
 
 _:b273  rdf:type    schema:Place ;
@@ -3027,12 +3034,12 @@ _:b275  rdf:type                     schema:Person ;
 
 _:b276  rdf:type           schema:Organization ;
         schema:name        "Laboratoire Génie Civil et Géo-Environnement" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019043K> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019043K> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201019043K> .
 
 _:b277  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0596870X" ;
         schema:name        "Université Lille Nord de France" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Lille%20Nord%20de%20France> ;
         schema:location    _:b278 .
 
 _:b278  rdf:type    schema:Place ;
@@ -3081,12 +3088,12 @@ _:b280  rdf:type                     schema:Person ;
 
 _:b281  rdf:type           schema:Organization ;
         schema:name        "Institut de Chimie et des Matériaux Paris-Est" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200712561C> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200712561C> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200712561C> .
 
 _:b282  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0772710C" ;
         schema:name        "Université Paris-Est" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris-Est> ;
         schema:location    _:b283 .
 
 _:b283  rdf:type    schema:Place ;
@@ -3139,7 +3146,6 @@ _:b286  rdf:type     schema:Organization ;
 _:b287  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "9730429D" ;
         schema:name        "Université de Guyane" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Guyane> ;
         schema:location    _:b288 .
 
 _:b288  rdf:type    schema:Place ;
@@ -3174,6 +3180,7 @@ _:b290  rdf:type                     schema:Person ;
         schema:gender                "Masculin" ;
         schema:identifier            "197751067" ;
         schema:identifier            "http://www.idref.fr/197751067" ;
+        owl:sameAs                   "http://www.idref.fr/197751067" ;
         schema:worksFor              _:b291 ;
         schema:alumniOf              _:b292 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/xF4PBYPyF3I> .
@@ -3190,12 +3197,12 @@ _:b290  rdf:type                     schema:Person ;
 
 _:b291  rdf:type           schema:Organization ;
         schema:name        "Centre Universitaire Rouennais d'Études Juridiques" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220360H> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220360H> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220360H> .
 
 _:b292  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0142382N" ;
         schema:name        "Normandie Université" ;
-        owl:sameAs         <http://localhost:3333/Normandie%20Universit%C3%A9> ;
         schema:location    _:b293 .
 
 _:b293  rdf:type    schema:Place ;
@@ -3230,6 +3237,7 @@ _:b295  rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "197698085" ;
         schema:identifier            "http://www.idref.fr/197698085" ;
+        owl:sameAs                   "http://www.idref.fr/197698085" ;
         schema:worksFor              _:b296 ;
         schema:alumniOf              _:b297 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/KvcSZc17zTw> .
@@ -3245,12 +3253,12 @@ _:b295  rdf:type                     schema:Person ;
 
 _:b296  rdf:type           schema:Organization ;
         schema:name        "Institut de Chimie de Nice" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220250N> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220250N> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220250N> .
 
 _:b297  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0062126D" ;
         schema:name        "Université Côte d'Azur" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20C%C3%B4te%20d'Azur> ;
         schema:location    _:b298 .
 
 _:b298  rdf:type    schema:Place ;
@@ -3299,12 +3307,12 @@ _:b300  rdf:type                     schema:Person ;
 
 _:b301  rdf:type           schema:Organization ;
         schema:name        "Archéologie et Histoire Ancienne : Méditerranée et Europe" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200112444B> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200112444B> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200112444B> .
 
 _:b302  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0673021V" ;
         schema:name        "Université de Strasbourg" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Strasbourg> ;
         schema:location    _:b303 .
 
 _:b303  rdf:type    schema:Place ;
@@ -3353,12 +3361,12 @@ _:b305  rdf:type                     schema:Person ;
 
 _:b306  rdf:type           schema:Organization ;
         schema:name        "Psychologie : Interactions, Temps, Émotions, Cognition" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200615318D> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200615318D> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200615318D> .
 
 _:b307  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0596870X" ;
         schema:name        "Université Lille Nord de France" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Lille%20Nord%20de%20France> ;
         schema:location    _:b308 .
 
 _:b308  rdf:type    schema:Place ;
@@ -3407,12 +3415,12 @@ _:b310  rdf:type                     schema:Person ;
 
 _:b311  rdf:type           schema:Organization ;
         schema:name        "Infection et Inflammation Chronique" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201521272L> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201521272L> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201521272L> .
 
 _:b312  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0912330N" ;
         schema:name        "Université Paris-Saclay" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris-Saclay> ;
         schema:location    _:b313 .
 
 _:b313  rdf:type    schema:Place ;
@@ -3459,12 +3467,12 @@ _:b315  rdf:type                     schema:Person ;
 
 _:b316  rdf:type           schema:Organization ;
         schema:name        "Laboratoire Pierre Aigrain" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812879M> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812879M> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/199812879M> .
 
 _:b317  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755574B" ;
         schema:name        "Sorbonne Universités" ;
-        owl:sameAs         <http://localhost:3333/Sorbonne%20Universit%C3%A9s> ;
         schema:location    _:b318 .
 
 _:b318  rdf:type    schema:Place ;
@@ -3499,6 +3507,7 @@ _:b320  rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "167097105" ;
         schema:identifier            "http://www.idref.fr/167097105" ;
+        owl:sameAs                   "http://www.idref.fr/167097105" ;
         schema:worksFor              _:b321 ;
         schema:alumniOf              _:b322 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/mUGE2HldnWE> .
@@ -3515,12 +3524,12 @@ _:b320  rdf:type                     schema:Person ;
 
 _:b321  rdf:type           schema:Organization ;
         schema:name        "Unité de Recherche Virologie et Immunologie Moléculaires" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/198817831N> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/198817831N> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/198817831N> .
 
 _:b322  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0912330N" ;
         schema:name        "Université Paris-Saclay" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20Paris-Saclay> ;
         schema:location    _:b323 .
 
 _:b323  rdf:type    schema:Place ;
@@ -3570,12 +3579,12 @@ _:b325  rdf:type                     schema:Person ;
 
 _:b326  rdf:type           schema:Organization ;
         schema:name        "Institut de Mathématiques de Marseille" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201420768T> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201420768T> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201420768T> .
 
 _:b327  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0134009M" ;
         schema:name        "Aix-Marseille université" ;
-        owl:sameAs         <http://localhost:3333/Aix-Marseille%20universit%C3%A9> ;
         schema:location    _:b328 .
 
 _:b328  rdf:type    schema:Place ;
@@ -3610,6 +3619,7 @@ _:b330  rdf:type                     schema:Person ;
         schema:gender                "Féminin" ;
         schema:identifier            "19230688X" ;
         schema:identifier            "http://www.idref.fr/19230688X" ;
+        owl:sameAs                   "http://www.idref.fr/19230688X" ;
         schema:worksFor              _:b331 ;
         schema:alumniOf              _:b332 ;
         schema:publishingPrinciples  <https://www.youtube.com/embed/wtx5hmWwgyM> .
@@ -3626,11 +3636,11 @@ _:b330  rdf:type                     schema:Person ;
 
 _:b331  rdf:type           schema:Organization ;
         schema:name        "Institut de Chimie de Clermont-Ferrand" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220211W> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220211W> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220211W> .
 
 _:b332  rdf:type         schema:CollegeOrUniversity ;
         schema:name      "Université Clermont Auvergne et associés" ;
-        owl:sameAs       <http://localhost:3333/Universit%C3%A9%20Clermont%20Auvergne%20et%20associ%C3%A9s> ;
         schema:location  _:b333 .
 
 _:b333  rdf:type    schema:Place ;
@@ -3679,12 +3689,12 @@ _:b335  rdf:type                     schema:Person ;
 
 _:b336  rdf:type           schema:Organization ;
         schema:name        "Institut Pasteur;Université de Guyane" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/775684897;https://scanr.enseignementsup-recherche.gouv.fr/structure/130020597> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/775684897;https://scanr.enseignementsup-recherche.gouv.fr/structure/130020597> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/775684897;https://scanr.enseignementsup-recherche.gouv.fr/structure/130020597> .
 
 _:b337  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "9730429D" ;
         schema:name        "Université de Guyane" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20de%20Guyane> ;
         schema:location    _:b338 .
 
 _:b338  rdf:type    schema:Place ;
@@ -3733,11 +3743,11 @@ _:b340  rdf:type                     schema:Person ;
 
 _:b341  rdf:type           schema:Organization ;
         schema:name        "Laboratoire de Réactivité et Chimie des Solides" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220281X> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220281X> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220281X> .
 
 _:b342  rdf:type         schema:CollegeOrUniversity ;
         schema:name      "Picardie Universités" ;
-        owl:sameAs       <http://localhost:3333/Picardie%20Universit%C3%A9s> ;
         schema:location  _:b343 .
 
 _:b343  rdf:type    schema:Place ;
@@ -3785,12 +3795,12 @@ _:b345  rdf:type                     schema:Person ;
 
 _:b346  rdf:type           schema:Organization ;
         schema:name        "Laboratoire des Sciences de l'Ingénieur pour l'Environnement" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220413R> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220413R> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/201220413R> .
 
 _:b347  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0861420B" ;
         schema:name        "Université confédérale Léonard de Vinci" ;
-        owl:sameAs         <http://localhost:3333/Universit%C3%A9%20conf%C3%A9d%C3%A9rale%20L%C3%A9onard%20de%20Vinci> ;
         schema:location    _:b348 .
 
 _:b348  rdf:type    schema:Place ;
@@ -3838,12 +3848,12 @@ _:b350  rdf:type                     schema:Person ;
 
 _:b351  rdf:type           schema:Organization ;
         schema:name        "Institut Jean le Rond d'Alembert" ;
-        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200712566H> .
+        schema:identifier  <https://scanr.enseignementsup-recherche.gouv.fr/structure/200712566H> ;
+        owl:sameAs         <https://scanr.enseignementsup-recherche.gouv.fr/structure/200712566H> .
 
 _:b352  rdf:type           schema:CollegeOrUniversity ;
         schema:identifier  "0755574B" ;
         schema:name        "Sorbonne Universités" ;
-        owl:sameAs         <http://localhost:3333/Sorbonne%20Universit%C3%A9s> ;
         schema:location    _:b353 .
 
 _:b353  rdf:type    schema:Place ;
