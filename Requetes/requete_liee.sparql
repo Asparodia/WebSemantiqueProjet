@@ -4,13 +4,13 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX local: <http://localhost:3333/>
 PREFIX dbprop: <http://dbpedia.org/property/>
 
-SELECT  ?nom ?prenom
+SELECT DISTINCT  ?nom ?prenom
         ?prix ?titreThese
         ?millesime ?nomEtablissement
         ?categorie_juridique_etablissement ?location_etablissement
         ?publishingPrinciples
-FROM <MT180_liee.rdf>
-FROM NAMED <donnees.rdf>
+FROM <default>
+FROM NAMED <http://localhost:3030/inference/data/others>
 WHERE{
     ?p schema:publishingPrinciples ?publishingPrinciples.
     ?publishingPrinciples schema:award ?prix.
@@ -23,15 +23,17 @@ WHERE{
     ?p schema:familyName ?nom.
     ?p schema:givenName ?prenom.
     
-    GRAPH <donnees.rdf>{
+    GRAPH <http://localhost:3030/inference/data/others>{
         ?org rdf:type schema:Organization.
+        ?org owl:sameAs ?etab.
         OPTIONAL{
             ?org local:categorie_juridique ?categorie_juridique_etablissement.
         }
         OPTIONAL{
-            ?org dbprop:location ?location_etablissement.
+        ?org dbprop:location ?location_etablissement.
         }
     }
-    FILTER(?org = ?same)
+    FILTER(?etab = ?same)
+    
 }
 ORDER BY ASC(?nom)
